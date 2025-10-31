@@ -1,0 +1,517 @@
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2387:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2387:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2401:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2401:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2415:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:2415:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:4049:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:4049:7: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33807:5: warning: Added loop label VITIS_LOOP_41_1:   [xilinx-label-all-loops]
+    for (uint8_t i = 0; i < DWIDTH; ++i) {
+    ^~~
+    VITIS_LOOP_41_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33807:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33911:49: error: Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = dict type = RAM_2P impl = BRAM
+                                                ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33913:5: warning: Added loop label VITIS_LOOP_69_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < MATCH_LEVEL; i++) {
+    ^~~
+    VITIS_LOOP_69_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33913:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33928:2: warning: Added loop label VITIS_LOOP_84_2:   [xilinx-label-all-loops]
+ for (uint8_t i = 1; i < MATCH_LEN; i++) {
+ ^~~
+ VITIS_LOOP_84_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33928:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33947:9: warning: Added loop label VITIS_LOOP_103_3:   [xilinx-label-all-loops]
+        for (int m = 0; m < MATCH_LEN - 1; m++) {
+        ^~~
+        VITIS_LOOP_103_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33947:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33972:9: warning: Added loop label VITIS_LOOP_128_4:   [xilinx-label-all-loops]
+        for (int m = 0; m < MATCH_LEN; m++) {
+        ^~~
+        VITIS_LOOP_128_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33972:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33986:2: warning: Added loop label VITIS_LOOP_142_5:   [xilinx-label-all-loops]
+ for (int m = 0; m < MATCH_LEN; m++) {
+ ^~~
+ VITIS_LOOP_142_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:33986:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34002:9: warning: Added loop label VITIS_LOOP_158_6:   [xilinx-label-all-loops]
+        for (int l = 0; l < MATCH_LEVEL; l++) {
+        ^~~
+        VITIS_LOOP_158_6: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34002:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34010:13: warning: Added loop label VITIS_LOOP_166_7:   [xilinx-label-all-loops]
+            for (uint8_t m = 0; m < MATCH_LEN; m++) {
+            ^~~
+            VITIS_LOOP_166_7: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34010:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34033:9: warning: Added loop label VITIS_LOOP_189_8:   [xilinx-label-all-loops]
+        for (int l = 0; l < MATCH_LEVEL; l++) {
+        ^~~
+        VITIS_LOOP_189_8: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34033:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34090:49: error: Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = dict type = RAM_2P impl = BRAM
+                                                ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34097:57: error: Invalid Directive: for current device, fifo + srl is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = lclBufStream type = fifo impl = srl
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34104:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    while (true) {
+    ^~~~~
+    VITIS_LOOP_273_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34104:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34110:13: warning: Added loop label VITIS_LOOP_279_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < MATCH_LEVEL; i++) {
+            ^~~
+            VITIS_LOOP_279_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34110:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34176:13: warning: Added loop label VITIS_LOOP_345_3:   [xilinx-label-all-loops]
+            for (uint8_t m = 0; m < MATCH_LEN - 1; m++) {
+            ^~~
+            VITIS_LOOP_345_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34176:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34201:13: warning: Added loop label VITIS_LOOP_370_4:   [xilinx-label-all-loops]
+            for (int m = 0; m < MATCH_LEN; m++) {
+            ^~~
+            VITIS_LOOP_370_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34201:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34213:13: warning: Added loop label VITIS_LOOP_382_5:   [xilinx-label-all-loops]
+            for (int m = 0; m < MATCH_LEN; m++) {
+            ^~~
+            VITIS_LOOP_382_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34213:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34229:13: warning: Added loop label VITIS_LOOP_398_6:   [xilinx-label-all-loops]
+            for (int l = 0; l < MATCH_LEVEL; l++) {
+            ^~~
+            VITIS_LOOP_398_6: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34229:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34237:17: warning: Added loop label VITIS_LOOP_406_7:   [xilinx-label-all-loops]
+                for (uint8_t m = 0; m < MATCH_LEN; m++) {
+                ^~~
+                VITIS_LOOP_406_7: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34237:17: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34261:13: warning: Added loop label VITIS_LOOP_430_8:   [xilinx-label-all-loops]
+            for (int l = 0; l < MATCH_LEVEL; l++) {
+            ^~~
+            VITIS_LOOP_430_8: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34261:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34472:5: warning: Added loop label VITIS_LOOP_122_1:   [xilinx-label-all-loops]
+    for (uint32_t i = 0; i < c_ltree_size; i++) {
+    ^~~
+    VITIS_LOOP_122_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34472:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34476:5: warning: Added loop label VITIS_LOOP_126_2:   [xilinx-label-all-loops]
+    for (uint32_t i = 0; i < c_dtree_size; i++) {
+    ^~~
+    VITIS_LOOP_126_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34476:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34501:58: error: Invalid Directive: for current device, ram_2p + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable = lcl_dyn_ltree type = ram_2p impl = LUTRAM
+                                                         ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34502:58: error: Invalid Directive: for current device, ram_2p + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable = lcl_dyn_dtree type = ram_2p impl = LUTRAM
+                                                         ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34509:5: warning: Added loop label VITIS_LOOP_159_1:   [xilinx-label-all-loops]
+    while (!last_block) {
+    ^~~~~
+    VITIS_LOOP_159_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34509:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34608:5: warning: Added loop label VITIS_LOOP_258_1:   [xilinx-label-all-loops]
+    while (!last_block) {
+    ^~~~~
+    VITIS_LOOP_258_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34608:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34672:2: warning: Added loop label VITIS_LOOP_333_1:   [xilinx-label-all-loops]
+ for (uint32_t i = 0; i < c_max_match_length; i++) {
+ ^~~
+ VITIS_LOOP_333_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34672:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34686:9: warning: Added loop label VITIS_LOOP_347_2:   [xilinx-label-all-loops]
+        for (uint32_t j = 0; j < c_max_match_length - 1; j++) {
+        ^~~
+        VITIS_LOOP_347_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34686:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34702:2: warning: Added loop label VITIS_LOOP_363_3:   [xilinx-label-all-loops]
+ for (uint32_t j = 0; j < c_max_match_length; j++) {
+ ^~~
+ VITIS_LOOP_363_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34702:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34711:9: warning: Added loop label VITIS_LOOP_372_4:   [xilinx-label-all-loops]
+        for (uint32_t j = 0; j < c_max_match_length; j++) {
+        ^~~
+        VITIS_LOOP_372_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34711:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34741:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    while (true) {
+    ^~~~~
+    VITIS_LOOP_402_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34741:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34789:5: warning: Added loop label VITIS_LOOP_467_1:   [xilinx-label-all-loops]
+    while (true) {
+    ^~~~~
+    VITIS_LOOP_467_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34789:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34793:57: error: Invalid Directive: for current device, fifo + srl is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = lclBufStream type = fifo impl = srl
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:34914:54: error: Invalid Directive: for current device, ram_2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = local_mem type = ram_2p impl = bram
+                                                     ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35119:5: warning: Added loop label VITIS_LOOP_115_1:   [xilinx-label-all-loops]
+    while (!eosFlag) {
+    ^~~~~
+    VITIS_LOOP_115_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35119:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35232:13: warning: Added loop label VITIS_LOOP_228_1:   [xilinx-label-all-loops]
+            for (uint8_t i = 0; i < c_outWord; ++i) {
+            ^~~
+            VITIS_LOOP_228_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35232:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35423:5: warning: Added loop label VITIS_LOOP_443_1:   [xilinx-label-all-loops]
+    for (int size = inStreamSize.read(); size != 0; size = inStreamSize.read()) {
+    ^~~
+    VITIS_LOOP_443_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35423:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35469:57: error: Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = local_buffer type = RAM_2P impl = LUTRAM
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35480:5: warning: Added loop label VITIS_LOOP_91_1:   [xilinx-label-all-loops]
+    for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+    ^~~
+    VITIS_LOOP_91_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35480:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35489:5: warning: Added loop label VITIS_LOOP_100_2:   [xilinx-label-all-loops]
+    while (pending) {
+    ^~~~~
+    VITIS_LOOP_100_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35489:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35491:9: warning: Added loop label VITIS_LOOP_102_3:   [xilinx-label-all-loops]
+        for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+        ^~~
+        VITIS_LOOP_102_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35491:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35515:2: warning: Added loop label VITIS_LOOP_126_4:   [xilinx-label-all-loops]
+ for (uint8_t pb = 0; pb < NUM_BLOCKS; pb++) {
+ ^~~
+ VITIS_LOOP_126_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35515:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35524:13: warning: Added loop label VITIS_LOOP_135_5:   [xilinx-label-all-loops]
+            for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+            ^~~
+            VITIS_LOOP_135_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35524:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35558:2: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+ for (uint8_t vid = 0; vid < NUM_BLOCKS; vid++) {
+ ^~~
+ VITIS_LOOP_183_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35558:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35566:5: warning: Added loop label VITIS_LOOP_191_2:   [xilinx-label-all-loops]
+    while (is_pending) {
+    ^~~~~
+    VITIS_LOOP_191_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35566:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35639:55: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = outStreamV type = FIFO impl = SRL
+                                                      ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35729:55: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = outStreamV type = FIFO impl = SRL
+                                                      ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35746:57: error: Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = local_buffer type = RAM_2P impl = LUTRAM
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35757:5: warning: Added loop label VITIS_LOOP_460_1:   [xilinx-label-all-loops]
+    for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+    ^~~
+    VITIS_LOOP_460_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35757:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35766:5: warning: Added loop label VITIS_LOOP_469_2:   [xilinx-label-all-loops]
+    while (pending) {
+    ^~~~~
+    VITIS_LOOP_469_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35766:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35768:9: warning: Added loop label VITIS_LOOP_471_3:   [xilinx-label-all-loops]
+        for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+        ^~~
+        VITIS_LOOP_471_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35768:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35798:2: warning: Added loop label VITIS_LOOP_501_4:   [xilinx-label-all-loops]
+ for (uint8_t pb = 0; pb < NUM_BLOCKS; pb++) {
+ ^~~
+ VITIS_LOOP_501_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35798:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35807:13: warning: Added loop label VITIS_LOOP_510_5:   [xilinx-label-all-loops]
+            for (uint32_t bIdx = 0; bIdx < NUM_BLOCKS; bIdx++) {
+            ^~~
+            VITIS_LOOP_510_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35807:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35850:5: warning: Added loop label VITIS_LOOP_573_1:   [xilinx-label-all-loops]
+    for (auto z = 0; z < numItr; z++) {
+    ^~~
+    VITIS_LOOP_573_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35850:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35855:13: warning: Added loop label VITIS_LOOP_578_2:   [xilinx-label-all-loops]
+            for (uint32_t j = 0; j < BURST_SIZE; j++) {
+            ^~~
+            VITIS_LOOP_578_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35855:13: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35878:9: warning: Added loop label VITIS_LOOP_611_1:   [xilinx-label-all-loops]
+        for (uint32_t j = 0; j < BURST_SIZE; j++) {
+        ^~~
+        VITIS_LOOP_611_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35878:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35942:9: warning: Added loop label VITIS_LOOP_697_1:   [xilinx-label-all-loops]
+        for (uint16_t j = 0; j < BURST_SIZE; j++) {
+        ^~~
+        VITIS_LOOP_697_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:35942:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36054:5: warning: Added loop label VITIS_LOOP_119_1:   [xilinx-label-all-loops]
+    while (1) {
+    ^~~~~
+    VITIS_LOOP_119_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36054:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36104:5: warning: Added loop label VITIS_LOOP_169_1:   [xilinx-label-all-loops]
+    while (1) {
+    ^~~~~
+    VITIS_LOOP_169_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36104:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36207:5: warning: Added loop label VITIS_LOOP_285_1:   [xilinx-label-all-loops]
+    for (uint32_t i = 0; i < withAppendedDataSize; i++) {
+    ^~~
+    VITIS_LOOP_285_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36207:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36244:2: warning: Added loop label VITIS_LOOP_335_1:   [xilinx-label-all-loops]
+ for (int j = 0; j < c_upsizeFactor; j += c_inSize) {
+ ^~~
+ VITIS_LOOP_335_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36244:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36282:5: warning: Added loop label VITIS_LOOP_373_1:   [xilinx-label-all-loops]
+    for (SIZE_DT size = inStreamSize.read(); size != 0; size = inStreamSize.read()) {
+    ^~~
+    VITIS_LOOP_373_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36282:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36329:5: warning: Added loop label VITIS_LOOP_420_1:   [xilinx-label-all-loops]
+    for (int size = inStreamSize.read(); size != 0; size = inStreamSize.read()) {
+    ^~~
+    VITIS_LOOP_420_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36329:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36382:9: warning: Added loop label VITIS_LOOP_88_1:   [xilinx-label-all-loops]
+        for (auto i = 0; i < BURST_SIZE; i++) {
+        ^~~
+        VITIS_LOOP_88_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36382:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36411:9: warning: Added loop label VITIS_LOOP_128_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < BURST_SIZE; i++) {
+        ^~~
+        VITIS_LOOP_128_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36411:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36442:5: warning: Added loop label VITIS_LOOP_175_1:   [xilinx-label-all-loops]
+    for (int vid = 0; vid < NUM_BLOCK; vid++) {
+    ^~~
+    VITIS_LOOP_175_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36442:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36449:5: warning: Added loop label VITIS_LOOP_182_2:   [xilinx-label-all-loops]
+    while (is_pending) {
+    ^~~~~
+    VITIS_LOOP_182_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36449:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36450:9: warning: Added loop label VITIS_LOOP_183_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < NUM_BLOCK; i++) {
+        ^~~
+        VITIS_LOOP_183_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36450:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36469:5: warning: Added loop label VITIS_LOOP_202_4:   [xilinx-label-all-loops]
+    for (uint8_t pb = 0; pb < NUM_BLOCK; pb++) {
+    ^~~
+    VITIS_LOOP_202_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36469:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36528:55: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = outStreamV type = FIFO impl = SRL
+                                                      ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36567:57: error: Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = local_buffer type = RAM_2P impl = LUTRAM
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36570:2: warning: Added loop label VITIS_LOOP_349_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < NUM_BLOCKS; i++) {
+ ^~~
+ VITIS_LOOP_349_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36570:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36580:5: warning: Added loop label VITIS_LOOP_359_2:   [xilinx-label-all-loops]
+    while (is_pending != 0) {
+    ^~~~~
+    VITIS_LOOP_359_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36580:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36582:9: warning: Added loop label VITIS_LOOP_361_3:   [xilinx-label-all-loops]
+        for (int i = 0; (is_pending != 0) && (done == 0); i++) {
+        ^~~
+        VITIS_LOOP_361_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36582:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36584:2: warning: Added loop label VITIS_LOOP_363_4:   [xilinx-label-all-loops]
+ for (uint8_t pb = 0; pb < NUM_BLOCKS; pb++) {
+ ^~~
+ VITIS_LOOP_363_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36584:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36606:9: warning: Added loop label VITIS_LOOP_385_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < NUM_BLOCKS; i++) {
+        ^~~
+        VITIS_LOOP_385_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36606:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36614:21: warning: Added loop label VITIS_LOOP_393_6:   [xilinx-label-all-loops]
+                    for (int j = 0; j < burst_size_in_words; j++) {
+                    ^~~
+                    VITIS_LOOP_393_6: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36614:21: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36623:9: warning: Added loop label VITIS_LOOP_402_7:   [xilinx-label-all-loops]
+        for (int i = 0; i < NUM_BLOCKS; i++) {
+        ^~~
+        VITIS_LOOP_402_7: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36623:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36657:57: error: Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = local_buffer type = RAM_2P impl = LUTRAM
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36660:2: warning: Added loop label VITIS_LOOP_454_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < NUM_BLOCKS; i++) {
+ ^~~
+ VITIS_LOOP_454_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36660:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36670:5: warning: Added loop label VITIS_LOOP_464_2:   [xilinx-label-all-loops]
+    while (is_pending != 0) {
+    ^~~~~
+    VITIS_LOOP_464_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36670:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36672:9: warning: Added loop label VITIS_LOOP_466_3:   [xilinx-label-all-loops]
+        for (int i = 0; (is_pending != 0) && (done == 0); i++) {
+        ^~~
+        VITIS_LOOP_466_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36672:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36674:2: warning: Added loop label VITIS_LOOP_468_4:   [xilinx-label-all-loops]
+ for (uint8_t pb = 0; pb < NUM_BLOCKS; pb++) {
+ ^~~
+ VITIS_LOOP_468_4: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36674:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36697:9: warning: Added loop label VITIS_LOOP_491_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < NUM_BLOCKS; i++) {
+        ^~~
+        VITIS_LOOP_491_5: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36697:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36705:21: warning: Added loop label VITIS_LOOP_499_6:   [xilinx-label-all-loops]
+                    for (int j = 0; j < burst_size_in_words; j++) {
+                    ^~~
+                    VITIS_LOOP_499_6: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36705:21: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36714:9: warning: Added loop label VITIS_LOOP_508_7:   [xilinx-label-all-loops]
+        for (int i = 0; i < NUM_BLOCKS; i++) {
+        ^~~
+        VITIS_LOOP_508_7: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36714:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36763:5: warning: Added loop label VITIS_LOOP_570_1:   [xilinx-label-all-loops]
+    for (auto z = 0; z < (numItr - 1) * blckNum; z++) {
+    ^~~
+    VITIS_LOOP_570_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36763:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36772:5: warning: Added loop label VITIS_LOOP_579_2:   [xilinx-label-all-loops]
+    for (auto z = 0; z < blckNum; z++) {
+    ^~~
+    VITIS_LOOP_579_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36772:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36797:9: warning: Added loop label VITIS_LOOP_615_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < BURST_SIZE; i++) {
+        ^~~
+        VITIS_LOOP_615_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36797:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36819:9: warning: Added loop label VITIS_LOOP_648_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < BURST_SIZE; i++) {
+        ^~~
+        VITIS_LOOP_648_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36819:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36865:5: warning: Added loop label VITIS_LOOP_716_1:   [xilinx-label-all-loops]
+    for (auto z = 0; z < numItr; z++) {
+    ^~~
+    VITIS_LOOP_716_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36865:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36920:5: warning: Added loop label VITIS_LOOP_791_1:   [xilinx-label-all-loops]
+    for (int size = inStreamSize.read(); size != 0; size = inStreamSize.read()) {
+    ^~~
+    VITIS_LOOP_791_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:36920:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37272:58: error: Invalid Directive: for current device, FIFO + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = lit_outStream type = FIFO impl = BRAM
+                                                         ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37273:61: error: Invalid Directive: for current device, FIFO + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = lenOffset_Stream type = FIFO impl = BRAM
+                                                            ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37306:60: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = compressdStream type = FIFO impl = SRL
+                                                           ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37307:60: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = bestMatchStream type = FIFO impl = SRL
+                                                           ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37308:58: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = boosterStream type = FIFO impl = SRL
+                                                         ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37343:57: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = outStreamEos type = FIFO impl = SRL
+                                                        ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37344:53: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = inStream type = FIFO impl = SRL
+                                                    ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37345:54: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = outStream type = FIFO impl = SRL
+                                                     ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37353:5: warning: Added loop label VITIS_LOOP_471_1:   [xilinx-label-all-loops]
+    for (uint8_t i = 0; i < NUM_BLOCK; i++) {
+    ^~~
+    VITIS_LOOP_471_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37353:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37396:2: warning: Added loop label VITIS_LOOP_514_1:   [xilinx-label-all-loops]
+ for (uint32_t i = 0; i < no_blocks; i += NUM_BLOCK) {
+ ^~~
+ VITIS_LOOP_514_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37396:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37402:9: warning: Added loop label VITIS_LOOP_520_2:   [xilinx-label-all-loops]
+        for (uint32_t j = 0; j < NUM_BLOCK; j++) {
+        ^~~
+        VITIS_LOOP_520_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37402:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37430:9: warning: Added loop label VITIS_LOOP_548_3:   [xilinx-label-all-loops]
+        for (uint32_t k = 0; k < nblocks; k++) {
+        ^~~
+        VITIS_LOOP_548_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37430:9: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37477:60: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = compressdStream type = FIFO impl = SRL
+                                                           ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37478:58: error: Invalid Directive: for current device, FIFO + SRL is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable = boosterStream type = FIFO impl = SRL
+                                                         ^
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37515:5: warning: Added loop label VITIS_LOOP_102_1:   [xilinx-label-all-loops]
+    while (p--) {
+    ^~~~~
+    VITIS_LOOP_102_1: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37515:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37538:5: warning: Added loop label VITIS_LOOP_125_2:   [xilinx-label-all-loops]
+    while (outsize > 0) {
+    ^~~~~
+    VITIS_LOOP_125_2: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37538:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37539:9: warning: Added loop label VITIS_LOOP_126_3:   [xilinx-label-all-loops]
+        while (!eos_flag) {
+        ^~~~~
+        VITIS_LOOP_126_3: 
+D:\Xillinx_Project\PROJECT\lz4_cmpress\lz4CompressEngineRun\hls\.autopilot\db\lz4_compress_test.pp.0.cpp:37539:9: note: FIX-IT applied suggested code changes
