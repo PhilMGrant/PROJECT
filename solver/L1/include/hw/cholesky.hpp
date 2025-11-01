@@ -274,19 +274,28 @@ Function_cholesky_rsqrt_fixed:;
 template <typename AType, typename BType, typename CType>
 void cholesky_prod_sum_mult(AType A, BType B, CType& C) {
 Function_cholesky_prod_sum_mult_real:;
+#pragma HLS BIND_OP variable=C op=mul impl=dsp
     C = A * B;
 }
 template <typename AType, typename BType, typename CType>
 void cholesky_prod_sum_mult(hls::x_complex<AType> A, BType B, hls::x_complex<CType>& C) {
 Function_cholesky_prod_sum_mult_complex:;
-    C.real(A.real() * B);
-    C.imag(A.imag() * B);
+    CType real_temp = A.real() * B;
+    CType imag_temp = A.imag() * B;
+#pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
+#pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
+    C.real(real_temp);
+    C.imag(imag_temp);
 }
 template <typename AType, typename BType, typename CType>
 void cholesky_prod_sum_mult(std::complex<AType> A, BType B, std::complex<CType>& C) {
 Function_cholesky_prod_sum_mult_complex:;
-    C.real(A.real() * B);
-    C.imag(A.imag() * B);
+    CType real_temp = A.real() * B;
+    CType imag_temp = A.imag() * B;
+#pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
+#pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
+    C.real(real_temp);
+    C.imag(imag_temp);
 }
 
 // ===================================================================================================================
@@ -437,6 +446,7 @@ int choleskyAlt(const InputType A[RowsColsA][RowsColsA], OutputType L[RowsColsA]
 
 row_loop:
     for (int i = 0; i < RowsColsA; i++) {
+#pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         // Index generation for optimized/packed L_internal memory
         int i_sub1 = i - 1;
         int i_off = ((i_sub1 * i_sub1 - i_sub1) / 2) + i_sub1;
@@ -446,6 +456,7 @@ row_loop:
     col_loop:
         for (int j = 0; j < i; j++) {
 #pragma HLS loop_tripcount max = 1 + RowsColsA / 2
+#pragma HLS PIPELINE II = CholeskyTraits::INNER_II
             // Index generation
             int j_sub1 = j - 1;
             int j_off = ((j_sub1 * j_sub1 - j_sub1) / 2) + j_sub1;
@@ -589,6 +600,8 @@ col_loop:
 #pragma HLS LOOP_FLATTEN off
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
 #pragma HLS UNROLL FACTOR = CholeskyTraits::UNROLL_FACTOR
+#pragma HLS DEPENDENCE variable=product_sum_array inter false
+#pragma HLS DEPENDENCE variable=L_internal inter false
 
                 if (i > j) {
                     prod = L_internal[i][k] * prod_column_top;
