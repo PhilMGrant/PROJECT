@@ -150,7 +150,7 @@ set RtlHierarchyInfo {[
 			{"Name" : "L_internal_im_3", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_4", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_5", "Type" : "None", "Direction" : "I"},
-			{"Name" : "zext_ln467", "Type" : "None", "Direction" : "I"},
+			{"Name" : "zext_ln468", "Type" : "None", "Direction" : "I"},
 			{"Name" : "product_sum_re_2_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "product_sum_im_2_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
@@ -207,7 +207,7 @@ set ArgLastReadFirstWriteLatency {
 		L_internal_im_3 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_4 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_5 {Type I LastRead 0 FirstWrite -1}
-		zext_ln467 {Type I LastRead 0 FirstWrite -1}
+		zext_ln468 {Type I LastRead 0 FirstWrite -1}
 		product_sum_re_2_out {Type O LastRead -1 FirstWrite 5}
 		product_sum_im_2_out {Type O LastRead -1 FirstWrite 5}}}
 

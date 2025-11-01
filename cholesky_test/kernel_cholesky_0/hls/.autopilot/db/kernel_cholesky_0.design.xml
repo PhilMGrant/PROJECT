@@ -5,8 +5,8 @@
 <ModuleName>kernel_cholesky_0</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44</InstName>
-<ModuleName>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</ModuleName>
+<InstName>grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44</InstName>
+<ModuleName>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>44</ID>
 </Instance>
@@ -25,8 +25,8 @@
 </InstancesList>
 </Instance>
 <Instance>
-<InstName>grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62</InstName>
-<ModuleName>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</ModuleName>
+<InstName>grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62</InstName>
+<ModuleName>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>62</ID>
 </Instance>
@@ -36,9 +36,9 @@
 
 <ModuleInformation>
 <Module>
-<Name>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Name>
+<Name>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Name>
 <Loops>
-<VITIS_LOOP_723_1></VITIS_LOOP_723_1>
+<VITIS_LOOP_724_1></VITIS_LOOP_724_1>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
@@ -57,8 +57,8 @@
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_723_1>
-<Name>VITIS_LOOP_723_1</Name>
+<VITIS_LOOP_724_1>
+<Name>VITIS_LOOP_724_1</Name>
 <Slack>5.40</Slack>
 <TripCount>3</TripCount>
 <Latency>10</Latency>
@@ -68,20 +68,20 @@
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_723_1>
+</VITIS_LOOP_724_1>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:723~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:724~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_723_1>
-<Name>VITIS_LOOP_723_1</Name>
+<VITIS_LOOP_724_1>
+<Name>VITIS_LOOP_724_1</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Memory Dependency</ViolationType>
 <IterationDistance>1</IterationDistance>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:723~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
-</VITIS_LOOP_723_1>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:724~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
+</VITIS_LOOP_724_1>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
@@ -107,7 +107,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -118,7 +118,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -129,7 +129,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -140,7 +140,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -151,7 +151,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -162,7 +162,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -338,13 +338,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:179~D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:475</SourceLocation>
+<SourceLocation>D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:179~D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:476</SourceLocation>
 <SummaryOfLoopViolations>
 <sum_loop>
 <Name>sum_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:470</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:471</SourceLocation>
 </sum_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -546,8 +546,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln467</name>
-<Object>zext_ln467</Object>
+<name>zext_ln468</name>
+<Object>zext_ln468</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -670,18 +670,18 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:422</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:423</SourceLocation>
 <SummaryOfLoopViolations>
 <row_loop>
 <Name>row_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:498</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:499</SourceLocation>
 <col_loop>
 <Name>col_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:457</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:458</SourceLocation>
 </col_loop>
 </row_loop>
 </SummaryOfLoopViolations>
@@ -1029,9 +1029,9 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Name>
+<Name>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Name>
 <Loops>
-<VITIS_LOOP_733_3></VITIS_LOOP_733_3>
+<VITIS_LOOP_734_3></VITIS_LOOP_734_3>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
@@ -1050,8 +1050,8 @@
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_733_3>
-<Name>VITIS_LOOP_733_3</Name>
+<VITIS_LOOP_734_3>
+<Name>VITIS_LOOP_734_3</Name>
 <Slack>5.40</Slack>
 <TripCount>3</TripCount>
 <Latency>10</Latency>
@@ -1061,20 +1061,20 @@
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_733_3>
+</VITIS_LOOP_734_3>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:733~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:734~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_733_3>
-<Name>VITIS_LOOP_733_3</Name>
+<VITIS_LOOP_734_3>
+<Name>VITIS_LOOP_734_3</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Memory Dependency</ViolationType>
 <IterationDistance>1</IterationDistance>
-<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:733~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
-</VITIS_LOOP_733_3>
+<SourceLocation>D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:734~../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26</SourceLocation>
+</VITIS_LOOP_734_3>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
@@ -1100,7 +1100,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1111,7 +1111,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1122,7 +1122,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1133,7 +1133,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1144,7 +1144,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1155,7 +1155,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3</Object>
+<Object>kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>

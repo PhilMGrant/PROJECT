@@ -99310,6 +99310,7 @@ Function_cholesky_rsqrt_fixed:;
     ap_fixed<W2, I2, Q2, O2, N2> sqrt_res_cast;
     sqrt_res = x_sqrt(x);
     sqrt_res_cast = sqrt_res;
+#pragma HLS PIPELINE II=1
     res = one / sqrt_res_cast;
 }
 
@@ -99740,7 +99741,7 @@ int choleskyTop(const InputType A[RowsColsA][RowsColsA], OutputType L[RowsColsA]
             return choleskyBasic<LowerTriangularL, RowsColsA, CholeskyTraits, InputType, OutputType>(A, L);
     }
 }
-# 714 "D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp"
+# 715 "D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp"
 template <bool LowerTriangularL,
           int RowsColsA,
           class InputType,

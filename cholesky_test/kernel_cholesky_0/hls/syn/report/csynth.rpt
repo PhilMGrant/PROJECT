@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'kernel_cholesky_0'
 ================================================================
 + General Information: 
-    * Date:           Sat Nov  1 15:27:49 2025
+    * Date:           Sat Nov  1 16:29:59 2025
     * Version:        2024.2 (Build 5238294 on Nov  8 2024)
     * Project:        kernel_cholesky_0
     * Solution:       hls (Vivado IP Flow Target)
@@ -20,15 +20,15 @@
     |                                        & Loops                                       | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF    |     LUT     | URAM|
     +--------------------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+---------+-----------+-------------+-----+
     |+ kernel_cholesky_0                                                                   |     -|  0.01|      528|  3.168e+03|         -|      529|     -|        no|     -|  14 (6%)|  6830 (6%)|  10846 (20%)|    -|
-    | + kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1                                        |     -|  0.38|       12|     72.000|         -|       12|     -|        no|     -|        -|   19 (~0%)|    210 (~0%)|    -|
-    |  o VITIS_LOOP_723_1                                                                  |    II|  5.40|       10|     60.000|         4|        3|     3|       yes|     -|        -|          -|            -|    -|
+    | + kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1                                        |     -|  0.38|       12|     72.000|         -|       12|     -|        no|     -|        -|   19 (~0%)|    210 (~0%)|    -|
+    |  o VITIS_LOOP_724_1                                                                  |    II|  5.40|       10|     60.000|         4|        3|     3|       yes|     -|        -|          -|            -|    -|
     | + choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s                  |     -|  0.01|      499|  2.994e+03|         -|      499|     -|        no|     -|  14 (6%)|  6620 (6%)|  10169 (19%)|    -|
     |  o row_loop                                                                          |     -|  5.40|      498|  2.988e+03|       166|        -|     3|        no|     -|        -|          -|            -|    -|
     |   o col_loop                                                                         |     -|  5.40|       52|    312.000|        26|        -|     2|        no|     -|        -|          -|            -|    -|
     |    + choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_Pipeline_sum_s  |     -|  0.12|        8|     48.000|         -|        8|     -|        no|     -|   4 (1%)|  765 (~0%)|     655 (1%)|    -|
     |     o sum_loop                                                                       |     -|  5.40|        6|     36.000|         7|        1|     1|       yes|     -|        -|          -|            -|    -|
-    | + kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3                                        |     -|  0.38|       12|     72.000|         -|       12|     -|        no|     -|        -|   54 (~0%)|    196 (~0%)|    -|
-    |  o VITIS_LOOP_733_3                                                                  |    II|  5.40|       10|     60.000|         5|        3|     3|       yes|     -|        -|          -|            -|    -|
+    | + kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3                                        |     -|  0.38|       12|     72.000|         -|       12|     -|        no|     -|        -|   54 (~0%)|    196 (~0%)|    -|
+    |  o VITIS_LOOP_734_3                                                                  |    II|  5.40|       10|     60.000|         5|        3|     3|       yes|     -|        -|          -|            -|    -|
     +--------------------------------------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+---------+-----------+-------------+-----+
 
 
@@ -89,32 +89,32 @@
 | Name                                                                               | DSP | Pragma | Variable                 | Op        | Impl                     | Latency |
 +------------------------------------------------------------------------------------+-----+--------+--------------------------+-----------+--------------------------+---------+
 | + kernel_cholesky_0                                                                | 14  |        |                          |           |                          |         |
-|  + kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1                                     | 0   |        |                          |           |                          |         |
-|    icmp_ln723_fu_137_p2                                                            |     |        | icmp_ln723               | seteq     | auto                     | 0       |
-|    add_ln723_fu_143_p2                                                             |     |        | add_ln723                | add       | fabric                   | 0       |
-|    sub_ln726_fu_158_p2                                                             |     |        | sub_ln726                | sub       | fabric                   | 0       |
-|    add_ln726_fu_174_p2                                                             |     |        | add_ln726                | add       | fabric                   | 0       |
-|    add_ln726_1_fu_180_p2                                                           |     |        | add_ln726_1              | add       | fabric                   | 0       |
+|  + kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1                                     | 0   |        |                          |           |                          |         |
+|    icmp_ln724_fu_137_p2                                                            |     |        | icmp_ln724               | seteq     | auto                     | 0       |
+|    add_ln724_fu_143_p2                                                             |     |        | add_ln724                | add       | fabric                   | 0       |
+|    sub_ln727_fu_158_p2                                                             |     |        | sub_ln727                | sub       | fabric                   | 0       |
+|    add_ln727_fu_174_p2                                                             |     |        | add_ln727                | add       | fabric                   | 0       |
+|    add_ln727_1_fu_180_p2                                                           |     |        | add_ln727_1              | add       | fabric                   | 0       |
 |  + choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s               | 14  |        |                          |           |                          |         |
-|    icmp_ln448_fu_538_p2                                                            |     |        | icmp_ln448               | seteq     | auto                     | 0       |
+|    icmp_ln449_fu_538_p2                                                            |     |        | icmp_ln449               | seteq     | auto                     | 0       |
 |    i_2_fu_544_p2                                                                   |     |        | i_2                      | add       | fabric                   | 0       |
-|    sub_ln498_fu_642_p2                                                             |     |        | sub_ln498                | sub       | fabric                   | 0       |
+|    sub_ln499_fu_642_p2                                                             |     |        | sub_ln499                | sub       | fabric                   | 0       |
 |    i_sub1_fu_550_p2                                                                |     |        | i_sub1                   | add       | fabric                   | 0       |
-|    mul_2s_2s_3_1_1_U29                                                             |     |        | mul_ln452                | mul       | auto                     | 0       |
-|    sub_ln452_fu_565_p2                                                             |     |        | sub_ln452                | sub       | fabric                   | 0       |
-|    add_ln452_fu_574_p2                                                             |     |        | add_ln452                | add       | fabric                   | 0       |
-|    sub_ln452_1_fu_592_p2                                                           |     |        | sub_ln452_1              | sub       | fabric                   | 0       |
-|    sub_ln452_2_fu_655_p2                                                           |     |        | sub_ln452_2              | sub       | fabric                   | 0       |
-|    select_ln452_fu_660_p3                                                          |     |        | select_ln452             | select    | auto_sel                 | 0       |
-|    add_ln452_2_fu_670_p2                                                           |     |        | add_ln452_2              | add       | fabric                   | 0       |
-|    add_ln452_1_fu_675_p2                                                           |     |        | add_ln452_1              | add       | fabric                   | 0       |
-|    icmp_ln457_fu_685_p2                                                            |     |        | icmp_ln457               | seteq     | auto                     | 0       |
+|    mul_2s_2s_3_1_1_U29                                                             |     |        | mul_ln453                | mul       | auto                     | 0       |
+|    sub_ln453_fu_565_p2                                                             |     |        | sub_ln453                | sub       | fabric                   | 0       |
+|    add_ln453_fu_574_p2                                                             |     |        | add_ln453                | add       | fabric                   | 0       |
+|    sub_ln453_1_fu_592_p2                                                           |     |        | sub_ln453_1              | sub       | fabric                   | 0       |
+|    sub_ln453_2_fu_655_p2                                                           |     |        | sub_ln453_2              | sub       | fabric                   | 0       |
+|    select_ln453_fu_660_p3                                                          |     |        | select_ln453             | select    | auto_sel                 | 0       |
+|    add_ln453_2_fu_670_p2                                                           |     |        | add_ln453_2              | add       | fabric                   | 0       |
+|    add_ln453_1_fu_675_p2                                                           |     |        | add_ln453_1              | add       | fabric                   | 0       |
+|    icmp_ln458_fu_685_p2                                                            |     |        | icmp_ln458               | seteq     | auto                     | 0       |
 |    j_1_fu_690_p2                                                                   |     |        | j_1                      | add       | fabric                   | 0       |
-|    add_ln493_fu_731_p2                                                             |     |        | add_ln493                | add       | fabric                   | 0       |
+|    add_ln494_fu_731_p2                                                             |     |        | add_ln494                | add       | fabric                   | 0       |
 |    j_sub1_fu_753_p2                                                                |     |        | j_sub1                   | add       | fabric                   | 0       |
-|    mul_2s_2s_2_1_1_U30                                                             |     |        | mul_ln462                | mul       | auto                     | 0       |
-|    xor_ln462_fu_765_p2                                                             |     |        | xor_ln462                | xor       | auto                     | 0       |
-|    add_ln462_fu_774_p2                                                             |     |        | add_ln462                | add       | fabric                   | 0       |
+|    mul_2s_2s_2_1_1_U30                                                             |     |        | mul_ln463                | mul       | auto                     | 0       |
+|    xor_ln463_fu_765_p2                                                             |     |        | xor_ln463                | xor       | auto                     | 0       |
+|    add_ln463_fu_774_p2                                                             |     |        | add_ln463                | add       | fabric                   | 0       |
 |    sub_ln345_fu_788_p2                                                             |     |        | sub_ln345                | sub       | fabric                   | 0       |
 |    icmp_ln59_4_fu_883_p2                                                           |     |        | icmp_ln59_4              | setne     | auto                     | 0       |
 |    icmp_ln59_5_fu_889_p2                                                           |     |        | icmp_ln59_5              | setne     | auto                     | 0       |
@@ -138,59 +138,59 @@
 |    select_ln59_6_fu_1037_p3                                                        |     |        | select_ln59_6            | select    | auto_sel                 | 0       |
 |    or_ln59_8_fu_1045_p2                                                            |     |        | or_ln59_8                | or        | auto                     | 0       |
 |    tmp2_im_5_fu_1051_p3                                                            |     |        | tmp2_im_5                | select    | auto_sel                 | 0       |
-|    icmp_ln481_fu_794_p2                                                            |     |        | icmp_ln481               | seteq     | auto                     | 0       |
+|    icmp_ln482_fu_794_p2                                                            |     |        | icmp_ln482               | seteq     | auto                     | 0       |
 |    B_fu_1059_p3                                                                    |     |        | B                        | select    | auto_sel                 | 0       |
-|    mul_34s_33s_67_3_1_U27                                                          | 4   | yes    | mul_ln283                | mul       | dsp                      | 2       |
-|    icmp_ln283_fu_1136_p2                                                           |     |        | icmp_ln283               | setne     | auto                     | 0       |
-|    or_ln283_fu_1259_p2                                                             |     |        | or_ln283                 | or        | auto                     | 0       |
-|    and_ln283_fu_1264_p2                                                            |     |        | and_ln283                | and       | auto                     | 0       |
+|    mul_34s_33s_67_3_1_U27                                                          | 4   | yes    | mul_ln284                | mul       | dsp                      | 2       |
+|    icmp_ln284_fu_1136_p2                                                           |     |        | icmp_ln284               | setne     | auto                     | 0       |
+|    or_ln284_fu_1259_p2                                                             |     |        | or_ln284                 | or        | auto                     | 0       |
+|    and_ln284_fu_1264_p2                                                            |     |        | and_ln284                | and       | auto                     | 0       |
 |    real_temp_fu_1274_p2                                                            |     |        | real_temp                | add       | fabric                   | 0       |
-|    xor_ln283_fu_1288_p2                                                            |     |        | xor_ln283                | xor       | auto                     | 0       |
-|    and_ln283_1_fu_1294_p2                                                          |     |        | and_ln283_1              | and       | auto                     | 0       |
-|    icmp_ln283_1_fu_1141_p2                                                         |     |        | icmp_ln283_1             | seteq     | auto                     | 0       |
-|    icmp_ln283_2_fu_1146_p2                                                         |     |        | icmp_ln283_2             | seteq     | auto                     | 0       |
-|    icmp_ln283_3_fu_1151_p2                                                         |     |        | icmp_ln283_3             | seteq     | auto                     | 0       |
-|    select_ln283_fu_1307_p3                                                         |     |        | select_ln283             | select    | auto_sel                 | 0       |
-|    xor_ln283_1_fu_1313_p2                                                          |     |        | xor_ln283_1              | xor       | auto                     | 0       |
-|    and_ln283_2_fu_1319_p2                                                          |     |        | and_ln283_2              | and       | auto                     | 0       |
-|    select_ln283_1_fu_1324_p3                                                       |     |        | select_ln283_1           | select    | auto_sel                 | 0       |
-|    and_ln283_3_fu_1464_p2                                                          |     |        | and_ln283_3              | and       | auto                     | 0       |
-|    xor_ln283_2_fu_1331_p2                                                          |     |        | xor_ln283_2              | xor       | auto                     | 0       |
-|    or_ln283_1_fu_1337_p2                                                           |     |        | or_ln283_1               | or        | auto                     | 0       |
-|    xor_ln283_3_fu_1343_p2                                                          |     |        | xor_ln283_3              | xor       | auto                     | 0       |
-|    and_ln283_4_fu_1348_p2                                                          |     |        | and_ln283_4              | and       | auto                     | 0       |
-|    and_ln283_5_fu_1354_p2                                                          |     |        | and_ln283_5              | and       | auto                     | 0       |
-|    or_ln283_3_fu_1468_p2                                                           |     |        | or_ln283_3               | or        | auto                     | 0       |
-|    xor_ln283_4_fu_1473_p2                                                          |     |        | xor_ln283_4              | xor       | auto                     | 0       |
-|    and_ln283_6_fu_1479_p2                                                          |     |        | and_ln283_6              | and       | auto                     | 0       |
-|    select_ln283_2_fu_1584_p3                                                       |     |        | select_ln283_2           | select    | auto_sel                 | 0       |
-|    or_ln283_2_fu_1484_p2                                                           |     |        | or_ln283_2               | or        | auto                     | 0       |
+|    xor_ln284_fu_1288_p2                                                            |     |        | xor_ln284                | xor       | auto                     | 0       |
+|    and_ln284_1_fu_1294_p2                                                          |     |        | and_ln284_1              | and       | auto                     | 0       |
+|    icmp_ln284_1_fu_1141_p2                                                         |     |        | icmp_ln284_1             | seteq     | auto                     | 0       |
+|    icmp_ln284_2_fu_1146_p2                                                         |     |        | icmp_ln284_2             | seteq     | auto                     | 0       |
+|    icmp_ln284_3_fu_1151_p2                                                         |     |        | icmp_ln284_3             | seteq     | auto                     | 0       |
+|    select_ln284_fu_1307_p3                                                         |     |        | select_ln284             | select    | auto_sel                 | 0       |
+|    xor_ln284_1_fu_1313_p2                                                          |     |        | xor_ln284_1              | xor       | auto                     | 0       |
+|    and_ln284_2_fu_1319_p2                                                          |     |        | and_ln284_2              | and       | auto                     | 0       |
+|    select_ln284_1_fu_1324_p3                                                       |     |        | select_ln284_1           | select    | auto_sel                 | 0       |
+|    and_ln284_3_fu_1464_p2                                                          |     |        | and_ln284_3              | and       | auto                     | 0       |
+|    xor_ln284_2_fu_1331_p2                                                          |     |        | xor_ln284_2              | xor       | auto                     | 0       |
+|    or_ln284_1_fu_1337_p2                                                           |     |        | or_ln284_1               | or        | auto                     | 0       |
+|    xor_ln284_3_fu_1343_p2                                                          |     |        | xor_ln284_3              | xor       | auto                     | 0       |
+|    and_ln284_4_fu_1348_p2                                                          |     |        | and_ln284_4              | and       | auto                     | 0       |
+|    and_ln284_5_fu_1354_p2                                                          |     |        | and_ln284_5              | and       | auto                     | 0       |
+|    or_ln284_3_fu_1468_p2                                                           |     |        | or_ln284_3               | or        | auto                     | 0       |
+|    xor_ln284_4_fu_1473_p2                                                          |     |        | xor_ln284_4              | xor       | auto                     | 0       |
+|    and_ln284_6_fu_1479_p2                                                          |     |        | and_ln284_6              | and       | auto                     | 0       |
+|    select_ln284_2_fu_1584_p3                                                       |     |        | select_ln284_2           | select    | auto_sel                 | 0       |
+|    or_ln284_2_fu_1484_p2                                                           |     |        | or_ln284_2               | or        | auto                     | 0       |
 |    real_temp_2_fu_1591_p3                                                          |     |        | real_temp_2              | select    | auto_sel                 | 0       |
-|    mul_34s_33s_67_3_1_U28                                                          | 4   | yes    | mul_ln284                | mul       | dsp                      | 2       |
-|    icmp_ln284_fu_1172_p2                                                           |     |        | icmp_ln284               | setne     | auto                     | 0       |
-|    or_ln284_fu_1184_p2                                                             |     |        | or_ln284                 | or        | auto                     | 0       |
-|    and_ln284_fu_1190_p2                                                            |     |        | and_ln284                | and       | auto                     | 0       |
+|    mul_34s_33s_67_3_1_U28                                                          | 4   | yes    | mul_ln285                | mul       | dsp                      | 2       |
+|    icmp_ln285_fu_1172_p2                                                           |     |        | icmp_ln285               | setne     | auto                     | 0       |
+|    or_ln285_fu_1184_p2                                                             |     |        | or_ln285                 | or        | auto                     | 0       |
+|    and_ln285_fu_1190_p2                                                            |     |        | and_ln285                | and       | auto                     | 0       |
 |    imag_temp_fu_1200_p2                                                            |     |        | imag_temp                | add       | fabric                   | 0       |
-|    xor_ln284_fu_1367_p2                                                            |     |        | xor_ln284                | xor       | auto                     | 0       |
-|    and_ln284_1_fu_1372_p2                                                          |     |        | and_ln284_1              | and       | auto                     | 0       |
-|    icmp_ln284_1_fu_1214_p2                                                         |     |        | icmp_ln284_1             | seteq     | auto                     | 0       |
-|    icmp_ln284_2_fu_1219_p2                                                         |     |        | icmp_ln284_2             | seteq     | auto                     | 0       |
-|    icmp_ln284_3_fu_1224_p2                                                         |     |        | icmp_ln284_3             | seteq     | auto                     | 0       |
-|    select_ln284_fu_1385_p3                                                         |     |        | select_ln284             | select    | auto_sel                 | 0       |
-|    xor_ln284_1_fu_1391_p2                                                          |     |        | xor_ln284_1              | xor       | auto                     | 0       |
-|    and_ln284_2_fu_1397_p2                                                          |     |        | and_ln284_2              | and       | auto                     | 0       |
-|    select_ln284_1_fu_1402_p3                                                       |     |        | select_ln284_1           | select    | auto_sel                 | 0       |
-|    and_ln284_3_fu_1409_p2                                                          |     |        | and_ln284_3              | and       | auto                     | 0       |
-|    xor_ln284_2_fu_1414_p2                                                          |     |        | xor_ln284_2              | xor       | auto                     | 0       |
-|    or_ln284_1_fu_1420_p2                                                           |     |        | or_ln284_1               | or        | auto                     | 0       |
-|    xor_ln284_3_fu_1425_p2                                                          |     |        | xor_ln284_3              | xor       | auto                     | 0       |
-|    and_ln284_4_fu_1430_p2                                                          |     |        | and_ln284_4              | and       | auto                     | 0       |
-|    and_ln284_5_fu_1436_p2                                                          |     |        | and_ln284_5              | and       | auto                     | 0       |
-|    or_ln284_3_fu_1441_p2                                                           |     |        | or_ln284_3               | or        | auto                     | 0       |
-|    xor_ln284_4_fu_1447_p2                                                          |     |        | xor_ln284_4              | xor       | auto                     | 0       |
-|    and_ln284_6_fu_1453_p2                                                          |     |        | and_ln284_6              | and       | auto                     | 0       |
-|    select_ln284_2_fu_1489_p3                                                       |     |        | select_ln284_2           | select    | auto_sel                 | 0       |
-|    or_ln284_2_fu_1458_p2                                                           |     |        | or_ln284_2               | or        | auto                     | 0       |
+|    xor_ln285_fu_1367_p2                                                            |     |        | xor_ln285                | xor       | auto                     | 0       |
+|    and_ln285_1_fu_1372_p2                                                          |     |        | and_ln285_1              | and       | auto                     | 0       |
+|    icmp_ln285_1_fu_1214_p2                                                         |     |        | icmp_ln285_1             | seteq     | auto                     | 0       |
+|    icmp_ln285_2_fu_1219_p2                                                         |     |        | icmp_ln285_2             | seteq     | auto                     | 0       |
+|    icmp_ln285_3_fu_1224_p2                                                         |     |        | icmp_ln285_3             | seteq     | auto                     | 0       |
+|    select_ln285_fu_1385_p3                                                         |     |        | select_ln285             | select    | auto_sel                 | 0       |
+|    xor_ln285_1_fu_1391_p2                                                          |     |        | xor_ln285_1              | xor       | auto                     | 0       |
+|    and_ln285_2_fu_1397_p2                                                          |     |        | and_ln285_2              | and       | auto                     | 0       |
+|    select_ln285_1_fu_1402_p3                                                       |     |        | select_ln285_1           | select    | auto_sel                 | 0       |
+|    and_ln285_3_fu_1409_p2                                                          |     |        | and_ln285_3              | and       | auto                     | 0       |
+|    xor_ln285_2_fu_1414_p2                                                          |     |        | xor_ln285_2              | xor       | auto                     | 0       |
+|    or_ln285_1_fu_1420_p2                                                           |     |        | or_ln285_1               | or        | auto                     | 0       |
+|    xor_ln285_3_fu_1425_p2                                                          |     |        | xor_ln285_3              | xor       | auto                     | 0       |
+|    and_ln285_4_fu_1430_p2                                                          |     |        | and_ln285_4              | and       | auto                     | 0       |
+|    and_ln285_5_fu_1436_p2                                                          |     |        | and_ln285_5              | and       | auto                     | 0       |
+|    or_ln285_3_fu_1441_p2                                                           |     |        | or_ln285_3               | or        | auto                     | 0       |
+|    xor_ln285_4_fu_1447_p2                                                          |     |        | xor_ln285_4              | xor       | auto                     | 0       |
+|    and_ln285_6_fu_1453_p2                                                          |     |        | and_ln285_6              | and       | auto                     | 0       |
+|    select_ln285_2_fu_1489_p3                                                       |     |        | select_ln285_2           | select    | auto_sel                 | 0       |
+|    or_ln285_2_fu_1458_p2                                                           |     |        | or_ln285_2               | or        | auto                     | 0       |
 |    imag_temp_2_fu_1496_p3                                                          |     |        | imag_temp_2              | select    | auto_sel                 | 0       |
 |    icmp_ln59_8_fu_1627_p2                                                          |     |        | icmp_ln59_8              | setne     | auto                     | 0       |
 |    or_ln59_9_fu_1649_p2                                                            |     |        | or_ln59_9                | or        | auto                     | 0       |
@@ -292,7 +292,7 @@
 |    xor_ln189_1_fu_2420_p2                                                          |     |        | xor_ln189_1              | xor       | auto                     | 0       |
 |    select_ln189_fu_2424_p3                                                         |     |        | select_ln189             | select    | auto_sel                 | 0       |
 |    tmp2_re_20_fu_2432_p3                                                           |     |        | tmp2_re_20               | select    | auto_sel                 | 0       |
-|    add_ln487_fu_740_p2                                                             |     |        | add_ln487                | add       | fabric                   | 0       |
+|    add_ln488_fu_740_p2                                                             |     |        | add_ln488                | add       | fabric                   | 0       |
 |    sub_ln223_fu_2480_p2                                                            |     |        | sub_ln223                | sub       | fabric                   | 0       |
 |    xor_ln223_fu_2506_p2                                                            |     |        | xor_ln223                | xor       | auto                     | 0       |
 |    and_ln223_fu_2512_p2                                                            |     |        | and_ln223                | and       | auto                     | 0       |
@@ -554,19 +554,19 @@
 |    or_ln267_fu_4775_p2                                                             |     |        | or_ln267                 | or        | auto                     | 0       |
 |    and_ln267_fu_4781_p2                                                            |     |        | and_ln267                | and       | auto                     | 0       |
 |    sqrt_res_cast_fu_4791_p2                                                        |     |        | sqrt_res_cast            | add       | fabric                   | 0       |
-|    sdiv_34ns_19s_34_38_1_U49                                                       |     |        | sdiv_ln268               | sdiv      | auto                     | 37      |
-|    xor_ln268_fu_4826_p2                                                            |     |        | xor_ln268                | xor       | auto                     | 0       |
-|    and_ln268_fu_4832_p2                                                            |     |        | and_ln268                | and       | auto                     | 0       |
-|    select_ln268_fu_4838_p3                                                         |     |        | select_ln268             | select    | auto_sel                 | 0       |
-|    xor_ln268_1_fu_4846_p2                                                          |     |        | xor_ln268_1              | xor       | auto                     | 0       |
+|    sdiv_34ns_19s_34_38_1_U49                                                       |     |        | sdiv_ln269               | sdiv      | auto                     | 37      |
+|    xor_ln269_fu_4826_p2                                                            |     |        | xor_ln269                | xor       | auto                     | 0       |
+|    and_ln269_fu_4832_p2                                                            |     |        | and_ln269                | and       | auto                     | 0       |
+|    select_ln269_fu_4838_p3                                                         |     |        | select_ln269             | select    | auto_sel                 | 0       |
+|    xor_ln269_1_fu_4846_p2                                                          |     |        | xor_ln269_1              | xor       | auto                     | 0       |
 |    new_L_diag_recip_fu_4852_p3                                                     |     |        | new_L_diag_recip         | select    | auto_sel                 | 0       |
-|    icmp_ln513_fu_4860_p2                                                           |     |        | icmp_ln513               | seteq     | auto                     | 0       |
+|    icmp_ln514_fu_4860_p2                                                           |     |        | icmp_ln514               | seteq     | auto                     | 0       |
 |    diag_internal_4_fu_4865_p3                                                      |     |        | diag_internal_4          | select    | auto_sel                 | 0       |
-|    icmp_ln513_1_fu_4872_p2                                                         |     |        | icmp_ln513_1             | seteq     | auto                     | 0       |
+|    icmp_ln514_1_fu_4872_p2                                                         |     |        | icmp_ln514_1             | seteq     | auto                     | 0       |
 |    diag_internal_3_fu_4877_p3                                                      |     |        | diag_internal_3          | select    | auto_sel                 | 0       |
 |   + choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_Pipeline_sum_s | 4   |        |                          |           |                          |         |
-|     xor_ln470_1_fu_226_p2                                                          |     |        | xor_ln470_1              | xor       | auto                     | 0       |
-|     add_ln473_fu_232_p2                                                            |     |        | add_ln473                | add       | fabric                   | 0       |
+|     xor_ln471_1_fu_226_p2                                                          |     |        | xor_ln471_1              | xor       | auto                     | 0       |
+|     add_ln474_fu_232_p2                                                            |     |        | add_ln474                | add       | fabric                   | 0       |
 |     sparsemux_7_2_16_1_1_U4                                                        |     |        | tmp_re                   | sparsemux | compactencoding_dontcare | 0       |
 |     sparsemux_7_2_16_1_1_U5                                                        |     |        | tmp_im                   | sparsemux | compactencoding_dontcare | 0       |
 |     tmp_re_5_fu_294_p2                                                             |     |        | tmp_re_5                 | sub       | fabric                   | 0       |
@@ -606,13 +606,13 @@
 |     xor_ln181_1_fu_731_p2                                                          |     |        | xor_ln181_1              | xor       | auto                     | 0       |
 |     select_ln181_fu_737_p3                                                         |     |        | select_ln181             | select    | auto_sel                 | 0       |
 |     tmp2_im_4_fu_745_p3                                                            |     |        | tmp2_im_4                | select    | auto_sel                 | 0       |
-|     xor_ln470_fu_256_p2                                                            |     |        | xor_ln470                | xor       | auto                     | 0       |
-|  + kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3                                     | 0   |        |                          |           |                          |         |
-|    icmp_ln733_fu_139_p2                                                            |     |        | icmp_ln733               | seteq     | auto                     | 0       |
-|    add_ln733_fu_145_p2                                                             |     |        | add_ln733                | add       | fabric                   | 0       |
-|    sub_ln736_fu_163_p2                                                             |     |        | sub_ln736                | sub       | fabric                   | 0       |
-|    add_ln736_fu_183_p2                                                             |     |        | add_ln736                | add       | fabric                   | 0       |
-|    add_ln736_1_fu_194_p2                                                           |     |        | add_ln736_1              | add       | fabric                   | 0       |
+|     xor_ln471_fu_256_p2                                                            |     |        | xor_ln471                | xor       | auto                     | 0       |
+|  + kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3                                     | 0   |        |                          |           |                          |         |
+|    icmp_ln734_fu_139_p2                                                            |     |        | icmp_ln734               | seteq     | auto                     | 0       |
+|    add_ln734_fu_145_p2                                                             |     |        | add_ln734                | add       | fabric                   | 0       |
+|    sub_ln737_fu_163_p2                                                             |     |        | sub_ln737                | sub       | fabric                   | 0       |
+|    add_ln737_fu_183_p2                                                             |     |        | add_ln737                | add       | fabric                   | 0       |
+|    add_ln737_1_fu_194_p2                                                           |     |        | add_ln737_1              | add       | fabric                   | 0       |
 +------------------------------------------------------------------------------------+-----+--------+--------------------------+-----------+--------------------------+---------+
 
 
@@ -643,32 +643,33 @@
 | pipeline        | II = BackSubstituteTraits::INNER_II                                                                  | ../solver/L1/include/hw/back_substitute.hpp:303 in backsubstitutealt          |
 | pipeline        |                                                                                                      | ../solver/L1/include/hw/back_substitute.hpp:382 in backsubstitute             |
 | pipeline        |                                                                                                      | ../solver/L1/include/hw/back_substitute.hpp:391 in backsubstitute             |
-| bind_op         | variable=C op=mul impl=dsp                                                                           | ../solver/L1/include/hw/cholesky.hpp:277 in cholesky_prod_sum_mult, C         |
-| bind_op         | variable=real_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:285 in cholesky_prod_sum_mult, real_temp |
-| bind_op         | variable=imag_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:286 in cholesky_prod_sum_mult, imag_temp |
-| bind_op         | variable=real_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:295 in cholesky_prod_sum_mult, real_temp |
-| bind_op         | variable=imag_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:296 in cholesky_prod_sum_mult, imag_temp |
-| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:376 in choleskybasic                     |
-| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:449 in choleskyalt                       |
-| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:458 in choleskyalt                       |
-| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:459 in choleskyalt                       |
-| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:471 in choleskyalt                       |
-| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:472 in choleskyalt                       |
-| array_partition | variable = A cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR          | ../solver/L1/include/hw/cholesky.hpp:547 in choleskyalt2                      |
-| array_partition | variable = L cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR          | ../solver/L1/include/hw/cholesky.hpp:548 in choleskyalt2                      |
-| array_partition | variable = L_internal cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR | ../solver/L1/include/hw/cholesky.hpp:549 in choleskyalt2                      |
-| array_partition | variable = square_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR                    | ../solver/L1/include/hw/cholesky.hpp:551 in choleskyalt2                      |
-| array_partition | variable = product_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR                   | ../solver/L1/include/hw/cholesky.hpp:552 in choleskyalt2                      |
-| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:585 in choleskyalt2                      |
-| loop_flatten    | off                                                                                                  | ../solver/L1/include/hw/cholesky.hpp:600 in choleskyalt2                      |
-| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:601 in choleskyalt2                      |
-| unroll          | FACTOR = CholeskyTraits::UNROLL_FACTOR                                                               | ../solver/L1/include/hw/cholesky.hpp:602 in choleskyalt2                      |
-| dependence      | variable=product_sum_array inter false                                                               | ../solver/L1/include/hw/cholesky.hpp:603 in choleskyalt2, product_sum_array   |
-| dependence      | variable=L_internal inter false                                                                      | ../solver/L1/include/hw/cholesky.hpp:604 in choleskyalt2, L_internal          |
-| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:668 in choleskyalt2                      |
-| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:669 in choleskyalt2                      |
-| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:724 in cholesky                          |
-| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:734 in cholesky                          |
+| pipeline        | II=1                                                                                                 | ../solver/L1/include/hw/cholesky.hpp:268 in cholesky_rsqrt                    |
+| bind_op         | variable=C op=mul impl=dsp                                                                           | ../solver/L1/include/hw/cholesky.hpp:278 in cholesky_prod_sum_mult, C         |
+| bind_op         | variable=real_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:286 in cholesky_prod_sum_mult, real_temp |
+| bind_op         | variable=imag_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:287 in cholesky_prod_sum_mult, imag_temp |
+| bind_op         | variable=real_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:296 in cholesky_prod_sum_mult, real_temp |
+| bind_op         | variable=imag_temp op=mul impl=dsp                                                                   | ../solver/L1/include/hw/cholesky.hpp:297 in cholesky_prod_sum_mult, imag_temp |
+| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:377 in choleskybasic                     |
+| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:450 in choleskyalt                       |
+| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:459 in choleskyalt                       |
+| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:460 in choleskyalt                       |
+| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:472 in choleskyalt                       |
+| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:473 in choleskyalt                       |
+| array_partition | variable = A cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR          | ../solver/L1/include/hw/cholesky.hpp:548 in choleskyalt2                      |
+| array_partition | variable = L cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR          | ../solver/L1/include/hw/cholesky.hpp:549 in choleskyalt2                      |
+| array_partition | variable = L_internal cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR | ../solver/L1/include/hw/cholesky.hpp:550 in choleskyalt2                      |
+| array_partition | variable = square_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR                    | ../solver/L1/include/hw/cholesky.hpp:552 in choleskyalt2                      |
+| array_partition | variable = product_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR                   | ../solver/L1/include/hw/cholesky.hpp:553 in choleskyalt2                      |
+| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:586 in choleskyalt2                      |
+| loop_flatten    | off                                                                                                  | ../solver/L1/include/hw/cholesky.hpp:601 in choleskyalt2                      |
+| pipeline        | II = CholeskyTraits::INNER_II                                                                        | ../solver/L1/include/hw/cholesky.hpp:602 in choleskyalt2                      |
+| unroll          | FACTOR = CholeskyTraits::UNROLL_FACTOR                                                               | ../solver/L1/include/hw/cholesky.hpp:603 in choleskyalt2                      |
+| dependence      | variable=product_sum_array inter false                                                               | ../solver/L1/include/hw/cholesky.hpp:604 in choleskyalt2, product_sum_array   |
+| dependence      | variable=L_internal inter false                                                                      | ../solver/L1/include/hw/cholesky.hpp:605 in choleskyalt2, L_internal          |
+| loop_tripcount  | max = 1 + RowsColsA / 2                                                                              | ../solver/L1/include/hw/cholesky.hpp:669 in choleskyalt2                      |
+| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:670 in choleskyalt2                      |
+| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:725 in cholesky                          |
+| pipeline        |                                                                                                      | ../solver/L1/include/hw/cholesky.hpp:735 in cholesky                          |
 | dataflow        |                                                                                                      | ../solver/L1/include/hw/cholesky_inverse.hpp:220 in choleskyinverse           |
 | stream          | variable = matrixUStrm depth = 16                                                                    | ../solver/L1/include/hw/cholesky_inverse.hpp:222 in choleskyinverse           |
 | stream          | variable = matrixInverseUStrm depth = 16                                                             | ../solver/L1/include/hw/cholesky_inverse.hpp:224 in choleskyinverse           |
@@ -777,7 +778,7 @@
 +----------------------------------------------------+-----------------+---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Source                                             | Inferred Pragma | Options                                     | Location                                                                                                                                                                                                                                                                                                                                                                                                         |
 +----------------------------------------------------+-----------------+---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| pipeline  ../solver/L1/include/hw/cholesky.hpp:472 | array_partition | dim=1 type=complete  variable=L_internal.im | variable L_internal.im in xf::solver::choleskyalt<false, 3, xf::solver::choleskytraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > ../solver/L1/include/hw/cholesky.hpp:429 |
+| pipeline  ../solver/L1/include/hw/cholesky.hpp:473 | array_partition | dim=1 type=complete  variable=L_internal.im | variable L_internal.im in xf::solver::choleskyalt<false, 3, xf::solver::choleskytraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > ../solver/L1/include/hw/cholesky.hpp:430 |
 +----------------------------------------------------+-----------------+---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 

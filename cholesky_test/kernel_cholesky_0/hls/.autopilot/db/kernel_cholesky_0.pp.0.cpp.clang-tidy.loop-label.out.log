@@ -888,38 +888,38 @@ D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\ker
  ^~~
  VITIS_LOOP_1569_8: 
 D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57022:2: note: FIX-IT applied suggested code changes
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57265:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57266:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
 #pragma HLS BIND_OP variable=C op=mul impl=dsp
         ^
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57273:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
-#pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
-        ^
 D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57274:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
-#pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
-        ^
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57283:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
 #pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
+        ^
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57275:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
         ^
 D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57284:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
+        ^
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57285:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
 #pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
         ^
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57696:5: warning: Added loop label VITIS_LOOP_723_1:   [xilinx-label-all-loops]
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57697:5: warning: Added loop label VITIS_LOOP_724_1:   [xilinx-label-all-loops]
     for (int r = 0; r < RowsColsA; r++) {
     ^~~
-    VITIS_LOOP_723_1: 
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57696:5: note: FIX-IT applied suggested code changes
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57698:2: warning: Added loop label VITIS_LOOP_725_2:   [xilinx-label-all-loops]
+    VITIS_LOOP_724_1: 
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57697:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57699:2: warning: Added loop label VITIS_LOOP_726_2:   [xilinx-label-all-loops]
  for (int c = 0; c < RowsColsA; c++) {
  ^~~
- VITIS_LOOP_725_2: 
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57698:2: note: FIX-IT applied suggested code changes
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57706:5: warning: Added loop label VITIS_LOOP_733_3:   [xilinx-label-all-loops]
+ VITIS_LOOP_726_2: 
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57699:2: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57707:5: warning: Added loop label VITIS_LOOP_734_3:   [xilinx-label-all-loops]
     for (int r = 0; r < RowsColsA; r++) {
     ^~~
-    VITIS_LOOP_733_3: 
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57706:5: note: FIX-IT applied suggested code changes
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57708:2: warning: Added loop label VITIS_LOOP_735_4:   [xilinx-label-all-loops]
+    VITIS_LOOP_734_3: 
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57707:5: note: FIX-IT applied suggested code changes
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57709:2: warning: Added loop label VITIS_LOOP_736_4:   [xilinx-label-all-loops]
  for (int c = 0; c < RowsColsA; c++) {
  ^~~
- VITIS_LOOP_735_4: 
-D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57708:2: note: FIX-IT applied suggested code changes
+ VITIS_LOOP_736_4: 
+D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp:57709:2: note: FIX-IT applied suggested code changes

@@ -482,7 +482,7 @@ Args:
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 283, Column: 25 }
+                   Line: 284, Column: 25 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::real()'
@@ -491,14 +491,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 288, Column: 7 }
+                   Line: 289, Column: 7 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::imag(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -507,14 +507,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 287, Column: 4 }
+                   Line: 288, Column: 4 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::real(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -523,14 +523,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 284, Column: 25 }
+                   Line: 285, Column: 25 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::imag()'
@@ -539,7 +539,7 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -1142,7 +1142,7 @@ Args:
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 517, Column: 21 }
+                   Line: 518, Column: 21 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1151,14 +1151,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 455, Column: 20 }
+                   Line: 456, Column: 20 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=(ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -1167,14 +1167,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 467, Column: 31 }
+                   Line: 468, Column: 31 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
@@ -1183,14 +1183,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 467, Column: 29 }
+                   Line: 468, Column: 29 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
@@ -1199,14 +1199,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 9 }
+                   Line: 474, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator-()'
@@ -1215,55 +1215,7 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 34 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 351, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 32 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 119, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 7 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 82, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -1273,20 +1225,68 @@ DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/co
                    Line: 474, Column: 34 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
-  - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >&)'
     DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 82, Column: 0 }
+                       Line: 351, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 475, Column: 29 }
+                   Line: 474, Column: 32 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 119, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 474, Column: 7 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 82, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 475, Column: 34 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 82, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 476, Column: 29 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator+=(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1295,14 +1295,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 477, Column: 35 }
+                   Line: 478, Column: 35 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1311,30 +1311,30 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 481, Column: 13 }
+                   Line: 482, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 483, Column: 19 }
+                   Line: 484, Column: 19 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1343,14 +1343,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 27 }
+                   Line: 486, Column: 27 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
@@ -1359,14 +1359,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 46 }
+                   Line: 486, Column: 46 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1375,14 +1375,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 24 }
+                   Line: 486, Column: 24 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator+=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1391,14 +1391,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 493, Column: 25 }
+                   Line: 494, Column: 25 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=(ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> const&)'
@@ -1407,14 +1407,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 499, Column: 37 }
+                   Line: 500, Column: 37 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator-(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1423,14 +1423,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 499, Column: 21 }
+                   Line: 500, Column: 21 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1439,14 +1439,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 500, Column: 13 }
+                   Line: 501, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'int xf::solver::cholesky_sqrt_op<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
@@ -1455,14 +1455,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 510, Column: 31 }
+                   Line: 511, Column: 31 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1471,14 +1471,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 511, Column: 24 }
+                   Line: 512, Column: 24 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> hls::x_real<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -1487,14 +1487,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 511, Column: 9 }
+                   Line: 512, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'void xf::solver::cholesky_rsqrt<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0, 33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>&)'
@@ -1503,39 +1503,39 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 691, Column: 20 }
+                   Line: 692, Column: 20 }
 Function:        _ZN2xf6solver11choleskyTopILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyTop<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 686, Column: 0 }
+                       Line: 687, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 731, Column: 11 }
+                   Line: 732, Column: 11 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - Callee:          'int xf::solver::choleskyTop<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 686, Column: 0 }
+                       Line: 687, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -1547,7 +1547,7 @@ Function:        kernel_cholesky_0
 Args:            
   - Callee:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel_cholesky_0
     DebugLoc:        { File: ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp, 
@@ -1558,29 +1558,29 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 735, Column: 20 }
+                   Line: 736, Column: 20 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - String:          'Loop '''
-  - LoopName:        VITIS_LOOP_735_4
+  - LoopName:        VITIS_LOOP_736_4
   - String:          ''' is marked as complete unroll implied by the pipeline pragma'
 ...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 725, Column: 20 }
+                   Line: 726, Column: 20 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - String:          'Loop '''
-  - LoopName:        VITIS_LOOP_725_2
+  - LoopName:        VITIS_LOOP_726_2
   - String:          ''' is marked as complete unroll implied by the pipeline pragma'
 ...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -1591,7 +1591,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 470, Column: 13 }
+                   Line: 471, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -1602,13 +1602,13 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 719, Column: 0 }
+                   Line: 720, Column: 0 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_735_4
+  - LoopName:        VITIS_LOOP_736_4
   - String:          ''' ('
-  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:735:20'
+  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:736:20'
   - String:          ') '
   - String:          'in function '''
   - String:          'xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >'
@@ -1619,13 +1619,13 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 719, Column: 0 }
+                   Line: 720, Column: 0 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_725_2
+  - LoopName:        VITIS_LOOP_726_2
   - String:          ''' ('
-  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:725:20'
+  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:726:20'
   - String:          ') '
   - String:          'in function '''
   - String:          'xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >'
@@ -1919,7 +1919,7 @@ Args:
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 284, Column: 25 }
+                   Line: 285, Column: 25 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::imag()'
@@ -1928,14 +1928,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 287, Column: 4 }
+                   Line: 288, Column: 4 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::real(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -1944,14 +1944,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 288, Column: 7 }
+                   Line: 289, Column: 7 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::imag(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -1960,7 +1960,7 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -2351,7 +2351,7 @@ Args:
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 455, Column: 20 }
+                   Line: 456, Column: 20 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=(ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> const&)'
@@ -2360,14 +2360,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 467, Column: 31 }
+                   Line: 468, Column: 31 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
@@ -2376,14 +2376,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 467, Column: 29 }
+                   Line: 468, Column: 29 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&) (.345)'
@@ -2392,14 +2392,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 9 }
+                   Line: 474, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator-()'
@@ -2408,55 +2408,7 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 34 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 351, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 32 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 119, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 473, Column: 7 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 82, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -2466,20 +2418,68 @@ DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/co
                    Line: 474, Column: 34 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
-  - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >&)'
     DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 82, Column: 0 }
+                       Line: 351, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 475, Column: 29 }
+                   Line: 474, Column: 32 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 119, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 474, Column: 7 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 82, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 475, Column: 34 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<32, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 82, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 476, Column: 29 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator+=(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2488,14 +2488,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 477, Column: 35 }
+                   Line: 478, Column: 35 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2504,30 +2504,30 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 481, Column: 13 }
+                   Line: 482, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 483, Column: 19 }
+                   Line: 484, Column: 19 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2536,14 +2536,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 27 }
+                   Line: 486, Column: 27 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > hls::x_conj<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
@@ -2552,14 +2552,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 46 }
+                   Line: 486, Column: 46 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator*(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2568,14 +2568,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 24 }
+                   Line: 486, Column: 24 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator+=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2584,14 +2584,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 487, Column: 35 }
+                   Line: 488, Column: 35 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2600,23 +2600,7 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 492, Column: 25 }
-Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
-Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&) (.227.254)'
-    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 82, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
-    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -2626,20 +2610,36 @@ DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/co
                    Line: 493, Column: 25 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
-  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=(ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> const&)'
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >& hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)0, 0> > const&) (.227.254)'
     DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
-                       Line: 75, Column: 0 }
+                       Line: 82, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 498, Column: 23 }
+                   Line: 494, Column: 25 }
+Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
+Args:            
+  - Callee:          'hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >::operator=(ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> const&)'
+    DebugLoc:        { File: 'D:/Xilinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h', 
+                       Line: 75, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
+    DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                       Line: 422, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
+                   Line: 499, Column: 23 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const&)'
@@ -2648,14 +2648,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 499, Column: 37 }
+                   Line: 500, Column: 37 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator-(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2664,14 +2664,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 499, Column: 21 }
+                   Line: 500, Column: 21 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<35, 5, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2680,14 +2680,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 500, Column: 13 }
+                   Line: 501, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'int xf::solver::cholesky_sqrt_op<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
@@ -2696,14 +2696,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 510, Column: 31 }
+                   Line: 511, Column: 31 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >& hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >::operator=<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<17, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2712,14 +2712,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 511, Column: 24 }
+                   Line: 512, Column: 24 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> hls::x_real<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> > const&)'
@@ -2728,14 +2728,14 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 511, Column: 9 }
+                   Line: 512, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'void xf::solver::cholesky_rsqrt<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0, 33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>(ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>&)'
@@ -2744,39 +2744,39 @@ Args:
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 691, Column: 20 }
+                   Line: 692, Column: 20 }
 Function:        _ZN2xf6solver11choleskyTopILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - Callee:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::choleskyTop<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 686, Column: 0 }
+                       Line: 687, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 731, Column: 11 }
+                   Line: 732, Column: 11 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - Callee:          'int xf::solver::choleskyTop<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 686, Column: 0 }
+                       Line: 687, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -2788,7 +2788,7 @@ Function:        kernel_cholesky_0
 Args:            
   - Callee:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel_cholesky_0
     DebugLoc:        { File: ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp, 
@@ -3100,7 +3100,7 @@ Args:
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 281, Column: 0 }
+                   Line: 282, Column: 0 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - String:          'Inlining function '''
@@ -3110,14 +3110,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 281, Column: 0 }
+                   Line: 282, Column: 0 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - String:          'Inlining function '''
@@ -3127,14 +3127,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 281, Column: 0 }
+                   Line: 282, Column: 0 }
 Function:        _ZN2xf6solver22cholesky_prod_sum_multI8ap_fixedILi34ELi2EL9ap_q_mode4EL9ap_o_mode0ELi0EES2_ILi33ELi17ELS3_4ELS4_0ELi0EES5_EEvN3hls9x_complexIT_EET0_RNS8_IT1_EE
 Args:            
   - String:          'Inlining function '''
@@ -3144,7 +3144,7 @@ Args:
   - String:          ''' into '''
   - Caller:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -3542,7 +3542,7 @@ Args:
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3552,14 +3552,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3569,14 +3569,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3586,14 +3586,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3603,14 +3603,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3620,14 +3620,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3637,14 +3637,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3654,14 +3654,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3671,14 +3671,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3688,14 +3688,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3705,14 +3705,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3722,14 +3722,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3739,14 +3739,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3756,14 +3756,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3773,14 +3773,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3790,14 +3790,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3807,14 +3807,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3824,14 +3824,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3841,14 +3841,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3858,14 +3858,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3875,14 +3875,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 421, Column: 0 }
+                   Line: 422, Column: 0 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inlining function '''
@@ -3892,24 +3892,24 @@ Args:
   - String:          ''' into '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 719, Column: 0 }
+                   Line: 720, Column: 0 }
 Function:        _ZN2xf6solver8choleskyILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES8_NS0_14choleskyTraitsILb0ELi3ES8_S8_EEEEiRNS2_6streamIT1_Li0EEERNSB_IT2_Li0EEE
 Args:            
   - String:          'Inlining function '''
   - Callee:          'int xf::solver::choleskyTop<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 686, Column: 0 }
+                       Line: 687, Column: 0 }
   - String:          ''' into '''
   - Caller:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -3922,7 +3922,7 @@ Args:
   - String:          'Inlining function '''
   - Callee:          'int xf::solver::cholesky<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > > >(hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&, hls::stream<hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, 0>&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 719, Column: 0 }
+                       Line: 720, Column: 0 }
   - String:          ''' into '''
   - Caller:          kernel_cholesky_0
     DebugLoc:        { File: ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp, 
@@ -3967,7 +3967,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -3978,7 +3978,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 470, Column: 13 }
+                   Line: 471, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -3989,7 +3989,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -4000,7 +4000,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 470, Column: 13 }
+                   Line: 471, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -4011,24 +4011,24 @@ Args:
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 481, Column: 13 }
+                   Line: 482, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
   - Callee:          'void xf::solver::cholesky_prod_sum_mult<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >(hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >, ap_fixed<33, 17, (ap_q_mode)4, (ap_o_mode)0, 0>, hls::x_complex<ap_fixed<34, 2, (ap_q_mode)4, (ap_o_mode)0, 0> >&)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 281, Column: 0 }
+                       Line: 282, Column: 0 }
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 485, Column: 27 }
+                   Line: 486, Column: 27 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
@@ -4038,7 +4038,7 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -4055,14 +4055,14 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 492, Column: 27 }
+                   Line: 493, Column: 27 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
@@ -4072,14 +4072,14 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 500, Column: 13 }
+                   Line: 501, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
@@ -4089,14 +4089,14 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 511, Column: 9 }
+                   Line: 512, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
@@ -4106,14 +4106,14 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-auto-inline-performance-driven
 Name:            AutoInlinePerf
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 517, Column: 23 }
+                   Line: 518, Column: 23 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically inlining function '''
@@ -4123,14 +4123,14 @@ Args:
   - String:          ''' to improve effectiveness of pipeline pragma in function '''
   - Caller:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-loop-flatten-cost-model
 Name:            FlattenOffInference
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically disabling loop flattening for loop '''
@@ -4141,7 +4141,7 @@ Args:
 Pass:            reflow-loop-flatten-cost-model
 Name:            AutoParallelPerformanceDrivenVerbosePassed
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - PragmaType:      loop_flatten
@@ -4152,21 +4152,21 @@ Args:
   - String:          ' '
   - PragmaFunction:  'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
   - String:          ' '
-  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:457:9'
+  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:458:9'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 457, Column: 9 }
+                       Line: 458, Column: 9 }
   - LoopName:        col_loop
   - String:          ' '
-  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:457:9'
+  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:458:9'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 457, Column: 9 }
+                       Line: 458, Column: 9 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoSmallArrayPartition
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically partitioning small array '''
@@ -4177,7 +4177,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoSmallArrayPartition
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically partitioning small array '''
@@ -4188,7 +4188,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoSmallArrayPartition
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 430, Column: 43 }
+                   Line: 431, Column: 43 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Automatically partitioning small array '''
@@ -4199,7 +4199,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoParallelPerformanceDrivenVerbosePassed
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - PragmaType:      array_partition
@@ -4210,11 +4210,11 @@ Args:
   - String:          ' '
   - PragmaFunction:  'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
   - String:          ' '
-  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:429:16'
+  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:430:16'
   - String:          ' '
-  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:472:9'
+  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:473:9'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 472, Column: 9 }
+                       Line: 473, Column: 9 }
   - VarName:         L_internal.im
   - String:          ' '
 ...
@@ -4222,7 +4222,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 472, Column: 9 }
+                   Line: 473, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inferring pragma '''
@@ -4242,7 +4242,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoParallelPerformanceDrivenVerbosePassed
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - PragmaType:      array_partition
@@ -4253,11 +4253,11 @@ Args:
   - String:          ' '
   - PragmaFunction:  'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
   - String:          ' '
-  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:429:16'
+  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:430:16'
   - String:          ' '
-  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:472:9'
+  - PragmaSrcLoc:    'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:473:9'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 472, Column: 9 }
+                       Line: 473, Column: 9 }
   - VarName:         L_internal.re
   - String:          ' '
 ...
@@ -4265,7 +4265,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 472, Column: 9 }
+                   Line: 473, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inferring pragma '''
@@ -4285,7 +4285,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoParallelPerformanceDrivenVerbosePassed
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 430, Column: 43 }
+                   Line: 431, Column: 43 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - PragmaType:      array_partition
@@ -4296,7 +4296,7 @@ Args:
   - String:          ' '
   - PragmaFunction:  'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
   - String:          ' '
-  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:430:43'
+  - varLoc:          'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:431:43'
   - String:          ' '
   - VarName:         diag_internal
   - String:          ' '
@@ -4305,7 +4305,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 430, Column: 43 }
+                   Line: 431, Column: 43 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Inferring pragma '''
@@ -4325,7 +4325,7 @@ Args:
 Pass:            reflow-array-partition
 Name:            ArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Applying '
@@ -4344,7 +4344,7 @@ Args:
 Pass:            reflow-array-partition
 Name:            ArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 429, Column: 16 }
+                   Line: 430, Column: 16 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Applying '
@@ -4363,7 +4363,7 @@ Args:
 Pass:            reflow-array-partition
 Name:            ArrayXform
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 430, Column: 43 }
+                   Line: 431, Column: 43 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Applying '
@@ -4382,7 +4382,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -4393,7 +4393,7 @@ Args:
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 470, Column: 13 }
+                   Line: 471, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Loop '''
@@ -4404,13 +4404,13 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFailFullyUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 457, Column: 9 }
+                   Line: 458, Column: 9 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Cannot unroll loop '''
   - LoopName:        col_loop
   - String:          ''' ('
-  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:457:9'
+  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:458:9'
   - String:          ') '
   - String:          'in function '''
   - String:          'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
@@ -4420,13 +4420,13 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFailFullyUnroll
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 470, Column: 13 }
+                   Line: 471, Column: 13 }
 Function:        _ZN2xf6solver11choleskyAltILb0ELi3ENS0_14choleskyTraitsILb0ELi3EN3hls9x_complexI8ap_fixedILi16ELi1EL9ap_q_mode4EL9ap_o_mode3ELi0EEEES9_EES9_S9_EEiPAT0__KT2_PAT0__T3_
 Args:            
   - String:          'Cannot unroll loop '''
   - LoopName:        sum_loop
   - String:          ''' ('
-  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:470:13'
+  - LoopLoc:         'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:471:13'
   - String:          ') '
   - String:          'in function '''
   - String:          'xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >'
@@ -4436,12 +4436,12 @@ Args:
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                   Line: 691, Column: 20 }
+                   Line: 692, Column: 20 }
 Function:        kernel_cholesky_0
 Args:            
   - Callee:          'int xf::solver::choleskyAlt<false, 3, xf::solver::choleskyTraits<false, 3, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> >, hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > >(hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > const (*) [3], hls::x_complex<ap_fixed<16, 1, (ap_q_mode)4, (ap_o_mode)3, 0> > (*) [3])'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp', 
-                       Line: 421, Column: 0 }
+                       Line: 422, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          kernel_cholesky_0
     DebugLoc:        { File: ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp, 

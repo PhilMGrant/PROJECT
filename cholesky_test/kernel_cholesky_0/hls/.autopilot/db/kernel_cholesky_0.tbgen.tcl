@@ -78,16 +78,16 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "matrixAStrm", "Type" : "Fifo", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "5", "SubInstance" : "grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44", "Port" : "matrixAStrm", "Inst_start_state" : "1", "Inst_end_state" : "2"}]},
+					{"ID" : "5", "SubInstance" : "grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44", "Port" : "matrixAStrm", "Inst_start_state" : "1", "Inst_end_state" : "2"}]},
 			{"Name" : "matrixLStrm", "Type" : "Fifo", "Direction" : "O",
 				"SubConnect" : [
-					{"ID" : "41", "SubInstance" : "grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62", "Port" : "matrixLStrm", "Inst_start_state" : "5", "Inst_end_state" : "6"}]}]},
+					{"ID" : "41", "SubInstance" : "grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62", "Port" : "matrixLStrm", "Inst_start_state" : "5", "Inst_end_state" : "6"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.A_re_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.A_im_U", "Parent" : "0"},
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.L_re_U", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.L_im_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44", "Parent" : "0", "Child" : ["6"],
-		"CDFG" : "kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1",
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44", "Parent" : "0", "Child" : ["6"],
+		"CDFG" : "kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
@@ -107,9 +107,9 @@ set RtlHierarchyInfo {[
 				"BlockSignal" : [
 					{"Name" : "matrixAStrm_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_723_1", "PipelineType" : "UPC",
+			{"Name" : "VITIS_LOOP_724_1", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage1", "QuitStateIter" : "ap_enable_reg_pp0_iter0", "QuitStateBlock" : "ap_block_pp0_stage1_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44.flow_control_loop_pipe_sequential_init_U", "Parent" : "5"},
+	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44.flow_control_loop_pipe_sequential_init_U", "Parent" : "5"},
 	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54", "Parent" : "0", "Child" : ["8", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"],
 		"CDFG" : "choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s",
 		"Protocol" : "ap_ctrl_hs",
@@ -159,7 +159,7 @@ set RtlHierarchyInfo {[
 			{"Name" : "L_internal_im_3", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_4", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_5", "Type" : "None", "Direction" : "I"},
-			{"Name" : "zext_ln467", "Type" : "None", "Direction" : "I"},
+			{"Name" : "zext_ln468", "Type" : "None", "Direction" : "I"},
 			{"Name" : "product_sum_re_2_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "product_sum_im_2_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
@@ -197,8 +197,8 @@ set RtlHierarchyInfo {[
 	{"ID" : "38", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54.sparsemux_7_2_1_1_1_U47", "Parent" : "7"},
 	{"ID" : "39", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54.sparsemux_7_2_34_1_1_U48", "Parent" : "7"},
 	{"ID" : "40", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54.sdiv_34ns_19s_34_38_1_U49", "Parent" : "7"},
-	{"ID" : "41", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62", "Parent" : "0", "Child" : ["42"],
-		"CDFG" : "kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3",
+	{"ID" : "41", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62", "Parent" : "0", "Child" : ["42"],
+		"CDFG" : "kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
@@ -218,16 +218,16 @@ set RtlHierarchyInfo {[
 				"BlockSignal" : [
 					{"Name" : "matrixLStrm_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_733_3", "PipelineType" : "UPC",
+			{"Name" : "VITIS_LOOP_734_3", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage1", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage1_subdone", "QuitState" : "ap_ST_fsm_pp0_stage1", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage1_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "42", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62.flow_control_loop_pipe_sequential_init_U", "Parent" : "41"}]}
+	{"ID" : "42", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62.flow_control_loop_pipe_sequential_init_U", "Parent" : "41"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	kernel_cholesky_0 {
 		matrixAStrm {Type I LastRead 3 FirstWrite -1}
 		matrixLStrm {Type O LastRead -1 FirstWrite 2}}
-	kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1 {
+	kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1 {
 		A_re {Type O LastRead -1 FirstWrite 1}
 		A_im {Type O LastRead -1 FirstWrite 1}
 		matrixAStrm {Type I LastRead 3 FirstWrite -1}}
@@ -247,10 +247,10 @@ set ArgLastReadFirstWriteLatency {
 		L_internal_im_3 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_4 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_5 {Type I LastRead 0 FirstWrite -1}
-		zext_ln467 {Type I LastRead 0 FirstWrite -1}
+		zext_ln468 {Type I LastRead 0 FirstWrite -1}
 		product_sum_re_2_out {Type O LastRead -1 FirstWrite 5}
 		product_sum_im_2_out {Type O LastRead -1 FirstWrite 5}}
-	kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3 {
+	kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3 {
 		L_re {Type I LastRead 3 FirstWrite -1}
 		L_im {Type I LastRead 3 FirstWrite -1}
 		matrixLStrm {Type O LastRead -1 FirstWrite 2}}}

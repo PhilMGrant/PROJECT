@@ -1593,12 +1593,7 @@ Diagnostics:
         ReplacementText: 'VITIS_LOOP_1569_8: '
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
-    FileOffset:      277
-    FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
-    Replacements:    
-  - DiagnosticName:  clang-diagnostic-error
-    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
-    FileOffset:      285
+    FileOffset:      278
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
@@ -1608,7 +1603,7 @@ Diagnostics:
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
-    FileOffset:      295
+    FileOffset:      287
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
@@ -1616,40 +1611,45 @@ Diagnostics:
     FileOffset:      296
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      297
+    FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
+    Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_723_1:  '
-    FileOffset:      723
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
       - FilePath:        'D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp'
-        Offset:          2560825
+        Offset:          2560848
         Length:          0
-        ReplacementText: 'VITIS_LOOP_723_1: '
+        ReplacementText: 'VITIS_LOOP_724_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_725_2:  '
-    FileOffset:      725
+    Message:         'Added loop label VITIS_LOOP_726_2:  '
+    FileOffset:      726
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
       - FilePath:        'D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp'
-        Offset:          2560885
+        Offset:          2560908
         Length:          0
-        ReplacementText: 'VITIS_LOOP_725_2: '
+        ReplacementText: 'VITIS_LOOP_726_2: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_733_3:  '
-    FileOffset:      733
+    Message:         'Added loop label VITIS_LOOP_734_3:  '
+    FileOffset:      734
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
       - FilePath:        'D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp'
-        Offset:          2561090
+        Offset:          2561113
         Length:          0
-        ReplacementText: 'VITIS_LOOP_733_3: '
+        ReplacementText: 'VITIS_LOOP_734_3: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_735_4:  '
-    FileOffset:      735
+    Message:         'Added loop label VITIS_LOOP_736_4:  '
+    FileOffset:      736
     FilePath:        'D:\Xillinx_Project\PROJECT\solver\L1\include\hw\cholesky.hpp'
     Replacements:    
       - FilePath:        'D:\Xillinx_Project\PROJECT\cholesky_test\kernel_cholesky_0\hls\.autopilot\db\kernel_cholesky_0.pp.0.cpp'
-        Offset:          2561150
+        Offset:          2561173
         Length:          0
-        ReplacementText: 'VITIS_LOOP_735_4: '
+        ReplacementText: 'VITIS_LOOP_736_4: '
 ...

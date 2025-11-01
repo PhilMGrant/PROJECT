@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'kernel_cholesky_0'" level="0">
-<item name = "Date">Sat Nov  1 15:27:42 2025
+<item name = "Date">Sat Nov  1 16:29:54 2025
 </item>
 <item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
 <item name = "Project">kernel_cholesky_0</item>
@@ -31,9 +31,9 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44">kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, 12, 12, 72.000 ns, 72.000 ns, 11, 11, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44">kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1, 12, 12, 72.000 ns, 72.000 ns, 11, 11, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 <column name="grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54">choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s, 343, 499, 2.058 us, 2.994 us, 343, 499, no</column>
-<column name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62">kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3, 12, 12, 72.000 ns, 72.000 ns, 11, 11, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62">kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3, 12, 12, 72.000 ns, 72.000 ns, 11, 11, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

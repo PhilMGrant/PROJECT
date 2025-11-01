@@ -28,7 +28,7 @@ set C_modelArgList {
 	{ L_internal_im_3 int 16 regular  }
 	{ L_internal_im_4 int 16 regular  }
 	{ L_internal_im_5 int 16 regular  }
-	{ zext_ln467 int 1 regular  }
+	{ zext_ln468 int 1 regular  }
 	{ product_sum_re_2_out int 35 regular {pointer 1}  }
 	{ product_sum_im_2_out int 35 regular {pointer 1}  }
 }
@@ -46,7 +46,7 @@ set C_modelArgMapList {[
  	{ "Name" : "L_internal_im_3", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "L_internal_im_4", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "L_internal_im_5", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "zext_ln467", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
+ 	{ "Name" : "zext_ln468", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
  	{ "Name" : "product_sum_re_2_out", "interface" : "wire", "bitwidth" : 35, "direction" : "WRITEONLY"} , 
  	{ "Name" : "product_sum_im_2_out", "interface" : "wire", "bitwidth" : 35, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
@@ -68,7 +68,7 @@ set portList {
 	{ L_internal_im_3 sc_in sc_lv 16 signal 7 } 
 	{ L_internal_im_4 sc_in sc_lv 16 signal 8 } 
 	{ L_internal_im_5 sc_in sc_lv 16 signal 9 } 
-	{ zext_ln467 sc_in sc_lv 1 signal 10 } 
+	{ zext_ln468 sc_in sc_lv 1 signal 10 } 
 	{ product_sum_re_2_out sc_out sc_lv 35 signal 11 } 
 	{ product_sum_re_2_out_ap_vld sc_out sc_logic 1 outvld 11 } 
 	{ product_sum_im_2_out sc_out sc_lv 35 signal 12 } 
@@ -91,7 +91,7 @@ set NewPortList {[
  	{ "name": "L_internal_im_3", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "L_internal_im_3", "role": "default" }} , 
  	{ "name": "L_internal_im_4", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "L_internal_im_4", "role": "default" }} , 
  	{ "name": "L_internal_im_5", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "L_internal_im_5", "role": "default" }} , 
- 	{ "name": "zext_ln467", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "zext_ln467", "role": "default" }} , 
+ 	{ "name": "zext_ln468", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "zext_ln468", "role": "default" }} , 
  	{ "name": "product_sum_re_2_out", "direction": "out", "datatype": "sc_lv", "bitwidth":35, "type": "signal", "bundle":{"name": "product_sum_re_2_out", "role": "default" }} , 
  	{ "name": "product_sum_re_2_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "product_sum_re_2_out", "role": "ap_vld" }} , 
  	{ "name": "product_sum_im_2_out", "direction": "out", "datatype": "sc_lv", "bitwidth":35, "type": "signal", "bundle":{"name": "product_sum_im_2_out", "role": "default" }} , 
@@ -123,7 +123,7 @@ set RtlHierarchyInfo {[
 			{"Name" : "L_internal_im_3", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_4", "Type" : "None", "Direction" : "I"},
 			{"Name" : "L_internal_im_5", "Type" : "None", "Direction" : "I"},
-			{"Name" : "zext_ln467", "Type" : "None", "Direction" : "I"},
+			{"Name" : "zext_ln468", "Type" : "None", "Direction" : "I"},
 			{"Name" : "product_sum_re_2_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "product_sum_im_2_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
@@ -150,7 +150,7 @@ set ArgLastReadFirstWriteLatency {
 		L_internal_im_3 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_4 {Type I LastRead 0 FirstWrite -1}
 		L_internal_im_5 {Type I LastRead 0 FirstWrite -1}
-		zext_ln467 {Type I LastRead 0 FirstWrite -1}
+		zext_ln468 {Type I LastRead 0 FirstWrite -1}
 		product_sum_re_2_out {Type O LastRead -1 FirstWrite 5}
 		product_sum_im_2_out {Type O LastRead -1 FirstWrite 5}}}
 
@@ -176,7 +176,7 @@ set Spec2ImplPortList {
 	L_internal_im_3 { ap_none {  { L_internal_im_3 in_data 0 16 } } }
 	L_internal_im_4 { ap_none {  { L_internal_im_4 in_data 0 16 } } }
 	L_internal_im_5 { ap_none {  { L_internal_im_5 in_data 0 16 } } }
-	zext_ln467 { ap_none {  { zext_ln467 in_data 0 1 } } }
+	zext_ln468 { ap_none {  { zext_ln468 in_data 0 1 } } }
 	product_sum_re_2_out { ap_vld {  { product_sum_re_2_out out_data 1 35 }  { product_sum_re_2_out_ap_vld out_vld 1 1 } } }
 	product_sum_im_2_out { ap_vld {  { product_sum_im_2_out out_data 1 35 }  { product_sum_im_2_out_ap_vld out_vld 1 1 } } }
 }

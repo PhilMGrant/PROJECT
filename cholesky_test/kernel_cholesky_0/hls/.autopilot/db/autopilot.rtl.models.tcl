@@ -1,5 +1,5 @@
 set SynModuleInfo {
-  {SRCNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1 MODELNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1 RTLNAME kernel_cholesky_0_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1
+  {SRCNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1 MODELNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1 RTLNAME kernel_cholesky_0_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1
     SUBMODULES {
       {MODELNAME kernel_cholesky_0_flow_control_loop_pipe_sequential_init RTLNAME kernel_cholesky_0_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME kernel_cholesky_0_flow_control_loop_pipe_sequential_init_U}
     }
@@ -25,7 +25,7 @@ set SynModuleInfo {
       {MODELNAME kernel_cholesky_0_sdiv_34ns_19s_34_38_1 RTLNAME kernel_cholesky_0_sdiv_34ns_19s_34_38_1 BINDTYPE op TYPE sdiv IMPL auto LATENCY 37 ALLOW_PRAGMA 1}
     }
   }
-  {SRCNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3 MODELNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3 RTLNAME kernel_cholesky_0_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3}
+  {SRCNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3 MODELNAME kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3 RTLNAME kernel_cholesky_0_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3}
   {SRCNAME kernel_cholesky_0 MODELNAME kernel_cholesky_0 RTLNAME kernel_cholesky_0 IS_TOP 1
     SUBMODULES {
       {MODELNAME kernel_cholesky_0_A_re_RAM_AUTO_1R1W RTLNAME kernel_cholesky_0_A_re_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}

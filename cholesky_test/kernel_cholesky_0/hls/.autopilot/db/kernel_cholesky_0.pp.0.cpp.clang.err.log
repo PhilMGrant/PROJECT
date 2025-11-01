@@ -1066,82 +1066,85 @@ D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../..
 In file included from ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:18:
 In file included from D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/.\xf_solver_L1.hpp:29:
 In file included from D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/./hw/cholesky_inverse.hpp:33:
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:277:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=C op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_rsqrt_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:278:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=C op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_OP variable=C op=mul impl=dsp
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:285:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=real_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:286:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=real_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:286:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=imag_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:287:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=imag_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:295:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=real_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=real_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_OP variable=real_temp op=mul impl=dsp
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=imag_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:297:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_prod_sum_mult_XLX_SEP_ PragmaOptions=variable=imag_temp op=mul impl=dsp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_OP variable=imag_temp op=mul impl=dsp
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:376:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyBasic_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:377:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyBasic_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:449:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:450:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:458:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:459:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS loop_tripcount max = 1 + RowsColsA / 2
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:459:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:460:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:471:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:472:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS loop_tripcount max = 1 + RowsColsA / 2
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:472:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:473:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:547:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = A cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:548:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = A cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = A cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:548:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = L cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:549:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = L cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = L cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:549:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = L_internal cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:550:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = L_internal cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = L_internal cyclic dim = CholeskyTraits::UNROLL_DIM factor = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:551:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = square_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:552:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = square_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = square_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:552:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = product_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:553:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable = product_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable = product_sum_array cyclic dim = 1 factor = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:585:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:586:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS loop_tripcount max = 1 + RowsColsA / 2
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:600:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=off_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:601:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_flatten_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=off_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS LOOP_FLATTEN off
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:601:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:602:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=II = CholeskyTraits::INNER_II_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = CholeskyTraits::INNER_II
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:602:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=FACTOR = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:603:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=FACTOR = CholeskyTraits::UNROLL_FACTOR_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL FACTOR = CholeskyTraits::UNROLL_FACTOR
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:603:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable=product_sum_array inter false_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:604:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable=product_sum_array inter false_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS DEPENDENCE variable=product_sum_array inter false
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:604:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable=L_internal inter false_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:605:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=variable=L_internal inter false_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS DEPENDENCE variable=L_internal inter false
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:668:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:669:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=loop_tripcount_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=max = 1 + RowsColsA / 2_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS loop_tripcount max = 1 + RowsColsA / 2
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:669:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:670:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=choleskyAlt2_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:724:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:725:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE
         ^
-D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:734:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:735:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=cholesky_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE
         ^
 In file included from ../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:18:
@@ -1158,4 +1161,4 @@ D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../..
 directive:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=kernel_cholesky_0_XLX_SEP_ PragmaOptions=name=kernel_cholesky_0_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=kernel_cholesky_0
         ^
-342 warnings generated.
+343 warnings generated.

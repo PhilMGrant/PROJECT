@@ -59,3 +59,19 @@ comp.run(operation="CO_SIMULATION")
 
 comp.run(operation="IMPLEMENTATION")
 
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="SYNTHESIS")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="SYNTHESIS")
+
+comp.run(operation="CO_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="SYNTHESIS")
+
+comp.run(operation="CO_SIMULATION")
+

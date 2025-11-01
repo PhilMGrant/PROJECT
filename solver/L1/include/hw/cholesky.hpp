@@ -265,6 +265,7 @@ Function_cholesky_rsqrt_fixed:;
     ap_fixed<W2, I2, Q2, O2, N2> sqrt_res_cast;
     sqrt_res = x_sqrt(x);
     sqrt_res_cast = sqrt_res;
+#pragma HLS PIPELINE II=1
     res = one / sqrt_res_cast;
 }
 

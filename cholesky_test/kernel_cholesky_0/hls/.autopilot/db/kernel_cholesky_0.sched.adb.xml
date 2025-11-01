@@ -109,7 +109,7 @@ entry:9 %L_im = alloca i64 1
 
 <Node id="13" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="16" op_3_bw="32">
 <![CDATA[
-entry:10 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm
+entry:10 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -127,7 +127,7 @@ entry:10 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, i16
 
 <Node id="13" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="16" op_3_bw="32">
 <![CDATA[
-entry:10 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm
+entry:10 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -181,7 +181,7 @@ entry:11 %ret = call i32 @choleskyAlt<false,3,choleskyTraits,x_complex,x_complex
 
 <Node id="15" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="16" op_3_bw="32" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:12 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm
+entry:12 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -289,7 +289,7 @@ entry:5 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %matrixLS
 
 <Node id="15" bw="0" op_0_bw="0" op_1_bw="16" op_2_bw="16" op_3_bw="32" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:12 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm
+entry:12 %call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>

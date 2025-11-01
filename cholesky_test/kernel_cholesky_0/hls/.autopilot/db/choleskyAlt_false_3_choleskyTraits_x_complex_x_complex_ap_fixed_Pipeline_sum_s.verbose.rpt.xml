@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_Pipeline_sum_s'" level="0">
-<item name = "Date">Sat Nov  1 15:27:43 2025
+<item name = "Date">Sat Nov  1 16:29:55 2025
 </item>
 <item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
 <item name = "Project">kernel_cholesky_0</item>
@@ -89,9 +89,9 @@
 <column name="add_ln103_fu_559_p2">+, 0, 0, 10, 2, 2</column>
 <column name="add_ln180_fu_625_p2">+, 0, 0, 43, 36, 36</column>
 <column name="add_ln181_fu_693_p2">+, 0, 0, 43, 36, 36</column>
-<column name="add_ln473_1_fu_244_p2">+, 0, 0, 2, 2, 2</column>
-<column name="add_ln473_2_fu_238_p2">+, 0, 0, 2, 2, 2</column>
-<column name="add_ln473_fu_232_p2">+, 0, 0, 10, 2, 2</column>
+<column name="add_ln474_1_fu_244_p2">+, 0, 0, 2, 2, 2</column>
+<column name="add_ln474_2_fu_238_p2">+, 0, 0, 2, 2, 2</column>
+<column name="add_ln474_fu_232_p2">+, 0, 0, 10, 2, 2</column>
 <column name="tmp5_im_fu_591_p2">+, 0, 0, 16, 16, 16</column>
 <column name="tmp5_re_fu_578_p2">+, 0, 0, 16, 16, 16</column>
 <column name="sub_ln345_fu_311_p2">-, 0, 0, 23, 1, 16</column>
@@ -125,8 +125,8 @@
 <column name="xor_ln180_fu_651_p2">xor, 0, 0, 2, 1, 2</column>
 <column name="xor_ln181_1_fu_731_p2">xor, 0, 0, 2, 1, 1</column>
 <column name="xor_ln181_fu_719_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln470_1_fu_226_p2">xor, 0, 0, 2, 1, 1</column>
-<column name="xor_ln470_fu_256_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln471_1_fu_226_p2">xor, 0, 0, 2, 1, 1</column>
+<column name="xor_ln471_fu_256_p2">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -142,7 +142,7 @@
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="add_ln103_3_reg_950">2, 0, 2, 0</column>
 <column name="add_ln103_reg_945">2, 0, 2, 0</column>
-<column name="add_ln473_reg_825">2, 0, 2, 0</column>
+<column name="add_ln474_reg_825">2, 0, 2, 0</column>
 <column name="ap_CS_fsm">1, 0, 1, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
@@ -182,8 +182,8 @@
 <column name="tmp5_re_reg_955">16, 0, 16, 0</column>
 <column name="tmp_im_5_reg_847">16, 0, 16, 0</column>
 <column name="tmp_re_5_reg_842">16, 0, 16, 0</column>
-<column name="xor_ln470_1_reg_821">1, 0, 1, 0</column>
-<column name="xor_ln470_1_reg_821">64, 32, 1, 0</column>
+<column name="xor_ln471_1_reg_821">1, 0, 1, 0</column>
+<column name="xor_ln471_1_reg_821">64, 32, 1, 0</column>
 </table>
 </item>
 </section>
@@ -209,7 +209,7 @@
 <column name="L_internal_im_3">in, 16, ap_none, L_internal_im_3, scalar</column>
 <column name="L_internal_im_4">in, 16, ap_none, L_internal_im_4, scalar</column>
 <column name="L_internal_im_5">in, 16, ap_none, L_internal_im_5, scalar</column>
-<column name="zext_ln467">in, 1, ap_none, zext_ln467, scalar</column>
+<column name="zext_ln468">in, 1, ap_none, zext_ln468, scalar</column>
 <column name="product_sum_re_2_out">out, 35, ap_vld, product_sum_re_2_out, pointer</column>
 <column name="product_sum_re_2_out_ap_vld">out, 1, ap_vld, product_sum_re_2_out, pointer</column>
 <column name="product_sum_im_2_out">out, 35, ap_vld, product_sum_im_2_out, pointer</column>

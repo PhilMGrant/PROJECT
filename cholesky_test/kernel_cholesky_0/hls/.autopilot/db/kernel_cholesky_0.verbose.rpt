@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'kernel_cholesky_0'
 ================================================================
-* Date:           Sat Nov  1 15:27:49 2025
+* Date:           Sat Nov  1 16:29:59 2025
 
 * Version:        2024.2 (Build 5238294 on Nov  8 2024)
 * Project:        kernel_cholesky_0
@@ -38,9 +38,9 @@
         |                                                                             |                                                                   |  Latency (cycles) |   Latency (absolute)  |  Interval |                    Pipeline                    |
         |                                   Instance                                  |                               Module                              |   min   |   max   |    min    |    max    | min | max |                      Type                      |
         +-----------------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+------------------------------------------------+
-        |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1                        |       12|       12|  72.000 ns|  72.000 ns|   11|   11|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1                        |       12|       12|  72.000 ns|  72.000 ns|   11|   11|  loop auto-rewind stp (delay=0 clock cycles(s))|
         |grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54  |choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s  |      343|      499|   2.058 us|   2.994 us|  343|  499|                                              no|
-        |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3                        |       12|       12|  72.000 ns|  72.000 ns|   11|   11|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3                        |       12|       12|  72.000 ns|  72.000 ns|   11|   11|  loop auto-rewind stp (delay=0 clock cycles(s))|
         +-----------------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+------------------------------------------------+
 
         * Loop: 
@@ -76,8 +76,8 @@
     |                                   Instance                                  |                               Module                              | BRAM_18K| DSP|  FF  |  LUT  | URAM|
     +-----------------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+------+-------+-----+
     |grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54  |choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s  |        0|  14|  6620|  10169|    0|
-    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1                        |        0|   0|    19|    210|    0|
-    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3                        |        0|   0|    54|    196|    0|
+    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1                        |        0|   0|    19|    210|    0|
+    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62                        |kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3                        |        0|   0|    54|    196|    0|
     +-----------------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+------+-------+-----+
     |Total                                                                        |                                                                   |        0|  14|  6693|  10575|    0|
     +-----------------------------------------------------------------------------+-------------------------------------------------------------------+---------+----+------+-------+-----+
@@ -136,8 +136,8 @@
     +------------------------------------------------------------------------------------------+----+----+-----+-----------+
     |ap_CS_fsm                                                                                 |   6|   0|    6|          0|
     |grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54_ap_start_reg  |   1|   0|    1|          0|
-    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44_ap_start_reg                        |   1|   0|    1|          0|
-    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62_ap_start_reg                        |   1|   0|    1|          0|
+    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44_ap_start_reg                        |   1|   0|    1|          0|
+    |grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62_ap_start_reg                        |   1|   0|    1|          0|
     |ret_reg_70                                                                                |  32|   0|   32|          0|
     +------------------------------------------------------------------------------------------+----+----+-----+-----------+
     |Total                                                                                     |  41|   0|   41|          0|
@@ -208,23 +208,23 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 2.32>
-ST_1 : Operation 7 [1/1] (2.32ns)   --->   "%A_re = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:720->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 7 'alloca' 'A_re' <Predicate = true> <Delay = 2.32>
-ST_1 : Operation 8 [1/1] (2.32ns)   --->   "%A_im = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:720->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 8 'alloca' 'A_im' <Predicate = true> <Delay = 2.32>
-ST_1 : Operation 9 [1/1] (2.32ns)   --->   "%L_re = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:721->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 9 'alloca' 'L_re' <Predicate = true> <Delay = 2.32>
-ST_1 : Operation 10 [1/1] (2.32ns)   --->   "%L_im = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:721->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 10 'alloca' 'L_im' <Predicate = true> <Delay = 2.32>
-ST_1 : Operation 11 [2/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm"   --->   Operation 11 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_1 : Operation 7 [1/1] (2.32ns)   --->   "%A_re = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:721->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 7 'alloca' 'A_re' <Predicate = true> <Delay = 2.32>
+ST_1 : Operation 8 [1/1] (2.32ns)   --->   "%A_im = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:721->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 8 'alloca' 'A_im' <Predicate = true> <Delay = 2.32>
+ST_1 : Operation 9 [1/1] (2.32ns)   --->   "%L_re = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:722->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 9 'alloca' 'L_re' <Predicate = true> <Delay = 2.32>
+ST_1 : Operation 10 [1/1] (2.32ns)   --->   "%L_im = alloca i64 1" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:722->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 10 'alloca' 'L_im' <Predicate = true> <Delay = 2.32>
+ST_1 : Operation 11 [2/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm"   --->   Operation 11 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 12 [1/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm"   --->   Operation 12 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_2 : Operation 12 [1/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1, i16 %A_re, i16 %A_im, i32 %matrixAStrm"   --->   Operation 12 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 13 [2/2] (0.00ns)   --->   "%ret = call i32 @choleskyAlt<false,3,choleskyTraits,x_complex,x_complex<ap_fixed >>, i16 %A_re, i16 %A_im, i16 %L_re, i16 %L_im" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:691->D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:731->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 13 'call' 'ret' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_3 : Operation 13 [2/2] (0.00ns)   --->   "%ret = call i32 @choleskyAlt<false,3,choleskyTraits,x_complex,x_complex<ap_fixed >>, i16 %A_re, i16 %A_im, i16 %L_re, i16 %L_im" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:692->D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:732->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 13 'call' 'ret' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 4 <SV = 3> <Delay = 1.56>
-ST_4 : Operation 14 [1/2] (1.56ns)   --->   "%ret = call i32 @choleskyAlt<false,3,choleskyTraits,x_complex,x_complex<ap_fixed >>, i16 %A_re, i16 %A_im, i16 %L_re, i16 %L_im" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:691->D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:731->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 14 'call' 'ret' <Predicate = true> <Delay = 1.56> <CoreType = "Generic">   --->   Generic Core
+ST_4 : Operation 14 [1/2] (1.56ns)   --->   "%ret = call i32 @choleskyAlt<false,3,choleskyTraits,x_complex,x_complex<ap_fixed >>, i16 %A_re, i16 %A_im, i16 %L_re, i16 %L_im" [D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:692->D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:732->../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:26]   --->   Operation 14 'call' 'ret' <Predicate = true> <Delay = 1.56> <CoreType = "Generic">   --->   Generic Core
 
 State 5 <SV = 4> <Delay = 0.00>
-ST_5 : Operation 15 [2/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_5 : Operation 15 [2/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 6 <SV = 5> <Delay = 0.00>
 ST_6 : Operation 16 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 0"   --->   Operation 16 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
@@ -233,7 +233,7 @@ ST_6 : Operation 18 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface 
 ST_6 : Operation 19 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %matrixAStrm"   --->   Operation 19 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %matrixLStrm, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 21 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %matrixLStrm"   --->   Operation 21 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 22 [1/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm"   --->   Operation 22 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_6 : Operation 22 [1/2] (0.00ns)   --->   "%call_ln0 = call void @kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3, i16 %L_re, i16 %L_im, i32 %matrixLStrm"   --->   Operation 22 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 ST_6 : Operation 23 [1/1] (0.00ns)   --->   "%ret_ln27 = ret i32 %ret" [../solver/L1/tests/cholesky/kernel/kernel_cholesky_0.cpp:27]   --->   Operation 23 'ret' 'ret_ln27' <Predicate = true> <Delay = 0.00>
 
 
@@ -307,7 +307,7 @@ ret_ln27           (ret          ) [ 0000000]
 <pin id="7" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1"/></StgValue>
+<StgValue><ssdm name="kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1"/></StgValue>
 </bind>
 </comp>
 
@@ -325,7 +325,7 @@ ret_ln27           (ret          ) [ 0000000]
 <pin id="11" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3"/></StgValue>
+<StgValue><ssdm name="kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3"/></StgValue>
 </bind>
 </comp>
 
@@ -445,7 +445,7 @@ ret_ln27           (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="44" class="1004" name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44">
+<comp id="44" class="1004" name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44">
 <pin_list>
 <pin id="45" dir="0" index="0" bw="0" slack="0"/>
 <pin id="46" dir="0" index="1" bw="16" slack="0"/>
@@ -474,7 +474,7 @@ ret_ln27           (ret          ) [ 0000000]
 </bind>
 </comp>
 
-<comp id="62" class="1004" name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62">
+<comp id="62" class="1004" name="grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62">
 <pin_list>
 <pin id="63" dir="0" index="0" bw="0" slack="0"/>
 <pin id="64" dir="0" index="1" bw="16" slack="2147483647"/>
@@ -553,9 +553,9 @@ ret_ln27           (ret          ) [ 0000000]
 |----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|
 | Operation|                               Functional Unit                               |   DSP   |  Delay  |    FF   |   LUT   |
 |----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|
-|          |            grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_723_1_fu_44            |    0    |  5.1219 |    12   |    99   |
+|          |            grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_724_1_fu_44            |    0    |  5.1219 |    12   |    99   |
 |   call   | grp_choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_s_fu_54 |    14   | 41.4073 |   7110  |   8923  |
-|          |            grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_733_3_fu_62            |    0    |  8.5365 |    70   |   129   |
+|          |            grp_kernel_cholesky_0_Pipeline_VITIS_LOOP_734_3_fu_62            |    0    |  8.5365 |    70   |   129   |
 |----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|
 |   Total  |                                                                             |    14   | 55.0657 |   7192  |   9151  |
 |----------|-----------------------------------------------------------------------------|---------|---------|---------|---------|

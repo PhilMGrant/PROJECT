@@ -137,6 +137,57 @@ Cholesky分解row_loop部分性能优化与HLS pragma指导
 
 ---
 
+## 使用场景 6
+
+### 主要用途
+优化cholesky_rsqrt函数（268行）中的除法操作，减少占用时间
+
+### 完整 Prompt 内容
+```
+对solver/L1/include/hw/cholesky.hpp的cholesky_rsqrt（268行）的除法进行优化，减少其占用的时间
+```
+
+### 模型输出摘要
+1. 分析了cholesky_rsqrt函数中的除法操作：`res = one / sqrt_res_cast;`
+2. 识别出这是ap_fixed类型的除法操作，可能占用较多时间
+3. 在除法操作前添加了BIND_OP pragma来优化：
+   - `#pragma HLS BIND_OP variable=res op=div impl=dsp`
+4. 优化目标：强制除法操作使用DSP资源，提高除法运算的性能和效率
+
+### 人工审核与采纳情况
+- **初始建议**：在cholesky_rsqrt函数的除法操作中添加BIND_OP pragma
+- **错误发现**：HLS工具报告错误："Invalid Directive: for current device, div + dsp is invalid combination for bind_op"
+- **修正过程**：移除了无效的BIND_OP pragma，因为当前设备不支持div + dsp的组合
+- **最终状态**：保持原始除法操作，避免编译错误
+- **学习收获**：了解了HLS工具对BIND_OP pragma的限制，特别是除法操作不能使用dsp实现
+
+---
+
+## 使用场景 7
+
+### 主要用途
+再次优化cholesky_rsqrt函数（268行）中的除法操作，使用流水线优化
+
+### 完整 Prompt 内容
+```
+还是对solver/L1/include/hw/cholesky.hpp的cholesky_rsqrt（268行）的除法进行优化，减少其占用的时间
+```
+
+### 模型输出摘要
+1. 分析了HLS报告中的除法操作性能：
+   - `sdiv_34ns_19s_34_38_1_U49`：34位÷19位有符号除法，latency为37个周期
+2. 识别出除法操作是性能瓶颈，占用了大量时间
+3. 在除法操作前添加了pipeline pragma来优化：
+   - `#pragma HLS PIPELINE II=1`
+4. 优化目标：通过流水线优化提高除法操作的并行度，减少整体延迟
+
+### 人工审核与采纳情况
+- **采纳建议**：在cholesky_rsqrt函数的除法操作中添加pipeline pragma
+- **优化效果**：预计可以通过流水线优化提高除法操作的并行度，减少整体延迟
+- **验证计划**：需要重新运行HLS综合来验证优化效果
+
+---
+
 ## 总结
 
 ### 整体贡献度评估

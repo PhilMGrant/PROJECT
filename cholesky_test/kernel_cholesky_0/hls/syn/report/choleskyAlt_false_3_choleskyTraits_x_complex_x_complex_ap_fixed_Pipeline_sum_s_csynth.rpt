@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'choleskyAlt_false_3_choleskyTraits_x_complex_x_complex_ap_fixed_Pipeline_sum_s'
 ================================================================
-* Date:           Sat Nov  1 15:27:43 2025
+* Date:           Sat Nov  1 16:29:55 2025
 
 * Version:        2024.2 (Build 5238294 on Nov  8 2024)
 * Project:        kernel_cholesky_0
@@ -101,9 +101,9 @@
     |add_ln103_fu_559_p2     |         +|   0|  0|  10|           2|           2|
     |add_ln180_fu_625_p2     |         +|   0|  0|  43|          36|          36|
     |add_ln181_fu_693_p2     |         +|   0|  0|  43|          36|          36|
-    |add_ln473_1_fu_244_p2   |         +|   0|  0|   2|           2|           2|
-    |add_ln473_2_fu_238_p2   |         +|   0|  0|   2|           2|           2|
-    |add_ln473_fu_232_p2     |         +|   0|  0|  10|           2|           2|
+    |add_ln474_1_fu_244_p2   |         +|   0|  0|   2|           2|           2|
+    |add_ln474_2_fu_238_p2   |         +|   0|  0|   2|           2|           2|
+    |add_ln474_fu_232_p2     |         +|   0|  0|  10|           2|           2|
     |tmp5_im_fu_591_p2       |         +|   0|  0|  16|          16|          16|
     |tmp5_re_fu_578_p2       |         +|   0|  0|  16|          16|          16|
     |sub_ln345_fu_311_p2     |         -|   0|  0|  23|           1|          16|
@@ -137,8 +137,8 @@
     |xor_ln180_fu_651_p2     |       xor|   0|  0|   2|           1|           2|
     |xor_ln181_1_fu_731_p2   |       xor|   0|  0|   2|           1|           1|
     |xor_ln181_fu_719_p2     |       xor|   0|  0|   2|           1|           2|
-    |xor_ln470_1_fu_226_p2   |       xor|   0|  0|   2|           1|           1|
-    |xor_ln470_fu_256_p2     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln471_1_fu_226_p2   |       xor|   0|  0|   2|           1|           1|
+    |xor_ln471_fu_256_p2     |       xor|   0|  0|   2|           1|           2|
     +------------------------+----------+----+---+----+------------+------------+
     |Total                   |          |   0|  0| 542|         231|         394|
     +------------------------+----------+----+---+----+------------+------------+
@@ -162,7 +162,7 @@
     +----------------------------------+----+----+-----+-----------+
     |add_ln103_3_reg_950               |   2|   0|    2|          0|
     |add_ln103_reg_945                 |   2|   0|    2|          0|
-    |add_ln473_reg_825                 |   2|   0|    2|          0|
+    |add_ln474_reg_825                 |   2|   0|    2|          0|
     |ap_CS_fsm                         |   1|   0|    1|          0|
     |ap_done_reg                       |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
@@ -202,8 +202,8 @@
     |tmp5_re_reg_955                   |  16|   0|   16|          0|
     |tmp_im_5_reg_847                  |  16|   0|   16|          0|
     |tmp_re_5_reg_842                  |  16|   0|   16|          0|
-    |xor_ln470_1_reg_821               |   1|   0|    1|          0|
-    |xor_ln470_1_reg_821               |  64|  32|    1|          0|
+    |xor_ln471_1_reg_821               |   1|   0|    1|          0|
+    |xor_ln471_1_reg_821               |  64|  32|    1|          0|
     +----------------------------------+----+----+-----+-----------+
     |Total                             | 497|  32|  434|          0|
     +----------------------------------+----+----+-----+-----------+
@@ -233,7 +233,7 @@
 |L_internal_im_3              |   in|   16|     ap_none|                                                                   L_internal_im_3|        scalar|
 |L_internal_im_4              |   in|   16|     ap_none|                                                                   L_internal_im_4|        scalar|
 |L_internal_im_5              |   in|   16|     ap_none|                                                                   L_internal_im_5|        scalar|
-|zext_ln467                   |   in|    1|     ap_none|                                                                        zext_ln467|        scalar|
+|zext_ln468                   |   in|    1|     ap_none|                                                                        zext_ln468|        scalar|
 |product_sum_re_2_out         |  out|   35|      ap_vld|                                                              product_sum_re_2_out|       pointer|
 |product_sum_re_2_out_ap_vld  |  out|    1|      ap_vld|                                                              product_sum_re_2_out|       pointer|
 |product_sum_im_2_out         |  out|   35|      ap_vld|                                                              product_sum_im_2_out|       pointer|

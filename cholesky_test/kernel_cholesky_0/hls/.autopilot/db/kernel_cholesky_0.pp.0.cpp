@@ -57253,7 +57253,8 @@ Function_cholesky_rsqrt_fixed:;
     ap_fixed<W2, I2, Q2, O2, N2> sqrt_res_cast;
     sqrt_res = x_sqrt(x);
     sqrt_res_cast = sqrt_res;
-    res = one / sqrt_res_cast;
+#pragma HLS PIPELINE II=1
+ res = one / sqrt_res_cast;
 }
 
 
@@ -57683,7 +57684,7 @@ int choleskyTop(const InputType A[RowsColsA][RowsColsA], OutputType L[RowsColsA]
             return choleskyBasic<LowerTriangularL, RowsColsA, CholeskyTraits, InputType, OutputType>(A, L);
     }
 }
-# 714 "D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp"
+# 715 "D:/Xillinx_Project/PROJECT/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp"
 template <bool LowerTriangularL,
           int RowsColsA,
           class InputType,
@@ -57693,9 +57694,9 @@ int cholesky(hls::stream<InputType>& matrixAStrm, hls::stream<OutputType>& matri
     InputType A[RowsColsA][RowsColsA];
     OutputType L[RowsColsA][RowsColsA];
 
-    VITIS_LOOP_723_1: for (int r = 0; r < RowsColsA; r++) {
+    VITIS_LOOP_724_1: for (int r = 0; r < RowsColsA; r++) {
 #pragma HLS PIPELINE
- VITIS_LOOP_725_2: for (int c = 0; c < RowsColsA; c++) {
+ VITIS_LOOP_726_2: for (int c = 0; c < RowsColsA; c++) {
             matrixAStrm.read(A[r][c]);
         }
     }
@@ -57703,9 +57704,9 @@ int cholesky(hls::stream<InputType>& matrixAStrm, hls::stream<OutputType>& matri
     int ret = 0;
     ret = choleskyTop<LowerTriangularL, RowsColsA, TRAITS, InputType, OutputType>(A, L);
 
-    VITIS_LOOP_733_3: for (int r = 0; r < RowsColsA; r++) {
+    VITIS_LOOP_734_3: for (int r = 0; r < RowsColsA; r++) {
 #pragma HLS PIPELINE
- VITIS_LOOP_735_4: for (int c = 0; c < RowsColsA; c++) {
+ VITIS_LOOP_736_4: for (int c = 0; c < RowsColsA; c++) {
             matrixLStrm.write(L[r][c]);
         }
     }
