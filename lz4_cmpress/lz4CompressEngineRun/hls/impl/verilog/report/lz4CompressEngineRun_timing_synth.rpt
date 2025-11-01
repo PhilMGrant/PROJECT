@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Fri Oct 31 14:05:01 2025
+| Date         : Fri Oct 31 14:54:28 2025
 | Host         : TheJackdaw running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -file ./report/lz4CompressEngineRun_timing_synth.rpt
 | Design       : bd_0_wrapper
@@ -138,7 +138,7 @@ Table of Contents
 
     WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
     -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-      0.490        0.000                      0                10480        0.189        0.000                      0                10480        2.520        0.000                       0                  3803  
+      1.212        0.000                      0                10201        0.189        0.000                      0                10201        2.520        0.000                       0                  3656  
 
 
 All user specified timing constraints are met.
@@ -161,7 +161,7 @@ ap_clk  {0.000 3.500}        7.000           142.857
 
 Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
 -----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-ap_clk              0.490        0.000                      0                10480        0.189        0.000                      0                10480        2.520        0.000                       0                  3803  
+ap_clk              1.212        0.000                      0                10201        0.189        0.000                      0                10201        2.520        0.000                       0                  3656  
 
 
 ------------------------------------------------------------------------------------------------
@@ -192,7 +192,7 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 From Clock:  ap_clk
   To Clock:  ap_clk
 
-Setup :            0  Failing Endpoints,  Worst Slack        0.490ns,  Total Violation        0.000ns
+Setup :            0  Failing Endpoints,  Worst Slack        1.212ns,  Total Violation        0.000ns
 Hold  :            0  Failing Endpoints,  Worst Slack        0.189ns,  Total Violation        0.000ns
 PW    :            0  Failing Endpoints,  Worst Slack        2.520ns,  Total Violation        0.000ns
 ---------------------------------------------------------------------------------------------------
@@ -200,16 +200,16 @@ PW    :            0  Failing Endpoints,  Worst Slack        2.520ns,  Total Vio
 
 Max Delay Paths
 --------------------------------------------------------------------------------------
-Slack (MET) :             0.490ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C
+Slack (MET) :             1.212ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@3.500ns period=7.000ns})
-  Destination:            bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[10]
+  Destination:            bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[0]
                             (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@3.500ns period=7.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            7.000ns  (ap_clk rise@7.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        5.860ns  (logic 1.309ns (22.339%)  route 4.551ns (77.661%))
-  Logic Levels:           5  (LUT4=1 LUT5=3 LUT6=1)
+  Data Path Delay:        5.172ns  (logic 1.309ns (25.311%)  route 3.863ns (74.689%))
+  Logic Levels:           5  (LUT1=1 LUT4=2 LUT5=2)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 7.924 - 7.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -224,37 +224,37 @@ Slack (MET) :             0.490ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3802, unset)         0.973     0.973    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C
+                         net (fo=3655, unset)         0.973     0.973    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/Q
-                         net (fo=3, unplaced)         0.759     2.250    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/Q[5]
-                         LUT4 (Prop_lut4_I1_O)        0.295     2.545 f  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9/O
-                         net (fo=1, unplaced)         0.449     2.994    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9_n_12
-                         LUT5 (Prop_lut5_I4_O)        0.124     3.118 f  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4/O
-                         net (fo=4, unplaced)         1.135     4.253    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4_n_12
-                         LUT6 (Prop_lut6_I0_O)        0.124     4.377 f  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0/O
-                         net (fo=18, unplaced)        0.959     5.336    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0_n_12
-                         LUT5 (Prop_lut5_I3_O)        0.124     5.460 r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0/O
-                         net (fo=1, unplaced)         0.449     5.909    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0_n_12
-                         LUT5 (Prop_lut5_I0_O)        0.124     6.033 r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0/O
-                         net (fo=4, unplaced)         0.800     6.833    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ADDRBWRADDR[9]
-                         RAMB36E1                                     r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[10]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/Q
+                         net (fo=1, unplaced)         0.741     2.232    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278[4]
+                         LUT4 (Prop_lut4_I1_O)        0.295     2.527 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7/O
+                         net (fo=1, unplaced)         0.449     2.976    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7_n_12
+                         LUT5 (Prop_lut5_I4_O)        0.124     3.100 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3/O
+                         net (fo=1, unplaced)         0.902     4.002    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3_n_12
+                         LUT4 (Prop_lut4_I1_O)        0.124     4.126 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1/O
+                         net (fo=8, unplaced)         0.487     4.613    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_2
+                         LUT5 (Prop_lut5_I0_O)        0.124     4.737 f  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63/O
+                         net (fo=7, unplaced)         0.484     5.221    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/full_n_reg
+                         LUT1 (Prop_lut1_I0_O)        0.124     5.345 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60/O
+                         net (fo=17, unplaced)        0.800     6.145    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/WEBWE[0]
+                         RAMB36E1                                     r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[0]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     7.000     7.000 r  
                                                       0.000     7.000 r  ap_clk (IN)
-                         net (fo=3802, unset)         0.924     7.924    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ap_clk
-                         RAMB36E1                                     r  bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/CLKBWRCLK
+                         net (fo=3655, unset)         0.924     7.924    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/ap_clk
+                         RAMB36E1                                     r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/CLKBWRCLK
                          clock pessimism              0.000     7.924    
                          clock uncertainty           -0.035     7.889    
-                         RAMB36E1 (Setup_ramb36e1_CLKBWRCLK_ADDRBWRADDR[10])
-                                                     -0.566     7.323    bd_0_i/hls_inst/inst/lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0
+                         RAMB36E1 (Setup_ramb36e1_CLKBWRCLK_WEBWE[0])
+                                                     -0.532     7.357    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg
   -------------------------------------------------------------------
-                         required time                          7.323    
-                         arrival time                          -6.833    
+                         required time                          7.357    
+                         arrival time                          -6.145    
   -------------------------------------------------------------------
-                         slack                                  0.490    
+                         slack                                  1.212    
 
 
 
@@ -281,7 +281,7 @@ Slack (MET) :             0.189ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3802, unset)         0.410     0.410    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/ap_clk
+                         net (fo=3655, unset)         0.410     0.410    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/ap_clk
                          FDRE                                         r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/mOutPtr_reg[0]/C
   -------------------------------------------------------------------    -------------------
                          FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/mOutPtr_reg[0]/Q
@@ -294,7 +294,7 @@ Slack (MET) :             0.189ns  (arrival time - required time)
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3802, unset)         0.432     0.432    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/ap_clk
+                         net (fo=3655, unset)         0.432     0.432    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/ap_clk
                          FDRE                                         r  bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/mOutPtr_reg[1]/C
                          clock pessimism              0.000     0.432    
                          FDRE (Hold_fdre_C_D)         0.134     0.566    bd_0_i/hls_inst/inst/lz4Compress_4096_8_U0/lit_outStream_U/mOutPtr_reg[1]

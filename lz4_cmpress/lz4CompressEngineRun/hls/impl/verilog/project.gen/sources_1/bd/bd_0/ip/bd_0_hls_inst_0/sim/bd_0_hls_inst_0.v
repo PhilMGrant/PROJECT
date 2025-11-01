@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:lz4CompressEngineRun:1.0
-// IP Revision: 2114327762
+// IP Revision: 2114327811
 
 `timescale 1ns/1ps
 

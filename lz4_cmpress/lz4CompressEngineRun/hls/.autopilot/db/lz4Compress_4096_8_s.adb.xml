@@ -301,10 +301,10 @@ entry:11 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %lz
 
 <Node id="21" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="8" op_8_bw="8">
 <![CDATA[
-entry:13 %empty_48 = specchannel i32 @_ssdm_op_SpecChannel, void @lit_outStream_str, i32 1, void @p_str, void @p_str, i32 65536, i32 65536, i8 %lit_outStream, i8 %lit_outStream
+entry:13 %empty_47 = specchannel i32 @_ssdm_op_SpecChannel, void @lit_outStream_str, i32 1, void @p_str, void @p_str, i32 65536, i32 65536, i8 %lit_outStream, i8 %lit_outStream
 
 ]]></Node>
-<StgValue><ssdm name="empty_48"/></StgValue>
+<StgValue><ssdm name="empty_47"/></StgValue>
 </operation>
 
 <operation id="23" st_id="4" stage="1" lat="1">
@@ -331,10 +331,10 @@ entry:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %li
 
 <Node id="24" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="64" op_8_bw="64">
 <![CDATA[
-entry:16 %empty_49 = specchannel i32 @_ssdm_op_SpecChannel, void @lenOffset_Stream_str, i32 1, void @p_str, void @p_str, i32 512, i32 512, i64 %lenOffset_Stream, i64 %lenOffset_Stream
+entry:16 %empty_48 = specchannel i32 @_ssdm_op_SpecChannel, void @lenOffset_Stream_str, i32 1, void @p_str, void @p_str, i32 512, i32 512, i64 %lenOffset_Stream, i64 %lenOffset_Stream
 
 ]]></Node>
-<StgValue><ssdm name="empty_49"/></StgValue>
+<StgValue><ssdm name="empty_48"/></StgValue>
 </operation>
 
 <operation id="25" st_id="4" stage="1" lat="1">
@@ -850,23 +850,23 @@ entry:22 %ret_ln397 = ret
 </dataflow>
 <dataflow id="266" from="StgValue_75" to="specinterface_ln0" fromId="75" toId="21">
 </dataflow>
-<dataflow id="267" from="_ssdm_op_SpecChannel" to="empty_48" fromId="118" toId="22">
+<dataflow id="267" from="_ssdm_op_SpecChannel" to="empty_47" fromId="118" toId="22">
 </dataflow>
-<dataflow id="269" from="lit_outStream_str" to="empty_48" fromId="268" toId="22">
+<dataflow id="269" from="lit_outStream_str" to="empty_47" fromId="268" toId="22">
 </dataflow>
-<dataflow id="270" from="StgValue_122" to="empty_48" fromId="122" toId="22">
+<dataflow id="270" from="StgValue_122" to="empty_47" fromId="122" toId="22">
 </dataflow>
-<dataflow id="271" from="p_str" to="empty_48" fromId="78" toId="22">
+<dataflow id="271" from="p_str" to="empty_47" fromId="78" toId="22">
 </dataflow>
-<dataflow id="272" from="p_str" to="empty_48" fromId="78" toId="22">
+<dataflow id="272" from="p_str" to="empty_47" fromId="78" toId="22">
 </dataflow>
-<dataflow id="274" from="StgValue_273" to="empty_48" fromId="273" toId="22">
+<dataflow id="274" from="StgValue_273" to="empty_47" fromId="273" toId="22">
 </dataflow>
-<dataflow id="275" from="StgValue_273" to="empty_48" fromId="273" toId="22">
+<dataflow id="275" from="StgValue_273" to="empty_47" fromId="273" toId="22">
 </dataflow>
-<dataflow id="276" from="lit_outStream" to="empty_48" fromId="6" toId="22">
+<dataflow id="276" from="lit_outStream" to="empty_47" fromId="6" toId="22">
 </dataflow>
-<dataflow id="277" from="lit_outStream" to="empty_48" fromId="6" toId="22">
+<dataflow id="277" from="lit_outStream" to="empty_47" fromId="6" toId="22">
 </dataflow>
 <dataflow id="278" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="70" toId="23">
 </dataflow>
@@ -908,23 +908,23 @@ entry:22 %ret_ln397 = ret
 </dataflow>
 <dataflow id="297" from="StgValue_75" to="specinterface_ln0" fromId="75" toId="23">
 </dataflow>
-<dataflow id="298" from="_ssdm_op_SpecChannel" to="empty_49" fromId="118" toId="24">
+<dataflow id="298" from="_ssdm_op_SpecChannel" to="empty_48" fromId="118" toId="24">
 </dataflow>
-<dataflow id="300" from="lenOffset_Stream_str" to="empty_49" fromId="299" toId="24">
+<dataflow id="300" from="lenOffset_Stream_str" to="empty_48" fromId="299" toId="24">
 </dataflow>
-<dataflow id="301" from="StgValue_122" to="empty_49" fromId="122" toId="24">
+<dataflow id="301" from="StgValue_122" to="empty_48" fromId="122" toId="24">
 </dataflow>
-<dataflow id="302" from="p_str" to="empty_49" fromId="78" toId="24">
+<dataflow id="302" from="p_str" to="empty_48" fromId="78" toId="24">
 </dataflow>
-<dataflow id="303" from="p_str" to="empty_49" fromId="78" toId="24">
+<dataflow id="303" from="p_str" to="empty_48" fromId="78" toId="24">
 </dataflow>
-<dataflow id="305" from="StgValue_304" to="empty_49" fromId="304" toId="24">
+<dataflow id="305" from="StgValue_304" to="empty_48" fromId="304" toId="24">
 </dataflow>
-<dataflow id="306" from="StgValue_304" to="empty_49" fromId="304" toId="24">
+<dataflow id="306" from="StgValue_304" to="empty_48" fromId="304" toId="24">
 </dataflow>
-<dataflow id="307" from="lenOffset_Stream" to="empty_49" fromId="7" toId="24">
+<dataflow id="307" from="lenOffset_Stream" to="empty_48" fromId="7" toId="24">
 </dataflow>
-<dataflow id="308" from="lenOffset_Stream" to="empty_49" fromId="7" toId="24">
+<dataflow id="308" from="lenOffset_Stream" to="empty_48" fromId="7" toId="24">
 </dataflow>
 <dataflow id="309" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="70" toId="25">
 </dataflow>

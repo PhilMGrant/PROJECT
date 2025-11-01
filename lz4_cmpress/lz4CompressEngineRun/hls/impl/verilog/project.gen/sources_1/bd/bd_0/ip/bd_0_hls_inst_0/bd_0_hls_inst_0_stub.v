@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Fri Oct 31 14:04:04 2025
+// Date        : Fri Oct 31 14:53:24 2025
 // Host        : TheJackdaw running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               d:/Xillinx_Project/PROJECT/lz4_cmpress/lz4CompressEngineRun/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0_stub.v
@@ -14,7 +14,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,lz4CompressEngineRun,{}" *) (* CORE_GENERATION_INFO = "bd_0_hls_inst_0,lz4CompressEngineRun,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=lz4CompressEngineRun,x_ipVersion=1.0,x_ipCoreRevision=2114327762,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
+(* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,lz4CompressEngineRun,{}" *) (* CORE_GENERATION_INFO = "bd_0_hls_inst_0,lz4CompressEngineRun,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=lz4CompressEngineRun,x_ipVersion=1.0,x_ipCoreRevision=2114327811,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
 (* IP_DEFINITION_SOURCE = "HLS" *) (* X_CORE_INFO = "lz4CompressEngineRun,Vivado 2024.2" *) (* hls_module = "yes" *) 
 module bd_0_hls_inst_0(max_lit_limit_ce0, max_lit_limit_we0, 
   max_lit_limit_ce1, max_lit_limit_we1, inStream_dout, inStream_empty_n, inStream_read, 

@@ -47,5 +47,5 @@ D:/Xilinx/Vitis/2024.2/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: 
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 1248
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.803 seconds; peak allocated memory: 262.992 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 14s
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 10.75 seconds; peak allocated memory: 263.871 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 16s

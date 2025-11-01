@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "D:/Xillinx_Project\\PROJECT\\cholesky_test\\kernel_cholesky_0\\kernel_cholesky_0.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/01/25 15:26:02",
+ "timestampMillis": "1761981962264",
+ "buildStep": {
+  "cmdId": "2a8ed529-2243-4c32-8cdf-7e283f0064f5",
+  "name": "vitis-run",
+  "logFile": "D:/Xillinx_Project\\PROJECT\\cholesky_test\\kernel_cholesky_0\\logs\\kernel_cholesky_0.steps.log",
+  "commandLine": "D:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\Xillinx_Project\\PROJECT\\cholesky_test\\hls_config.cfg --work_dir kernel_cholesky_0 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\Xillinx_Project\\PROJECT\\cholesky_test\\hls_config.cfg",
+   "--work_dir",
+   "kernel_cholesky_0"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Xillinx_Project\\PROJECT\\cholesky_test"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/01/25 15:26:02",
+ "timestampMillis": "1761981962266",
+ "status": {
+  "cmdId": "2a8ed529-2243-4c32-8cdf-7e283f0064f5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/01/25 15:26:09",
+ "timestampMillis": "1761981969889",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "kernel_cholesky_0",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Xillinx_Project\\PROJECT\\solver\\L1\\tests\\cholesky\\kernel\\kernel_cholesky_0.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/01/25 15:26:09",
+ "timestampMillis": "1761981969890",
+ "buildStep": {
+  "cmdId": "70988ec0-6064-4d3b-97a6-85ef21c9d5a9",
+  "name": "",
+  "logFile": "D:/Xillinx_Project\\PROJECT\\cholesky_test\\kernel_cholesky_0\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Xillinx_Project\\PROJECT\\cholesky_test"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/01/25 15:26:09",
+ "timestampMillis": "1761981969891",
+ "status": {
+  "cmdId": "70988ec0-6064-4d3b-97a6-85ef21c9d5a9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/01/25 15:26:10",
+ "timestampMillis": "1761981970916",
+ "status": {
+  "cmdId": "70988ec0-6064-4d3b-97a6-85ef21c9d5a9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/01/25 15:26:11",
+ "timestampMillis": "1761981971079",
+ "status": {
+  "cmdId": "2a8ed529-2243-4c32-8cdf-7e283f0064f5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/01/25 15:26:11",
+ "timestampMillis": "1761981971079",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/01/25 15:26:11",
+ "timestampMillis": "1761981971080",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

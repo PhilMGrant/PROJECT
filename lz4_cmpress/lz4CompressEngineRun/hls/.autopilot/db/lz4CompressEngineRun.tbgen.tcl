@@ -145,21 +145,21 @@ set RtlHierarchyInfo {[
 			{"Name" : "guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
 					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh"}]},
-			{"Name" : "match_loc_reg", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "match_loc_reg"}]},
 			{"Name" : "nextMatchCh", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
 					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "nextMatchCh"}]},
+			{"Name" : "match_loc_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "match_loc_reg"}]},
 			{"Name" : "skip_len_reg", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
 					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "skip_len_reg"}]},
-			{"Name" : "match_len_reg", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "match_len_reg"}]},
 			{"Name" : "matchFlag_reg", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "matchFlag_reg"}]}]},
+					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "matchFlag_reg"}]},
+			{"Name" : "match_len_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "22", "SubInstance" : "lzBooster_255_16384_64_U0", "Port" : "match_len_reg"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.entry_proc_U0", "Parent" : "0",
 		"CDFG" : "entry_proc",
 		"Protocol" : "ap_ctrl_hs",
@@ -456,12 +456,12 @@ set RtlHierarchyInfo {[
 				"BlockSignal" : [
 					{"Name" : "bestMatchStream_blk_n", "Type" : "RtlSignal"}],
 				"SubConnect" : [
-					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206", "Port" : "bestMatchStream", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "bestMatchStream", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
 			{"Name" : "boosterStream", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["26","27"], "DependentChan" : "42", "DependentChanDepth" : "8", "DependentChanType" : "0",
 				"BlockSignal" : [
 					{"Name" : "boosterStream_blk_n", "Type" : "RtlSignal"}],
 				"SubConnect" : [
-					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206", "Port" : "boosterStream", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "boosterStream", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
 			{"Name" : "input_size", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["18"], "DependentChan" : "41", "DependentChanDepth" : "2", "DependentChanType" : "2",
 				"BlockSignal" : [
 					{"Name" : "input_size_blk_n", "Type" : "RtlSignal"}]},
@@ -469,16 +469,24 @@ set RtlHierarchyInfo {[
 				"BlockSignal" : [
 					{"Name" : "input_size_c_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "match_loc_reg", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "nextMatchCh", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "skip_len_reg", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "match_len_reg", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "matchFlag_reg", "Type" : "OVld", "Direction" : "IO"}],
+			{"Name" : "match_loc_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "match_loc_reg", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+			{"Name" : "skip_len_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "skip_len_reg", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+			{"Name" : "matchFlag_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "matchFlag_reg", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+			{"Name" : "match_len_reg", "Type" : "OVld", "Direction" : "IO",
+				"SubConnect" : [
+					{"ID" : "24", "SubInstance" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Port" : "match_len_reg", "Inst_start_state" : "4", "Inst_end_state" : "5"}]}],
 		"Loop" : [
 			{"Name" : "lz_booster_left_bytes", "PipelineType" : "no",
 				"LoopDec" : {"FSMBitwidth" : "7", "FirstState" : "ap_ST_fsm_state7", "LastState" : ["ap_ST_fsm_state7"], "QuitState" : ["ap_ST_fsm_state7"], "PreState" : ["ap_ST_fsm_state1", "ap_ST_fsm_state6"], "PostState" : ["ap_ST_fsm_state1"], "OneDepthLoop" : "1", "OneStateBlock": "ap_ST_fsm_state7_blk"}}]},
 	{"ID" : "23", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.lzBooster_255_16384_64_U0.local_mem_U", "Parent" : "22"},
-	{"ID" : "24", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206", "Parent" : "22", "Child" : ["25"],
+	{"ID" : "24", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169", "Parent" : "22", "Child" : ["25"],
 		"CDFG" : "lzBooster_255_16384_64_Pipeline_lz_booster",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -493,11 +501,7 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "match_loc_reg_load", "Type" : "None", "Direction" : "I"},
 			{"Name" : "nextMatchCh_loc_0", "Type" : "None", "Direction" : "I"},
-			{"Name" : "matchFlag_reg_load", "Type" : "None", "Direction" : "I"},
-			{"Name" : "match_len_reg_load", "Type" : "None", "Direction" : "I"},
-			{"Name" : "skip_len_reg_load", "Type" : "None", "Direction" : "I"},
 			{"Name" : "sub", "Type" : "None", "Direction" : "I"},
 			{"Name" : "local_mem", "Type" : "Memory", "Direction" : "IO"},
 			{"Name" : "bestMatchStream", "Type" : "Fifo", "Direction" : "I",
@@ -506,16 +510,16 @@ set RtlHierarchyInfo {[
 			{"Name" : "boosterStream", "Type" : "Fifo", "Direction" : "O",
 				"BlockSignal" : [
 					{"Name" : "boosterStream_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "new_match_loc_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "p_out", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "new_matchFlag_1_0_0_07_out", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "new_match_len_out", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_out1", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "outValue_out", "Type" : "Vld", "Direction" : "O"}],
+			{"Name" : "outValue_out", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "skip_len_reg", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "match_loc_reg", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "matchFlag_reg", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "match_len_reg", "Type" : "OVld", "Direction" : "IO"}],
 		"Loop" : [
 			{"Name" : "lz_booster", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage2", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage2_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "25", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.flow_control_loop_pipe_sequential_init_U", "Parent" : "24"},
+	{"ID" : "25", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.flow_control_loop_pipe_sequential_init_U", "Parent" : "24"},
 	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.lz4Compress_4096_8_U0", "Parent" : "0", "Child" : ["27", "30", "33", "34", "35", "36"],
 		"CDFG" : "lz4Compress_4096_8_s",
 		"Protocol" : "ap_ctrl_hs",
@@ -728,11 +732,11 @@ set ArgLastReadFirstWriteLatency {
 		input_size {Type I LastRead 0 FirstWrite -1}
 		core_idx {Type I LastRead 5 FirstWrite -1}
 		guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh {Type IO LastRead -1 FirstWrite -1}
-		match_loc_reg {Type IO LastRead -1 FirstWrite -1}
 		nextMatchCh {Type IO LastRead -1 FirstWrite -1}
+		match_loc_reg {Type IO LastRead -1 FirstWrite -1}
 		skip_len_reg {Type IO LastRead -1 FirstWrite -1}
-		match_len_reg {Type IO LastRead -1 FirstWrite -1}
-		matchFlag_reg {Type IO LastRead -1 FirstWrite -1}}
+		matchFlag_reg {Type IO LastRead -1 FirstWrite -1}
+		match_len_reg {Type IO LastRead -1 FirstWrite -1}}
 	entry_proc {
 		core_idx {Type I LastRead 0 FirstWrite -1}
 		core_idx_c {Type O LastRead -1 FirstWrite 0}}
@@ -813,27 +817,23 @@ set ArgLastReadFirstWriteLatency {
 		input_size {Type I LastRead 0 FirstWrite -1}
 		input_size_c {Type O LastRead -1 FirstWrite 0}
 		guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh {Type IO LastRead -1 FirstWrite -1}
-		match_loc_reg {Type IO LastRead -1 FirstWrite -1}
 		nextMatchCh {Type IO LastRead -1 FirstWrite -1}
+		match_loc_reg {Type IO LastRead -1 FirstWrite -1}
 		skip_len_reg {Type IO LastRead -1 FirstWrite -1}
-		match_len_reg {Type IO LastRead -1 FirstWrite -1}
-		matchFlag_reg {Type IO LastRead -1 FirstWrite -1}}
+		matchFlag_reg {Type IO LastRead -1 FirstWrite -1}
+		match_len_reg {Type IO LastRead -1 FirstWrite -1}}
 	lzBooster_255_16384_64_Pipeline_lz_booster {
-		match_loc_reg_load {Type I LastRead 0 FirstWrite -1}
 		nextMatchCh_loc_0 {Type I LastRead 0 FirstWrite -1}
-		matchFlag_reg_load {Type I LastRead 0 FirstWrite -1}
-		match_len_reg_load {Type I LastRead 0 FirstWrite -1}
-		skip_len_reg_load {Type I LastRead 0 FirstWrite -1}
 		sub {Type I LastRead 0 FirstWrite -1}
 		local_mem {Type IO LastRead 4 FirstWrite 2}
 		bestMatchStream {Type I LastRead 1 FirstWrite -1}
 		boosterStream {Type O LastRead -1 FirstWrite 4}
-		new_match_loc_out {Type O LastRead -1 FirstWrite 3}
 		p_out {Type O LastRead -1 FirstWrite 3}
-		new_matchFlag_1_0_0_07_out {Type O LastRead -1 FirstWrite 3}
-		new_match_len_out {Type O LastRead -1 FirstWrite 3}
-		p_out1 {Type O LastRead -1 FirstWrite 3}
-		outValue_out {Type O LastRead -1 FirstWrite 3}}
+		outValue_out {Type O LastRead -1 FirstWrite 3}
+		skip_len_reg {Type IO LastRead -1 FirstWrite -1}
+		match_loc_reg {Type IO LastRead 3 FirstWrite 3}
+		matchFlag_reg {Type IO LastRead -1 FirstWrite -1}
+		match_len_reg {Type IO LastRead -1 FirstWrite -1}}
 	lz4Compress_4096_8_s {
 		boosterStream {Type I LastRead 2 FirstWrite -1}
 		lz4Out {Type O LastRead -1 FirstWrite 3}

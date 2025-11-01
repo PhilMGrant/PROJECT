@@ -98,7 +98,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_activity": {
+				"lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},

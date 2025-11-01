@@ -85,75 +85,67 @@ reg    ap_done_reg;
 (* fsm_encoding = "none" *) reg   [6:0] ap_CS_fsm;
 wire    ap_CS_fsm_state1;
 reg   [0:0] guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh;
-reg   [31:0] match_loc_reg;
 reg   [7:0] nextMatchCh;
-reg   [15:0] skip_len_reg;
-reg   [31:0] match_len_reg;
-reg   [0:0] matchFlag_reg;
+reg   [31:0] match_loc_reg;
 reg    bestMatchStream_blk_n;
 wire    ap_CS_fsm_state7;
-reg   [0:0] icmp_ln608_reg_418;
-wire   [0:0] icmp_ln687_fu_360_p2;
+reg   [0:0] icmp_ln601_reg_323;
+wire   [0:0] icmp_ln669_fu_289_p2;
 reg    boosterStream_blk_n;
 wire    ap_CS_fsm_state6;
 reg    input_size_blk_n;
 reg    input_size_c_blk_n;
-reg   [31:0] input_size_1_reg_413;
+reg   [31:0] input_size_1_reg_318;
 reg    ap_block_state1;
-wire   [0:0] icmp_ln608_fu_228_p2;
-wire   [0:0] guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_234_p1;
-reg   [0:0] guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_422;
+wire   [0:0] icmp_ln601_fu_191_p2;
+wire   [0:0] guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_197_p1;
+reg   [0:0] guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_327;
 wire    ap_CS_fsm_state2;
 wire    ap_CS_fsm_state3;
-wire   [31:0] sub_fu_275_p2;
-reg   [31:0] sub_reg_442;
+wire   [31:0] sub_fu_238_p2;
+reg   [31:0] sub_reg_344;
 wire    ap_CS_fsm_state4;
-wire   [0:0] icmp_ln624_fu_281_p2;
-reg   [0:0] icmp_ln624_reg_447;
+wire   [0:0] icmp_ln617_fu_244_p2;
+reg   [0:0] icmp_ln617_reg_349;
 reg   [13:0] local_mem_address0;
 reg    local_mem_ce0;
 wire   [7:0] local_mem_q0;
 reg    local_mem_ce1;
 reg    local_mem_we1;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_done;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_idle;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_ready;
-wire   [13:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address0;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce0;
-wire   [13:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address1;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce1;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_we1;
-wire   [7:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_d1;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_bestMatchStream_read;
-wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_din;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_write;
-wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_loc_out;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_loc_out_ap_vld;
-wire   [7:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out_ap_vld;
-wire   [0:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_matchFlag_1_0_0_07_out;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_matchFlag_1_0_0_07_out_ap_vld;
-wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_len_out;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_len_out_ap_vld;
-wire   [15:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out1;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out1_ap_vld;
-wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_outValue_out;
-wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_outValue_out_ap_vld;
-reg   [7:0] nextMatchCh_loc_0_reg_162;
-reg   [0:0] nextMatchCh_flag_0_reg_172;
-reg   [0:0] ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4;
-reg   [7:0] ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4;
-reg    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_done;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_idle;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_ready;
+wire   [13:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address0;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce0;
+wire   [13:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address1;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce1;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_we1;
+wire   [7:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_d1;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_bestMatchStream_read;
+wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_din;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_write;
+wire   [7:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_p_out;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_p_out_ap_vld;
+wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_outValue_out;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_outValue_out_ap_vld;
+wire   [31:0] grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o;
+wire    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o_ap_vld;
+reg   [7:0] nextMatchCh_loc_0_reg_146;
+reg   [0:0] nextMatchCh_flag_0_reg_156;
+reg    grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg;
 wire    ap_CS_fsm_state5;
-wire   [63:0] zext_ln621_fu_250_p1;
-reg   [6:0] i_4_fu_118;
-wire   [6:0] i_6_fu_366_p2;
-reg    ap_predicate_op74_read_state7;
-reg    ap_predicate_op75_write_state7;
+wire   [63:0] zext_ln614_fu_213_p1;
+wire   [7:0] select_ln617_fu_268_p3;
+wire   [0:0] or_ln617_fu_262_p2;
+reg   [6:0] i_4_fu_102;
+wire   [6:0] i_6_fu_295_p2;
+reg    ap_predicate_op58_read_state7;
+reg    ap_predicate_op59_write_state7;
 reg    ap_block_state7;
 reg    local_mem_ce0_local;
-wire   [13:0] trunc_ln680_fu_242_p1;
+wire   [13:0] trunc_ln614_fu_209_p1;
+wire   [0:0] xor_ln617_fu_257_p2;
 reg   [6:0] ap_NS_fsm;
 reg    ap_ST_fsm_state1_blk;
 wire    ap_ST_fsm_state2_blk;
@@ -169,13 +161,10 @@ initial begin
 #0 ap_done_reg = 1'b0;
 #0 ap_CS_fsm = 7'd1;
 #0 guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh = 1'd0;
-#0 match_loc_reg = 32'd0;
 #0 nextMatchCh = 8'd0;
-#0 skip_len_reg = 16'd0;
-#0 match_len_reg = 32'd0;
-#0 matchFlag_reg = 1'd0;
-#0 grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg = 1'b0;
-#0 i_4_fu_118 = 7'd0;
+#0 match_loc_reg = 32'd0;
+#0 grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg = 1'b0;
+#0 i_4_fu_102 = 7'd0;
 end
 
 lz4CompressEngineRun_lzBooster_255_16384_64_s_local_mem_RAM_2P_BRAM_1R1W #(
@@ -188,54 +177,45 @@ local_mem_U(
     .address0(local_mem_address0),
     .ce0(local_mem_ce0),
     .q0(local_mem_q0),
-    .address1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address1),
+    .address1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address1),
     .ce1(local_mem_ce1),
     .we1(local_mem_we1),
-    .d1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_d1)
+    .d1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_d1)
 );
 
-lz4CompressEngineRun_lzBooster_255_16384_64_Pipeline_lz_booster grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206(
+lz4CompressEngineRun_lzBooster_255_16384_64_Pipeline_lz_booster grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
-    .ap_start(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start),
-    .ap_done(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_done),
-    .ap_idle(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_idle),
-    .ap_ready(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_ready),
-    .match_loc_reg_load(match_loc_reg),
-    .nextMatchCh_loc_0(nextMatchCh_loc_0_reg_162),
-    .matchFlag_reg_load(matchFlag_reg),
-    .match_len_reg_load(match_len_reg),
-    .skip_len_reg_load(skip_len_reg),
-    .sub(sub_reg_442),
-    .local_mem_address0(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address0),
-    .local_mem_ce0(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce0),
+    .ap_start(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start),
+    .ap_done(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_done),
+    .ap_idle(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_idle),
+    .ap_ready(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_ready),
+    .nextMatchCh_loc_0(nextMatchCh_loc_0_reg_146),
+    .sub(sub_reg_344),
+    .local_mem_address0(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address0),
+    .local_mem_ce0(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce0),
     .local_mem_q0(local_mem_q0),
-    .local_mem_address1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address1),
-    .local_mem_ce1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce1),
-    .local_mem_we1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_we1),
-    .local_mem_d1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_d1),
+    .local_mem_address1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address1),
+    .local_mem_ce1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce1),
+    .local_mem_we1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_we1),
+    .local_mem_d1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_d1),
     .bestMatchStream_dout(bestMatchStream_dout),
     .bestMatchStream_empty_n(bestMatchStream_empty_n),
-    .bestMatchStream_read(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_bestMatchStream_read),
+    .bestMatchStream_read(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_bestMatchStream_read),
     .bestMatchStream_num_data_valid(4'd0),
     .bestMatchStream_fifo_cap(4'd0),
-    .boosterStream_din(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_din),
+    .boosterStream_din(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_din),
     .boosterStream_full_n(boosterStream_full_n),
-    .boosterStream_write(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_write),
+    .boosterStream_write(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_write),
     .boosterStream_num_data_valid(boosterStream_num_data_valid),
     .boosterStream_fifo_cap(boosterStream_fifo_cap),
-    .new_match_loc_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_loc_out),
-    .new_match_loc_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_loc_out_ap_vld),
-    .p_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out),
-    .p_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out_ap_vld),
-    .new_matchFlag_1_0_0_07_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_matchFlag_1_0_0_07_out),
-    .new_matchFlag_1_0_0_07_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_matchFlag_1_0_0_07_out_ap_vld),
-    .new_match_len_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_len_out),
-    .new_match_len_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_len_out_ap_vld),
-    .p_out1(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out1),
-    .p_out1_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out1_ap_vld),
-    .outValue_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_outValue_out),
-    .outValue_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_outValue_out_ap_vld)
+    .p_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_p_out),
+    .p_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_p_out_ap_vld),
+    .outValue_out(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_outValue_out),
+    .outValue_out_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_outValue_out_ap_vld),
+    .match_loc_reg_i(match_loc_reg),
+    .match_loc_reg_o(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o),
+    .match_loc_reg_o_ap_vld(grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o_ap_vld)
 );
 
 always @ (posedge ap_clk) begin
@@ -252,7 +232,7 @@ always @ (posedge ap_clk) begin
     end else begin
         if ((ap_continue == 1'b1)) begin
             ap_done_reg <= 1'b0;
-        end else if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln687_fu_360_p2 == 1'd1) | (icmp_ln608_reg_418 == 1'd1)))) begin
+        end else if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln669_fu_289_p2 == 1'd1) | (icmp_ln601_reg_323 == 1'd1)))) begin
             ap_done_reg <= 1'b1;
         end
     end
@@ -260,78 +240,75 @@ end
 
 always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
-        grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg <= 1'b0;
+        grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg <= 1'b0;
     end else begin
         if ((1'b1 == ap_CS_fsm_state4)) begin
-            grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg <= 1'b1;
-        end else if ((grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_ready == 1'b1)) begin
-            grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg <= 1'b0;
+            grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg <= 1'b1;
+        end else if ((grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_ready == 1'b1)) begin
+            grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg <= 1'b0;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6))) begin
-        i_4_fu_118 <= 7'd0;
-    end else if (((1'b0 == ap_block_state7) & (icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
-        i_4_fu_118 <= i_6_fu_366_p2;
+        i_4_fu_102 <= 7'd0;
+    end else if (((1'b0 == ap_block_state7) & (icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
+        i_4_fu_102 <= i_6_fu_295_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_234_p1 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
-        nextMatchCh_flag_0_reg_172 <= 1'd0;
-    end else if (((1'b1 == ap_CS_fsm_state3) & (guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_422 == 1'd0))) begin
-        nextMatchCh_flag_0_reg_172 <= 1'd1;
+    if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_197_p1 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
+        nextMatchCh_flag_0_reg_156 <= 1'd0;
+    end else if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_327 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+        nextMatchCh_flag_0_reg_156 <= 1'd1;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_234_p1 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
-        nextMatchCh_loc_0_reg_162 <= nextMatchCh;
-    end else if (((1'b1 == ap_CS_fsm_state3) & (guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_422 == 1'd0))) begin
-        nextMatchCh_loc_0_reg_162 <= local_mem_q0;
+    if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_197_p1 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
+        nextMatchCh_loc_0_reg_146 <= nextMatchCh;
+    end else if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_327 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
+        nextMatchCh_loc_0_reg_146 <= local_mem_q0;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_CS_fsm_state3) & (guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_422 == 1'd0))) begin
+    if (((guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_327 == 1'd0) & (1'b1 == ap_CS_fsm_state3))) begin
         guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh <= 1'd1;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_CS_fsm_state2)) begin
-        guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_422 <= guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh;
+        guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_reg_327 <= guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
-        icmp_ln608_reg_418 <= icmp_ln608_fu_228_p2;
-        input_size_1_reg_413 <= input_size_dout;
+        icmp_ln601_reg_323 <= icmp_ln601_fu_191_p2;
+        input_size_1_reg_318 <= input_size_dout;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_CS_fsm_state4)) begin
-        icmp_ln624_reg_447 <= icmp_ln624_fu_281_p2;
-        sub_reg_442 <= sub_fu_275_p2;
+        icmp_ln617_reg_349 <= icmp_ln617_fu_244_p2;
+        sub_reg_344 <= sub_fu_238_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6) & (icmp_ln624_reg_447 == 1'd0))) begin
-        matchFlag_reg <= grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_matchFlag_1_0_0_07_out;
-        match_len_reg <= grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_len_out;
-        match_loc_reg <= grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_new_match_loc_out;
-        skip_len_reg <= grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out1;
+    if (((1'b1 == ap_CS_fsm_state5) & (grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o_ap_vld == 1'b1))) begin
+        match_loc_reg <= grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_match_loc_reg_o;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6) & (ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4 == 1'd1))) begin
-        nextMatchCh <= ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4;
+    if (((boosterStream_full_n == 1'b1) & (or_ln617_fu_262_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state6))) begin
+        nextMatchCh <= select_ln617_fu_268_p3;
     end
 end
 
@@ -350,7 +327,7 @@ assign ap_ST_fsm_state3_blk = 1'b0;
 assign ap_ST_fsm_state4_blk = 1'b0;
 
 always @ (*) begin
-    if ((grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_done == 1'b0)) begin
+    if ((grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_done == 1'b0)) begin
         ap_ST_fsm_state5_blk = 1'b1;
     end else begin
         ap_ST_fsm_state5_blk = 1'b0;
@@ -374,7 +351,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln687_fu_360_p2 == 1'd1) | (icmp_ln608_reg_418 == 1'd1)))) begin
+    if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln669_fu_289_p2 == 1'd1) | (icmp_ln601_reg_323 == 1'd1)))) begin
         ap_done = 1'b1;
     end else begin
         ap_done = ap_done_reg;
@@ -390,35 +367,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((1'b1 == ap_CS_fsm_state6)) begin
-        if ((icmp_ln624_reg_447 == 1'd0)) begin
-            ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4 = 1'd1;
-        end else if ((icmp_ln624_reg_447 == 1'd1)) begin
-            ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4 = nextMatchCh_flag_0_reg_172;
-        end else begin
-            ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4 = 'bx;
-        end
-    end else begin
-        ap_phi_mux_nextMatchCh_flag_1_phi_fu_188_p4 = 'bx;
-    end
-end
-
-always @ (*) begin
-    if ((1'b1 == ap_CS_fsm_state6)) begin
-        if ((icmp_ln624_reg_447 == 1'd0)) begin
-            ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_p_out;
-        end else if ((icmp_ln624_reg_447 == 1'd1)) begin
-            ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4 = nextMatchCh_loc_0_reg_162;
-        end else begin
-            ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4 = 'bx;
-        end
-    end else begin
-        ap_phi_mux_nextMatchCh_new_1_phi_fu_199_p4 = 'bx;
-    end
-end
-
-always @ (*) begin
-    if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln687_fu_360_p2 == 1'd1) | (icmp_ln608_reg_418 == 1'd1)))) begin
+    if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln669_fu_289_p2 == 1'd1) | (icmp_ln601_reg_323 == 1'd1)))) begin
         ap_ready = 1'b1;
     end else begin
         ap_ready = 1'b0;
@@ -426,7 +375,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
+    if (((icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
         bestMatchStream_blk_n = bestMatchStream_empty_n;
     end else begin
         bestMatchStream_blk_n = 1'b1;
@@ -434,17 +383,17 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_state7) & (ap_predicate_op74_read_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7))) begin
+    if (((1'b0 == ap_block_state7) & (ap_predicate_op58_read_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7))) begin
         bestMatchStream_read = 1'b1;
     end else if ((1'b1 == ap_CS_fsm_state5)) begin
-        bestMatchStream_read = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_bestMatchStream_read;
+        bestMatchStream_read = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_bestMatchStream_read;
     end else begin
         bestMatchStream_read = 1'b0;
     end
 end
 
 always @ (*) begin
-    if (((1'b1 == ap_CS_fsm_state6) | ((icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0) & (1'b1 == ap_CS_fsm_state7)))) begin
+    if (((1'b1 == ap_CS_fsm_state6) | ((icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0) & (1'b1 == ap_CS_fsm_state7)))) begin
         boosterStream_blk_n = boosterStream_full_n;
     end else begin
         boosterStream_blk_n = 1'b1;
@@ -452,22 +401,22 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_state7) & (ap_predicate_op75_write_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7))) begin
+    if (((1'b0 == ap_block_state7) & (ap_predicate_op59_write_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7))) begin
         boosterStream_din = bestMatchStream_dout;
     end else if (((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6))) begin
-        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_outValue_out;
+        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_outValue_out;
     end else if ((1'b1 == ap_CS_fsm_state5)) begin
-        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_din;
+        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_din;
     end else begin
-        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_din;
+        boosterStream_din = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_din;
     end
 end
 
 always @ (*) begin
-    if ((((1'b0 == ap_block_state7) & (ap_predicate_op75_write_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7)) | ((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6)))) begin
+    if ((((1'b0 == ap_block_state7) & (ap_predicate_op59_write_state7 == 1'b1) & (1'b1 == ap_CS_fsm_state7)) | ((boosterStream_full_n == 1'b1) & (1'b1 == ap_CS_fsm_state6)))) begin
         boosterStream_write = 1'b1;
     end else if ((1'b1 == ap_CS_fsm_state5)) begin
-        boosterStream_write = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_boosterStream_write;
+        boosterStream_write = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_boosterStream_write;
     end else begin
         boosterStream_write = 1'b0;
     end
@@ -507,15 +456,15 @@ end
 
 always @ (*) begin
     if ((1'b1 == ap_CS_fsm_state5)) begin
-        local_mem_address0 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_address0;
+        local_mem_address0 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_address0;
     end else begin
-        local_mem_address0 = zext_ln621_fu_250_p1;
+        local_mem_address0 = zext_ln614_fu_213_p1;
     end
 end
 
 always @ (*) begin
     if ((1'b1 == ap_CS_fsm_state5)) begin
-        local_mem_ce0 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce0;
+        local_mem_ce0 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce0;
     end else begin
         local_mem_ce0 = local_mem_ce0_local;
     end
@@ -531,7 +480,7 @@ end
 
 always @ (*) begin
     if ((1'b1 == ap_CS_fsm_state5)) begin
-        local_mem_ce1 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_ce1;
+        local_mem_ce1 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_ce1;
     end else begin
         local_mem_ce1 = 1'b0;
     end
@@ -539,7 +488,7 @@ end
 
 always @ (*) begin
     if ((1'b1 == ap_CS_fsm_state5)) begin
-        local_mem_we1 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_local_mem_we1;
+        local_mem_we1 = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_local_mem_we1;
     end else begin
         local_mem_we1 = 1'b0;
     end
@@ -548,9 +497,9 @@ end
 always @ (*) begin
     case (ap_CS_fsm)
         ap_ST_fsm_state1 : begin
-            if (((icmp_ln608_fu_228_p2 == 1'd1) & (1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
+            if (((icmp_ln601_fu_191_p2 == 1'd1) & (1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
                 ap_NS_fsm = ap_ST_fsm_state7;
-            end else if (((icmp_ln608_fu_228_p2 == 1'd0) & (1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
+            end else if (((icmp_ln601_fu_191_p2 == 1'd0) & (1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
                 ap_NS_fsm = ap_ST_fsm_state2;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state1;
@@ -566,7 +515,7 @@ always @ (*) begin
             ap_NS_fsm = ap_ST_fsm_state5;
         end
         ap_ST_fsm_state5 : begin
-            if (((1'b1 == ap_CS_fsm_state5) & (grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_done == 1'b1))) begin
+            if (((1'b1 == ap_CS_fsm_state5) & (grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_done == 1'b1))) begin
                 ap_NS_fsm = ap_ST_fsm_state6;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state5;
@@ -580,9 +529,9 @@ always @ (*) begin
             end
         end
         ap_ST_fsm_state7 : begin
-            if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln687_fu_360_p2 == 1'd1) | (icmp_ln608_reg_418 == 1'd1)))) begin
+            if (((1'b0 == ap_block_state7) & (1'b1 == ap_CS_fsm_state7) & ((icmp_ln669_fu_289_p2 == 1'd1) | (icmp_ln601_reg_323 == 1'd1)))) begin
                 ap_NS_fsm = ap_ST_fsm_state1;
-            end else if (((1'b0 == ap_block_state7) & (icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
+            end else if (((1'b0 == ap_block_state7) & (icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0) & (1'b1 == ap_CS_fsm_state7))) begin
                 ap_NS_fsm = ap_ST_fsm_state7;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state7;
@@ -613,35 +562,41 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_block_state7 = (((bestMatchStream_empty_n == 1'b0) & (ap_predicate_op74_read_state7 == 1'b1)) | ((boosterStream_full_n == 1'b0) & (ap_predicate_op75_write_state7 == 1'b1)));
+    ap_block_state7 = (((bestMatchStream_empty_n == 1'b0) & (ap_predicate_op58_read_state7 == 1'b1)) | ((boosterStream_full_n == 1'b0) & (ap_predicate_op59_write_state7 == 1'b1)));
 end
 
 always @ (*) begin
-    ap_predicate_op74_read_state7 = ((icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0));
+    ap_predicate_op58_read_state7 = ((icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0));
 end
 
 always @ (*) begin
-    ap_predicate_op75_write_state7 = ((icmp_ln687_fu_360_p2 == 1'd0) & (icmp_ln608_reg_418 == 1'd0));
+    ap_predicate_op59_write_state7 = ((icmp_ln669_fu_289_p2 == 1'd0) & (icmp_ln601_reg_323 == 1'd0));
 end
 
-assign grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206_ap_start_reg;
+assign grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start = grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_ap_start_reg;
 
-assign guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_234_p1 = guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh;
+assign guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh_load_load_fu_197_p1 = guard_variable_for_void_lzBooster_stream_stream_unsigned_int_nextMatchCh;
 
-assign i_6_fu_366_p2 = (i_4_fu_118 + 7'd1);
+assign i_6_fu_295_p2 = (i_4_fu_102 + 7'd1);
 
-assign icmp_ln608_fu_228_p2 = ((input_size_dout == 32'd0) ? 1'b1 : 1'b0);
+assign icmp_ln601_fu_191_p2 = ((input_size_dout == 32'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln624_fu_281_p2 = ((sub_fu_275_p2 == 32'd0) ? 1'b1 : 1'b0);
+assign icmp_ln617_fu_244_p2 = ((sub_fu_238_p2 == 32'd0) ? 1'b1 : 1'b0);
 
-assign icmp_ln687_fu_360_p2 = ((i_4_fu_118 == 7'd64) ? 1'b1 : 1'b0);
+assign icmp_ln669_fu_289_p2 = ((i_4_fu_102 == 7'd64) ? 1'b1 : 1'b0);
 
 assign input_size_c_din = input_size_dout;
 
-assign sub_fu_275_p2 = ($signed(input_size_1_reg_413) + $signed(32'd4294967232));
+assign or_ln617_fu_262_p2 = (xor_ln617_fu_257_p2 | nextMatchCh_flag_0_reg_156);
 
-assign trunc_ln680_fu_242_p1 = match_loc_reg[13:0];
+assign select_ln617_fu_268_p3 = ((icmp_ln617_reg_349[0:0] == 1'b1) ? nextMatchCh_loc_0_reg_146 : grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169_p_out);
 
-assign zext_ln621_fu_250_p1 = trunc_ln680_fu_242_p1;
+assign sub_fu_238_p2 = ($signed(input_size_1_reg_318) + $signed(32'd4294967232));
+
+assign trunc_ln614_fu_209_p1 = match_loc_reg[13:0];
+
+assign xor_ln617_fu_257_p2 = (icmp_ln617_reg_349 ^ 1'd1);
+
+assign zext_ln614_fu_213_p1 = trunc_ln614_fu_209_p1;
 
 endmodule //lz4CompressEngineRun_lzBooster_255_16384_64_s

@@ -2755,11 +2755,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>487</second>
+              <second>390</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1000</second>
+              <second>927</second>
             </item>
           </second>
         </item>

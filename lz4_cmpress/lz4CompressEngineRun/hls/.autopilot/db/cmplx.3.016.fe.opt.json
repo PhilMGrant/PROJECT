@@ -1,12 +1,12 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "4 2 3 6",
+    "calls": "2 3 5 6",
     "file": "lz4_compress_test.cpp",
     "fileloc": 49,
     "instructions": 37,
     "name": "lz4CompressEngineRun",
-    "total_instructions": 1003
+    "total_instructions": 1004
   },
   "1": {
     "basicblocks": 15,
@@ -24,38 +24,6 @@
     "total_instructions": 67
   },
   "2": {
-    "basicblocks": 11,
-    "calls": "",
-    "file": "lz_optional.hpp",
-    "fileloc": 325,
-    "instructions": 91,
-    "loads": {
-      "L": 7
-    },
-    "name": "lzBestMatchFilter<6, 65536>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 91
-  },
-  "3": {
-    "basicblocks": 19,
-    "calls": "",
-    "file": "lz_optional.hpp",
-    "fileloc": 607,
-    "instructions": 122,
-    "loads": {
-      "G": 7,
-      "L": 6
-    },
-    "name": "lzBooster<255, 16384, 64>",
-    "stores": {
-      "G": 7,
-      "L": 4
-    },
-    "total_instructions": 122
-  },
-  "4": {
     "basicblocks": 28,
     "calls": "",
     "file": "lz_compress.hpp",
@@ -70,7 +38,22 @@
     },
     "total_instructions": 522
   },
-  "5": {
+  "3": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "lz_optional.hpp",
+    "fileloc": 325,
+    "instructions": 91,
+    "loads": {
+      "L": 7
+    },
+    "name": "lzBestMatchFilter<6, 65536>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 91
+  },
+  "4": {
     "basicblocks": 15,
     "calls": "",
     "file": "lz4_compress.hpp",
@@ -85,9 +68,26 @@
     },
     "total_instructions": 151
   },
+  "5": {
+    "basicblocks": 24,
+    "calls": "",
+    "file": "lz_optional.hpp",
+    "fileloc": 600,
+    "instructions": 123,
+    "loads": {
+      "G": 8,
+      "L": 6
+    },
+    "name": "lzBooster<255, 16384, 64>",
+    "stores": {
+      "G": 11,
+      "L": 4
+    },
+    "total_instructions": 123
+  },
   "6": {
     "basicblocks": 1,
-    "calls": "1 5",
+    "calls": "1 4",
     "file": "lz4_compress.hpp",
     "fileloc": 376,
     "instructions": 13,

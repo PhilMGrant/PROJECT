@@ -27,7 +27,7 @@ set ModuleHierarchy {[{
 		{"Name" : "lz_bestMatchFilter_left_over","ID" : "15","Type" : "no"},]},
 	{"Name" : "lzBooster_255_16384_64_U0","ID" : "16","Type" : "sequential",
 		"SubInsts" : [
-		{"Name" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206","ID" : "17","Type" : "sequential",
+		{"Name" : "grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169","ID" : "17","Type" : "sequential",
 			"SubLoops" : [
 			{"Name" : "lz_booster","ID" : "18","Type" : "pipeline"},]},],
 		"SubLoops" : [

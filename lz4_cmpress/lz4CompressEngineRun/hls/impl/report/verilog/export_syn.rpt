@@ -2,7 +2,7 @@
 == Vivado RTL Synthesis Results
 ================================================================
 + General Information:
-    * Date:            Fri Oct 31 14:05:09 +0800 2025
+    * Date:            Fri Oct 31 14:54:35 +0800 2025
     * Version:         2024.2 (Build 5238294 on Nov  8 2024)
     * Project:         lz4CompressEngineRun
     * Solution:        hls (Vivado IP Flow Target)
@@ -30,8 +30,8 @@
 ================================================================
 == RTL Synthesis Resource Summary
 ================================================================
-LUT:              3946
-FF:               3624
+LUT:              3881
+FF:               3477
 DSP:              0
 BRAM:             90
 URAM:             0
@@ -46,7 +46,7 @@ SRL:              89
 | Timing         | Period (ns) |
 +----------------+-------------+
 | Target         | 7.000       |
-| Post-Synthesis | 6.510       |
+| Post-Synthesis | 5.788       |
 +----------------+-------------+
 
 
@@ -56,38 +56,38 @@ SRL:              89
 +-----------------------------------------------------------------------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
 | Name                                                                              | LUT  | FF   | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
 +-----------------------------------------------------------------------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
-| inst                                                                              | 3946 | 3624 |     | 90   |      |     |        |      |         |          |        |
+| inst                                                                              | 3881 | 3477 |     | 90   |      |     |        |      |         |          |        |
 |   (inst)                                                                          |      | 2    |     |      |      |     |        |      |         |          |        |
-|   bestMatchStream_U                                                               | 35   | 9    |     |      |      |     |        |      |         |          |        |
-|   boosterStream_U                                                                 | 41   | 9    |     |      |      |     |        |      |         |          |        |
-|   compressdStream_U                                                               | 38   | 9    |     |      |      |     |        |      |         |          |        |
-|   core_idx_c_U                                                                    | 12   | 9    |     |      |      |     |        |      |         |          |        |
-|   entry_proc_U0                                                                   | 4    | 1    |     |      |      |     |        |      |         |          |        |
-|   input_size_c1_U                                                                 | 36   | 70   |     |      |      |     |        |      |         |          |        |
-|   input_size_c2_U                                                                 | 33   | 70   |     |      |      |     |        |      |         |          |        |
-|   input_size_c_U                                                                  | 34   | 70   |     |      |      |     |        |      |         |          |        |
+|   bestMatchStream_U                                                               | 38   | 9    |     |      |      |     |        |      |         |          |        |
+|   boosterStream_U                                                                 | 45   | 9    |     |      |      |     |        |      |         |          |        |
+|   compressdStream_U                                                               | 43   | 9    |     |      |      |     |        |      |         |          |        |
+|   core_idx_c_U                                                                    | 16   | 9    |     |      |      |     |        |      |         |          |        |
+|   entry_proc_U0                                                                   | 2    | 1    |     |      |      |     |        |      |         |          |        |
+|   input_size_c1_U                                                                 | 53   | 70   |     |      |      |     |        |      |         |          |        |
+|   input_size_c2_U                                                                 | 35   | 70   |     |      |      |     |        |      |         |          |        |
+|   input_size_c_U                                                                  | 59   | 70   |     |      |      |     |        |      |         |          |        |
 |   lz4Compress_4096_8_U0                                                           | 720  | 936  |     | 34   |      |     |        |      |         |          |        |
 |     input_size_c_U                                                                | 25   | 70   |     |      |      |     |        |      |         |          |        |
 |     lenOffset_Stream_U                                                            | 75   | 41   |     | 2    |      |     |        |      |         |          |        |
 |     lit_outStream_U                                                               | 54   | 69   |     | 32   |      |     |        |      |         |          |        |
 |     lz4CompressPart1_4096_8_U0                                                    | 260  | 383  |     |      |      |     |        |      |         |          |        |
-|       (lz4CompressPart1_4096_8_U0)                                                | 53   | 176  |     |      |      |     |        |      |         |          |        |
+|       (lz4CompressPart1_4096_8_U0)                                                | 54   | 176  |     |      |      |     |        |      |         |          |        |
 |     lz4CompressPart2_U0                                                           | 301  | 369  |     |      |      |     |        |      |         |          |        |
 |       (lz4CompressPart2_U0)                                                       | 4    | 38   |     |      |      |     |        |      |         |          |        |
 |     start_for_lz4CompressPart2_U0_U                                               | 5    | 4    |     |      |      |     |        |      |         |          |        |
-|   lzBestMatchFilter_6_65536_U0                                                    | 266  | 480  |     |      |      |     |        |      |         |          |        |
-|     (lzBestMatchFilter_6_65536_U0)                                                | 20   | 211  |     |      |      |     |        |      |         |          |        |
-|     grp_lzBestMatchFilter_6_65536_Pipeline_lz_bestMatchFilter_fu_135              | 246  | 269  |     |      |      |     |        |      |         |          |        |
-|       (grp_lzBestMatchFilter_6_65536_Pipeline_lz_bestMatchFilter_fu_135)          | 125  | 267  |     |      |      |     |        |      |         |          |        |
-|       flow_control_loop_pipe_sequential_init_U                                    | 121  | 2    |     |      |      |     |        |      |         |          |        |
-|   lzBooster_255_16384_64_U0                                                       | 336  | 414  |     | 8    |      |     |        |      |         |          |        |
-|     (lzBooster_255_16384_64_U0)                                                   | 49   | 163  |     |      |      |     |        |      |         |          |        |
-|     grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206                         | 279  | 251  |     |      |      |     |        |      |         |          |        |
-|       (grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206)                     | 165  | 249  |     |      |      |     |        |      |         |          |        |
-|       flow_control_loop_pipe_sequential_init_U                                    | 114  | 2    |     |      |      |     |        |      |         |          |        |
+|   lzBestMatchFilter_6_65536_U0                                                    | 246  | 448  |     |      |      |     |        |      |         |          |        |
+|     (lzBestMatchFilter_6_65536_U0)                                                | 10   | 179  |     |      |      |     |        |      |         |          |        |
+|     grp_lzBestMatchFilter_6_65536_Pipeline_lz_bestMatchFilter_fu_135              | 236  | 269  |     |      |      |     |        |      |         |          |        |
+|       (grp_lzBestMatchFilter_6_65536_Pipeline_lz_bestMatchFilter_fu_135)          | 116  | 267  |     |      |      |     |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                    | 120  | 2    |     |      |      |     |        |      |         |          |        |
+|   lzBooster_255_16384_64_U0                                                       | 251  | 299  |     | 8    |      |     |        |      |         |          |        |
+|     (lzBooster_255_16384_64_U0)                                                   | 20   | 82   |     |      |      |     |        |      |         |          |        |
+|     grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169                         | 223  | 217  |     |      |      |     |        |      |         |          |        |
+|       (grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169)                     | 177  | 215  |     |      |      |     |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                    | 46   | 2    |     |      |      |     |        |      |         |          |        |
 |     local_mem_U                                                                   | 8    |      |     | 8    |      |     |        |      |         |          |        |
 |   lzCompress_6_4_65536_6_1_1024_64_U0                                             | 2375 | 1532 |     | 48   |      |     |        |      |         |          |        |
-|     (lzCompress_6_4_65536_6_1_1024_64_U0)                                         | 50   | 173  |     |      |      |     |        |      |         |          |        |
+|     (lzCompress_6_4_65536_6_1_1024_64_U0)                                         | 51   | 173  |     |      |      |     |        |      |         |          |        |
 |     dict_1_U                                                                      |      |      |     | 12   |      |     |        |      |         |          |        |
 |     dict_2_U                                                                      |      |      |     | 12   |      |     |        |      |         |          |        |
 |     dict_3_U                                                                      |      |      |     | 12   |      |     |        |      |         |          |        |
@@ -99,10 +99,10 @@ SRL:              89
 |       (grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_compress_fu_174)          | 2187 | 1277 |     |      |      |     |        |      |         |          |        |
 |     grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_compress_leftover_fu_197     | 25   | 14   |     |      |      |     |        |      |         |          |        |
 |       (grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_compress_leftover_fu_197) |      | 12   |     |      |      |     |        |      |         |          |        |
-|     grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_left_bytes_fu_208            | 28   | 10   |     |      |      |     |        |      |         |          |        |
-|       (grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_left_bytes_fu_208)        | 4    | 8    |     |      |      |     |        |      |         |          |        |
+|     grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_left_bytes_fu_208            | 27   | 10   |     |      |      |     |        |      |         |          |        |
+|       (grp_lzCompress_6_4_65536_6_1_1024_64_Pipeline_lz_left_bytes_fu_208)        | 3    | 8    |     |      |      |     |        |      |         |          |        |
 |   start_for_lz4Compress_4096_8_U0_U                                               | 7    | 5    |     |      |      |     |        |      |         |          |        |
-|   start_for_lzBestMatchFilter_6_65536_U0_U                                        | 5    | 4    |     |      |      |     |        |      |         |          |        |
+|   start_for_lzBestMatchFilter_6_65536_U0_U                                        | 4    | 4    |     |      |      |     |        |      |         |          |        |
 |   start_for_lzBooster_255_16384_64_U0_U                                           | 5    | 4    |     |      |      |     |        |      |         |          |        |
 +-----------------------------------------------------------------------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
 
@@ -113,8 +113,8 @@ SRL:              89
 +-----------------------------------------------------------+-----------+--------+--------+
 | Criteria                                                  | Guideline | Actual | Status |
 +-----------------------------------------------------------+-----------+--------+--------+
-| LUT                                                       | 70%       | 7.42%  | OK     |
-| FD                                                        | 50%       | 3.41%  | OK     |
+| LUT                                                       | 70%       | 7.30%  | OK     |
+| FD                                                        | 50%       | 3.27%  | OK     |
 | LUTRAM+SRL                                                | 25%       | 0.51%  | OK     |
 | MUXF7                                                     | 15%       | 0.00%  | OK     |
 | DSP                                                       | 80%       | 0.00%  | OK     |
@@ -123,7 +123,7 @@ SRL:              89
 | BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
 | DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
 | MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
-| Control Sets                                              | 998       | 98     | OK     |
+| Control Sets                                              | 998       | 99     | OK     |
 | Average Fanout for modules > 100k cells                   | 4         | 2.64   | OK     |
 | Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
 | Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
@@ -143,216 +143,216 @@ SRL:              89
 == RTL Synthesis Timing Paths
 ================================================================
 * Timing was met
-+-------+-------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
-| Path  | SLACK | STARTPOINT PIN                                                                                                | ENDPOINT PIN                                                    | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
-|       |       |                                                                                                               |                                                                 |              |            |                |          DELAY |        DELAY |
-+-------+-------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
-| Path1 | 0.490 | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[10] |            5 |         18 |          5.860 |          1.309 |        4.551 |
-| Path2 | 0.490 | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[11] |            5 |         18 |          5.860 |          1.309 |        4.551 |
-| Path3 | 0.490 | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[12] |            5 |         18 |          5.860 |          1.309 |        4.551 |
-| Path4 | 0.490 | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[13] |            5 |         18 |          5.860 |          1.309 |        4.551 |
-| Path5 | 0.490 | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]/C | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0/ADDRBWRADDR[14] |            5 |         18 |          5.860 |          1.309 |        4.551 |
-+-------+-------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
++-------+-------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path  | SLACK | STARTPOINT PIN                                                                       | ENDPOINT PIN                                                                                         | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|       |       |                                                                                      |                                                                                                      |              |            |                |          DELAY |        DELAY |
++-------+-------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1 | 1.212 | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[0] |            5 |         17 |          5.172 |          1.309 |        3.863 |
+| Path2 | 1.212 | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[1] |            5 |         17 |          5.172 |          1.309 |        3.863 |
+| Path3 | 1.212 | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[2] |            5 |         17 |          5.172 |          1.309 |        3.863 |
+| Path4 | 1.212 | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[3] |            5 |         17 |          5.172 |          1.309 |        3.863 |
+| Path5 | 1.212 | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]/C | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg/WEBWE[4] |            5 |         17 |          5.172 |          1.309 |        3.863 |
++-------+-------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
 
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | Path1 Cells                                                                                                    | Primitive Type       |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_23__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_6__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_22__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_5__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_21__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_4__1               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_19__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_3__3               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | Path1 Cells                                                                                                          | Primitive Type       |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
 
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | Path2 Cells                                                                                                    | Primitive Type       |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_23__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_6__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_22__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_5__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_21__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_4__1               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_19__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_3__3               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | Path2 Cells                                                                                                          | Primitive Type       |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
 
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | Path3 Cells                                                                                                    | Primitive Type       |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_23__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_6__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_22__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_5__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_21__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_4__1               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_19__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_3__3               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | Path3 Cells                                                                                                          | Primitive Type       |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
 
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | Path4 Cells                                                                                                    | Primitive Type       |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_23__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_6__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_22__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_5__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_21__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_4__1               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_19__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_3__3               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | Path4 Cells                                                                                                          | Primitive Type       |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
 
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | Path5 Cells                                                                                                    | Primitive Type       |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_24__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_7__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_23__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_6__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_22__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_5__0               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_21__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_4__1               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/new_match_len_fu_128_reg[5]    | FLOP_LATCH.flop.FDRE |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_9 | LUT.others.LUT4      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/match_condition_reg_713[0]_i_4 | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_33__0              | LUT.others.LUT6      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_19__0              | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206/ram_reg_0_i_3__3               | LUT.others.LUT5      |
-    | lzBooster_255_16384_64_U0/local_mem_U/ram_reg_0                                                                | BMEM.bram.RAMB36E1   |
-    +----------------------------------------------------------------------------------------------------------------+----------------------+
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | Path5 Cells                                                                                                          | Primitive Type       |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/lit_count_loc_load_reg_278_reg[4]                                   | FLOP_LATCH.flop.FDRE |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_7                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_3                                        | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/max_lit_limit_ce0_INST_0_i_1                                        | LUT.others.LUT4      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_63 | LUT.others.LUT5      |
+    | lz4Compress_4096_8_U0/lz4CompressPart1_4096_8_U0/grp_lz4CompressPart1_4096_8_Pipeline_lz4_divide_fu_158/mem_reg_i_60 | LUT.others.LUT1      |
+    | lz4Compress_4096_8_U0/lenOffset_Stream_U/U_lz4CompressEngineRun_fifo_w64_d512_B_ram/mem_reg                          | BMEM.bram.RAMB36E1   |
+    +----------------------------------------------------------------------------------------------------------------------+----------------------+
 
 
 ================================================================

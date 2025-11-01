@@ -71,7 +71,7 @@ Function:        _Z20lz4CompressEngineRunRN3hls6streamI7ap_uintILi8EELi0EEES4_RN
 Args:            
   - Callee:          'void xf::compression::lzBooster<255, 16384, 64>(hls::stream<ap_uint<32>, 0>&, hls::stream<ap_uint<32>, 0>&, unsigned int)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp', 
-                       Line: 607, Column: 0 }
+                       Line: 600, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'lz4CompressEngineRun(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&, hls::stream<bool, 0>&, hls::stream<unsigned int, 0>&, unsigned int*, unsigned int, unsigned int)'
     DebugLoc:        { File: ../data_compression/L1/tests/lz4_compress/lz4_compress_test.cpp, 
@@ -557,7 +557,7 @@ Function:        _Z20lz4CompressEngineRunRN3hls6streamI7ap_uintILi8EELi0EEES4_RN
 Args:            
   - Callee:          'void xf::compression::lzBooster<255, 16384, 64>(hls::stream<ap_uint<32>, 0>&, hls::stream<ap_uint<32>, 0>&, unsigned int)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp', 
-                       Line: 607, Column: 0 }
+                       Line: 600, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'lz4CompressEngineRun(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&, hls::stream<bool, 0>&, hls::stream<unsigned int, 0>&, unsigned int*, unsigned int, unsigned int)'
     DebugLoc:        { File: ../data_compression/L1/tests/lz4_compress/lz4_compress_test.cpp, 
@@ -831,7 +831,7 @@ Function:        _Z20lz4CompressEngineRunRN3hls6streamI7ap_uintILi8EELi0EEES4_RN
 Args:            
   - Callee:          'void xf::compression::lzBooster<255, 16384, 64>(hls::stream<ap_uint<32>, 0>&, hls::stream<ap_uint<32>, 0>&, unsigned int)'
     DebugLoc:        { File: 'D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp', 
-                       Line: 607, Column: 0 }
+                       Line: 600, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'lz4CompressEngineRun(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&, hls::stream<bool, 0>&, hls::stream<unsigned int, 0>&, unsigned int*, unsigned int, unsigned int)'
     DebugLoc:        { File: ../data_compression/L1/tests/lz4_compress/lz4_compress_test.cpp, 

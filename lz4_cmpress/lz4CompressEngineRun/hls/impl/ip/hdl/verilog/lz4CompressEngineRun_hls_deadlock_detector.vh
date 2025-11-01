@@ -467,21 +467,21 @@ end
         .token_out_vec(token_out_vec_3),
         .dl_detect_out(dl_in_vec[3]));
 
-    assign proc_3_data_FIFO_blk[0] = 1'b0 | (~lzBooster_255_16384_64_U0.bestMatchStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.bestMatchStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_blk_n);
+    assign proc_3_data_FIFO_blk[0] = 1'b0 | (~lzBooster_255_16384_64_U0.bestMatchStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.bestMatchStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_blk_n);
     assign proc_3_data_PIPO_blk[0] = 1'b0;
     assign proc_3_start_FIFO_blk[0] = 1'b0 | (~start_for_lzBooster_255_16384_64_U0_U.if_empty_n & lzBooster_255_16384_64_U0.ap_idle & ~start_for_lzBooster_255_16384_64_U0_U.if_write);
     assign proc_3_TLF_FIFO_blk[0] = 1'b0;
     assign proc_3_input_sync_blk[0] = 1'b0;
     assign proc_3_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_3[0] = dl_detect_out ? proc_dep_vld_vec_3_reg[0] : (proc_3_data_FIFO_blk[0] | proc_3_data_PIPO_blk[0] | proc_3_start_FIFO_blk[0] | proc_3_TLF_FIFO_blk[0] | proc_3_input_sync_blk[0] | proc_3_output_sync_blk[0]);
-    assign proc_3_data_FIFO_blk[1] = 1'b0 | (~lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_c_blk_n);
+    assign proc_3_data_FIFO_blk[1] = 1'b0 | (~lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_c_blk_n);
     assign proc_3_data_PIPO_blk[1] = 1'b0;
     assign proc_3_start_FIFO_blk[1] = 1'b0;
     assign proc_3_TLF_FIFO_blk[1] = 1'b0;
     assign proc_3_input_sync_blk[1] = 1'b0;
     assign proc_3_output_sync_blk[1] = 1'b0;
     assign proc_dep_vld_vec_3[1] = dl_detect_out ? proc_dep_vld_vec_3_reg[1] : (proc_3_data_FIFO_blk[1] | proc_3_data_PIPO_blk[1] | proc_3_start_FIFO_blk[1] | proc_3_TLF_FIFO_blk[1] | proc_3_input_sync_blk[1] | proc_3_output_sync_blk[1]);
-    assign proc_3_data_FIFO_blk[2] = 1'b0 | (~lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_c_blk_n);
+    assign proc_3_data_FIFO_blk[2] = 1'b0 | (~lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n) | (~lzBooster_255_16384_64_U0.input_size_c_blk_n);
     assign proc_3_data_PIPO_blk[2] = 1'b0;
     assign proc_3_start_FIFO_blk[2] = 1'b0;
     assign proc_3_TLF_FIFO_blk[2] = 1'b0;

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'lzBooster_255_16384_64_Pipeline_lz_booster'" level="0">
-<item name = "Date">Fri Oct 31 13:59:01 2025
+<item name = "Date">Fri Oct 31 14:48:59 2025
 </item>
 <item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
 <item name = "Project">lz4CompressEngineRun</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">7.00 ns, 5.968 ns, 0.70 ns</column>
+<column name="ap_clk">7.00 ns, 5.806 ns, 0.70 ns</column>
 </table>
 </item>
 </section>

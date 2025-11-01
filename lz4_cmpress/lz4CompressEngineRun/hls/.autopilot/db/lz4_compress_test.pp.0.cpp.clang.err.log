@@ -230,28 +230,28 @@ D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/in
 D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:495:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:503:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS PIPELINE II = 1
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:503:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II = 2
         ^
 D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:505:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=variable = local_mem inter false_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS dependence variable = local_mem inter false
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:578:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:571:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:610:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_storage_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=variable = local_mem type = ram_2p impl = bram_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:603:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_storage_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=variable = local_mem type = ram_2p impl = bram_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS BIND_STORAGE variable = local_mem type = ram_2p impl = bram
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:625:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 3_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:618:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=II = 3_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 3
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:626:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=variable = local_mem inter false_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:619:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dependence_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=variable = local_mem inter false_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS dependence variable = local_mem inter false
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:688:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=off_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:670:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzBooster_XLX_SEP_ PragmaOptions=off_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE off
         ^
-D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:712:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzFilter_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp:694:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=lzFilter_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
         ^
 In file included from ../data_compression/L1/tests/lz4_compress/lz4_compress_test.cpp:27:

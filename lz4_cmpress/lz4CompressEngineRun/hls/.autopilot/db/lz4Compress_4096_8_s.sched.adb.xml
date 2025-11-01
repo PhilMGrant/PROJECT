@@ -301,10 +301,10 @@ entry:11 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %lz
 
 <Node id="21" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="8" op_8_bw="8">
 <![CDATA[
-entry:13 %empty_48 = specchannel i32 @_ssdm_op_SpecChannel, void @lit_outStream_str, i32 1, void @p_str, void @p_str, i32 65536, i32 65536, i8 %lit_outStream, i8 %lit_outStream
+entry:13 %empty_47 = specchannel i32 @_ssdm_op_SpecChannel, void @lit_outStream_str, i32 1, void @p_str, void @p_str, i32 65536, i32 65536, i8 %lit_outStream, i8 %lit_outStream
 
 ]]></Node>
-<StgValue><ssdm name="empty_48"/></StgValue>
+<StgValue><ssdm name="empty_47"/></StgValue>
 </operation>
 
 <operation id="23" st_id="4" stage="1" lat="1">
@@ -331,10 +331,10 @@ entry:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %li
 
 <Node id="24" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32" op_3_bw="0" op_4_bw="0" op_5_bw="32" op_6_bw="32" op_7_bw="64" op_8_bw="64">
 <![CDATA[
-entry:16 %empty_49 = specchannel i32 @_ssdm_op_SpecChannel, void @lenOffset_Stream_str, i32 1, void @p_str, void @p_str, i32 512, i32 512, i64 %lenOffset_Stream, i64 %lenOffset_Stream
+entry:16 %empty_48 = specchannel i32 @_ssdm_op_SpecChannel, void @lenOffset_Stream_str, i32 1, void @p_str, void @p_str, i32 512, i32 512, i64 %lenOffset_Stream, i64 %lenOffset_Stream
 
 ]]></Node>
-<StgValue><ssdm name="empty_49"/></StgValue>
+<StgValue><ssdm name="empty_48"/></StgValue>
 </operation>
 
 <operation id="25" st_id="4" stage="1" lat="1">

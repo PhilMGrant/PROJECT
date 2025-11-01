@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:hls:lz4CompressEngineRun:1.0
-// IP Revision: 2114327762
+// IP Revision: 2114327811
 
 (* X_CORE_INFO = "lz4CompressEngineRun,Vivado 2024.2" *)
 (* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,lz4CompressEngineRun,{}" *)
-(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,lz4CompressEngineRun,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=lz4CompressEngineRun,x_ipVersion=1.0,x_ipCoreRevision=2114327762,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,lz4CompressEngineRun,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=lz4CompressEngineRun,x_ipVersion=1.0,x_ipCoreRevision=2114327811,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "HLS" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module bd_0_hls_inst_0 (

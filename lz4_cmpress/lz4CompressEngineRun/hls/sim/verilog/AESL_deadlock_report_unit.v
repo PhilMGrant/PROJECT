@@ -491,8 +491,8 @@ module AESL_deadlock_report_unit #( parameter PROC_NUM = 4 ) (
                     case(index2)
                     2: begin //  for dep proc 'lz4CompressEngineRun.lzBestMatchFilter_6_65536_U0'
 // for dep channel 'lz4CompressEngineRun.bestMatchStream_U' info is :
-// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.bestMatchStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.bestMatchStream_blk_n data_FIFO}
-                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.bestMatchStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.bestMatchStream_blk_n)) begin
+// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.bestMatchStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.bestMatchStream_blk_n data_FIFO}
+                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.bestMatchStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.bestMatchStream_blk_n)) begin
                             if (~AESL_inst_lz4CompressEngineRun.bestMatchStream_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'lz4CompressEngineRun.bestMatchStream_U' written by process 'lz4CompressEngineRun.lzBestMatchFilter_6_65536_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path lz4CompressEngineRun.bestMatchStream_U");
@@ -526,8 +526,8 @@ module AESL_deadlock_report_unit #( parameter PROC_NUM = 4 ) (
                     end
                     4: begin //  for dep proc 'lz4CompressEngineRun.lz4Compress_4096_8_U0'
 // for dep channel 'lz4CompressEngineRun.boosterStream_U' info is :
-// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n data_FIFO}
-                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n)) begin
+// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n data_FIFO}
+                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n)) begin
                             if (~AESL_inst_lz4CompressEngineRun.boosterStream_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'lz4CompressEngineRun.boosterStream_U' written by process 'lz4CompressEngineRun.lz4Compress_4096_8_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path lz4CompressEngineRun.boosterStream_U");
@@ -556,8 +556,8 @@ module AESL_deadlock_report_unit #( parameter PROC_NUM = 4 ) (
                     end
                     5: begin //  for dep proc 'lz4CompressEngineRun.lz4Compress_4096_8_U0.lz4CompressPart1_4096_8_U0'
 // for dep channel 'lz4CompressEngineRun.boosterStream_U' info is :
-// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n data_FIFO}
-                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_206.boosterStream_blk_n)) begin
+// blk sig is {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n data_FIFO} {~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n data_FIFO}
+                        if ((~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.boosterStream_blk_n) | (~AESL_inst_lz4CompressEngineRun.lzBooster_255_16384_64_U0.grp_lzBooster_255_16384_64_Pipeline_lz_booster_fu_169.boosterStream_blk_n)) begin
                             if (~AESL_inst_lz4CompressEngineRun.boosterStream_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'lz4CompressEngineRun.boosterStream_U' written by process 'lz4CompressEngineRun.lz4Compress_4096_8_U0.lz4CompressPart1_4096_8_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path lz4CompressEngineRun.boosterStream_U");

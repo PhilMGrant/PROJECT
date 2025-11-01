@@ -35,9 +35,9 @@ entry:
 ; Function Attrs: argmemonly noinline willreturn
 define internal fastcc void @copy_in(%"class.hls::stream<ap_uint<8>, 0>"* noalias "unpacked"="0", i8* noalias nocapture align 512 "unpacked"="1.0", %"class.hls::stream<ap_uint<8>, 0>"* noalias "unpacked"="2", i8* noalias nocapture align 512 "unpacked"="3.0", %"class.hls::stream<bool, 0>"* noalias "unpacked"="4", i1* noalias nocapture align 512 "unpacked"="5.0", %"class.hls::stream<unsigned int, 0>"* noalias "unpacked"="6", i32* noalias nocapture align 512 "unpacked"="7.0", [8 x i32]* noalias readonly "unpacked"="8", [8 x i32]* noalias align 512 "unpacked"="9") unnamed_addr #2 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.58"(i8* align 512 %1, %"class.hls::stream<ap_uint<8>, 0>"* %0)
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.58"(i8* align 512 %3, %"class.hls::stream<ap_uint<8>, 0>"* %2)
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>.35"(i1* align 512 %5, %"class.hls::stream<bool, 0>"* %4)
+  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.59"(i8* align 512 %1, %"class.hls::stream<ap_uint<8>, 0>"* %0)
+  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.59"(i8* align 512 %3, %"class.hls::stream<ap_uint<8>, 0>"* %2)
+  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>.36"(i1* align 512 %5, %"class.hls::stream<bool, 0>"* %4)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>"(i32* align 512 %7, %"class.hls::stream<unsigned int, 0>"* %6)
   call fastcc void @onebyonecpy_hls.p0a8i32([8 x i32]* align 512 %9, [8 x i32]* %8)
   ret void
@@ -183,19 +183,19 @@ entry:
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>"(%"class.hls::stream<ap_uint<8>, 0>"* %0, i8* align 512 %1)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>"(%"class.hls::stream<ap_uint<8>, 0>"* %2, i8* align 512 %3)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>"(%"class.hls::stream<bool, 0>"* %4, i1* align 512 %5)
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.22"(%"class.hls::stream<unsigned int, 0>"* %6, i32* align 512 %7)
+  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.23"(%"class.hls::stream<unsigned int, 0>"* %6, i32* align 512 %7)
   call fastcc void @onebyonecpy_hls.p0a8i32([8 x i32]* %8, [8 x i32]* align 512 %9)
   ret void
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.22"(%"class.hls::stream<unsigned int, 0>"* noalias "unpacked"="0" %dst, i32* noalias nocapture align 512 "unpacked"="1.0" %src) unnamed_addr #3 {
+define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.23"(%"class.hls::stream<unsigned int, 0>"* noalias "unpacked"="0" %dst, i32* noalias nocapture align 512 "unpacked"="1.0" %src) unnamed_addr #3 {
 entry:
   %0 = icmp eq %"class.hls::stream<unsigned int, 0>"* %dst, null
   br i1 %0, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call fastcc void @"streamcpy_hls.p0class.hls::stream<unsigned int, 0>.25"(%"class.hls::stream<unsigned int, 0>"* nonnull %dst, i32* align 512 %src)
+  call fastcc void @"streamcpy_hls.p0class.hls::stream<unsigned int, 0>.26"(%"class.hls::stream<unsigned int, 0>"* nonnull %dst, i32* align 512 %src)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -203,7 +203,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"streamcpy_hls.p0class.hls::stream<unsigned int, 0>.25"(%"class.hls::stream<unsigned int, 0>"* noalias nocapture "unpacked"="0", i32* noalias nocapture align 512 "unpacked"="1.0") unnamed_addr #4 {
+define internal fastcc void @"streamcpy_hls.p0class.hls::stream<unsigned int, 0>.26"(%"class.hls::stream<unsigned int, 0>"* noalias nocapture "unpacked"="0", i32* noalias nocapture align 512 "unpacked"="1.0") unnamed_addr #4 {
 entry:
   %2 = alloca i32
   %3 = alloca %"class.hls::stream<unsigned int, 0>"
@@ -231,13 +231,13 @@ ret:                                              ; preds = %empty
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>.35"(i1* noalias nocapture align 512 "unpacked"="0.0" %dst, %"class.hls::stream<bool, 0>"* noalias "unpacked"="1" %src) unnamed_addr #3 {
+define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>.36"(i1* noalias nocapture align 512 "unpacked"="0.0" %dst, %"class.hls::stream<bool, 0>"* noalias "unpacked"="1" %src) unnamed_addr #3 {
 entry:
   %0 = icmp eq %"class.hls::stream<bool, 0>"* %src, null
   br i1 %0, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call fastcc void @"streamcpy_hls.p0class.hls::stream<bool, 0>.38"(i1* align 512 %dst, %"class.hls::stream<bool, 0>"* nonnull %src)
+  call fastcc void @"streamcpy_hls.p0class.hls::stream<bool, 0>.39"(i1* align 512 %dst, %"class.hls::stream<bool, 0>"* nonnull %src)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -245,7 +245,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"streamcpy_hls.p0class.hls::stream<bool, 0>.38"(i1* noalias nocapture align 512 "unpacked"="0.0", %"class.hls::stream<bool, 0>"* noalias nocapture "unpacked"="1") unnamed_addr #4 {
+define internal fastcc void @"streamcpy_hls.p0class.hls::stream<bool, 0>.39"(i1* noalias nocapture align 512 "unpacked"="0.0", %"class.hls::stream<bool, 0>"* noalias nocapture "unpacked"="1") unnamed_addr #4 {
 entry:
   %2 = alloca %"class.hls::stream<bool, 0>"
   %3 = alloca i1
@@ -279,7 +279,7 @@ entry:
   br i1 %0, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.51"(%"class.hls::stream<ap_uint<8>, 0>"* nonnull %dst, i8* align 512 %src)
+  call fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.52"(%"class.hls::stream<ap_uint<8>, 0>"* nonnull %dst, i8* align 512 %src)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -287,7 +287,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.51"(%"class.hls::stream<ap_uint<8>, 0>"* noalias nocapture "unpacked"="0", i8* noalias nocapture align 512 "unpacked"="1.0") unnamed_addr #4 {
+define internal fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.52"(%"class.hls::stream<ap_uint<8>, 0>"* noalias nocapture "unpacked"="0", i8* noalias nocapture align 512 "unpacked"="1.0") unnamed_addr #4 {
 entry:
   %2 = alloca i8
   %3 = alloca %"class.hls::stream<ap_uint<8>, 0>"
@@ -312,13 +312,13 @@ ret:                                              ; preds = %empty
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.58"(i8* noalias nocapture align 512 "unpacked"="0.0" %dst, %"class.hls::stream<ap_uint<8>, 0>"* noalias "unpacked"="1" %src) unnamed_addr #3 {
+define internal fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>.59"(i8* noalias nocapture align 512 "unpacked"="0.0" %dst, %"class.hls::stream<ap_uint<8>, 0>"* noalias "unpacked"="1" %src) unnamed_addr #3 {
 entry:
   %0 = icmp eq %"class.hls::stream<ap_uint<8>, 0>"* %src, null
   br i1 %0, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.61"(i8* align 512 %dst, %"class.hls::stream<ap_uint<8>, 0>"* nonnull %src)
+  call fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.62"(i8* align 512 %dst, %"class.hls::stream<ap_uint<8>, 0>"* nonnull %src)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -326,7 +326,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline willreturn
-define internal fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.61"(i8* noalias nocapture align 512 "unpacked"="0.0", %"class.hls::stream<ap_uint<8>, 0>"* noalias nocapture "unpacked"="1") unnamed_addr #4 {
+define internal fastcc void @"streamcpy_hls.p0class.hls::stream<ap_uint<8>, 0>.62"(i8* noalias nocapture align 512 "unpacked"="0.0", %"class.hls::stream<ap_uint<8>, 0>"* noalias nocapture "unpacked"="1") unnamed_addr #4 {
 entry:
   %2 = alloca %"class.hls::stream<ap_uint<8>, 0>"
   %3 = alloca i8
@@ -363,7 +363,7 @@ entry:
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>"(%"class.hls::stream<ap_uint<8>, 0>"* %0, i8* align 512 %1)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<ap_uint<8>, 0>"(%"class.hls::stream<ap_uint<8>, 0>"* %2, i8* align 512 %3)
   call fastcc void @"onebyonecpy_hls.p0class.hls::stream<bool, 0>"(%"class.hls::stream<bool, 0>"* %4, i1* align 512 %5)
-  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.22"(%"class.hls::stream<unsigned int, 0>"* %6, i32* align 512 %7)
+  call fastcc void @"onebyonecpy_hls.p0class.hls::stream<unsigned int, 0>.23"(%"class.hls::stream<unsigned int, 0>"* %6, i32* align 512 %7)
   call fastcc void @onebyonecpy_hls.p0a8i32([8 x i32]* %8, [8 x i32]* align 512 %9)
   ret void
 }

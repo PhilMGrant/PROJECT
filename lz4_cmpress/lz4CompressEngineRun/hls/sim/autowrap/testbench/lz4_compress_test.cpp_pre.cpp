@@ -80563,7 +80563,7 @@ void lzBooster(hls::stream<IntVectorStream_dt<32, 1> >& inStream, hls::stream<In
 
     lz_booster:
         for (; nextVal.strobe != 0; ++iIdx) {
-#pragma HLS PIPELINE II = 1
+#pragma HLS PIPELINE II = 2
 
 #pragma HLS dependence variable = local_mem inter false
 
@@ -80579,7 +80579,6 @@ void lzBooster(hls::stream<IntVectorStream_dt<32, 1> >& inStream, hls::stream<In
             uint16_t tOffset = inValue.range(31, 16);
 
 
-            bool boostFlag = (tOffset < c_boosterOffsetWindow);
             local_mem[iIdx % c_boosterOffsetWindow] = tCh;
 
 
@@ -80587,47 +80586,41 @@ void lzBooster(hls::stream<IntVectorStream_dt<32, 1> >& inStream, hls::stream<In
             static ap_uint<16> skip_len_reg = 0;
             static ap_uint<32> match_len_reg = 0;
             static ap_uint<32> match_loc_reg = 0;
+            static uint8_t nextMatchCh_reg = 0;
+
+            bool boostFlag = (tOffset < c_boosterOffsetWindow);
+            bool outFlag = false;
 
 
-            ap_uint<1> skip_condition = (skip_len_reg != 0);
-            ap_uint<1> match_condition = matchFlag_reg & (match_len_reg < MAX_MATCH_LEN) & (tCh == nextMatchCh);
-            ap_uint<1> outFlag = 0;
+            bool skip_condition = (skip_len_reg != 0);
+            bool match_condition = matchFlag_reg && (match_len_reg < MAX_MATCH_LEN) && (tCh == nextMatchCh_reg);
 
-
-            ap_uint<32> new_match_len = match_len_reg;
-            ap_uint<32> new_match_loc = match_loc_reg;
-            ap_uint<1> new_matchFlag = matchFlag_reg;
-            ap_uint<16> new_skip_len = skip_len_reg;
 
             if (skip_condition) {
-                new_skip_len = skip_len_reg - 1;
+                skip_len_reg--;
             } else if (match_condition) {
-                new_match_len = match_len_reg + 1;
-                new_match_loc = match_loc_reg + 1;
-                outValue.range(15, 8) = new_match_len;
+                match_len_reg++;
+                match_loc_reg++;
+                outValue.range(15, 8) = match_len_reg;
             } else {
-                new_match_len = 1;
-                new_match_loc = iIdx - tOffset;
+                match_len_reg = 1;
+                match_loc_reg = iIdx - tOffset;
                 outFlag = (iIdx != 0);
                 outStreamValue.data[0] = outValue;
                 outValue = inValue;
 
 
-                ap_uint<1> has_tLen = (tLen != 0);
-                ap_uint<1> use_boost = boostFlag & has_tLen;
-
-                new_matchFlag = use_boost;
-                new_skip_len = (has_tLen & ~use_boost) ? (tLen - 1) : 0;
+                if (tLen != 0) {
+                    matchFlag_reg = boostFlag;
+                    skip_len_reg = boostFlag ? 0 : (tLen - 1);
+                } else {
+                    matchFlag_reg = 0;
+                    skip_len_reg = 0;
+                }
             }
 
 
-            matchFlag_reg = new_matchFlag;
-            skip_len_reg = new_skip_len;
-            match_len_reg = new_match_len;
-            match_loc_reg = new_match_loc;
-
-
-            nextMatchCh = local_mem[new_match_loc % c_boosterOffsetWindow];
+            nextMatchCh_reg = local_mem[match_loc_reg % c_boosterOffsetWindow];
 
 
             if (outFlag) {
@@ -80647,7 +80640,7 @@ void lzBooster(hls::stream<IntVectorStream_dt<32, 1> >& inStream, hls::stream<In
         outStream << outStreamValue;
     }
 }
-# 606 "D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp"
+# 599 "D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp"
 template <int MAX_MATCH_LEN, int BOOSTER_OFFSET_WINDOW = 16 * 1024, int LEFT_BYTES = 64>
 void lzBooster(hls::stream<compressd_dt>& inStream, hls::stream<compressd_dt>& outStream, uint32_t input_size) {
     if (input_size == 0) return;
@@ -80683,46 +80676,35 @@ void lzBooster(hls::stream<compressd_dt>& inStream, hls::stream<compressd_dt>& o
         outFlag = 0;
 
 
-        ap_uint<1> skip_condition = (skip_len_reg != 0);
-        ap_uint<1> match_condition = matchFlag_reg & (match_len_reg < MAX_MATCH_LEN) & (tCh == nextMatchCh);
+        bool skip_condition = (skip_len_reg != 0);
+        bool match_condition = matchFlag_reg && (match_len_reg < MAX_MATCH_LEN) && (tCh == nextMatchCh);
 
-
-        ap_uint<32> new_match_len = match_len_reg;
-        ap_uint<32> new_match_loc = match_loc_reg;
-        ap_uint<1> new_matchFlag = matchFlag_reg;
-        ap_uint<16> new_skip_len = skip_len_reg;
 
         if (skip_condition) {
-            new_skip_len = skip_len_reg - 1;
+            skip_len_reg--;
         } else if (match_condition) {
-            new_match_len = match_len_reg + 1;
-            new_match_loc = match_loc_reg + 1;
-            outValue.range(15, 8) = new_match_len;
+            match_len_reg++;
+            match_loc_reg++;
+            outValue.range(15, 8) = match_len_reg;
         } else {
-            new_match_len = 1;
-            new_match_loc = i - tOffset;
+            match_len_reg = 1;
+            match_loc_reg = i - tOffset;
             outFlag = (i != 0);
             outStreamValue = outValue;
             outValue = inValue;
 
 
-            ap_uint<1> has_tLen = (tLen != 0);
-            ap_uint<1> use_boost = boostFlag & has_tLen;
-
-            new_matchFlag = use_boost;
-            new_skip_len = (has_tLen & ~use_boost) ? (tLen - 1) : 0;
+            if (tLen != 0) {
+                matchFlag_reg = boostFlag;
+                skip_len_reg = boostFlag ? 0 : (tLen - 1);
+            } else {
+                matchFlag_reg = 0;
+                skip_len_reg = 0;
+            }
         }
 
 
-
-        matchFlag_reg = new_matchFlag;
-        skip_len_reg = new_skip_len;
-        match_len_reg = new_match_len;
-        match_loc_reg = new_match_loc;
-
-
-
-        nextMatchCh = local_mem[new_match_loc % BOOSTER_OFFSET_WINDOW];
+        nextMatchCh = local_mem[match_loc_reg % BOOSTER_OFFSET_WINDOW];
 
 
         if (outFlag) outStream << outStreamValue;
@@ -80734,7 +80716,7 @@ lz_booster_left_bytes:
         outStream << inStream.read();
     }
 }
-# 706 "D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp"
+# 688 "D:/Xillinx_Project/PROJECT/data_compression/L1/tests/lz4_compress/../../../L1/include/hw/lz_optional.hpp"
 template <int LEFT_BYTES = 64>
 static void lzFilter(hls::stream<compressd_dt>& inStream, hls::stream<compressd_dt>& outStream, uint32_t input_size) {
     if (input_size == 0) return;
